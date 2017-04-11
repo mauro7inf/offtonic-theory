@@ -1,0 +1,20 @@
+This repo contains two aspects: code and text.
+  The text is © 2017 Mauro Cutz Braunstein.  Don't repost it (or sell it) without my permission.
+  The code is free for non-commercial use with attribution, meaning that you shouldn't sell my code under your name.
+  On the other hand, you're welcome to take ideas from my code for whatever you want.  Just don't
+    copy the code and sell it or pass it off as your own.
+  You can make derivative works of the code for non-commercial use with attribution.  The text is governed by standard
+    copyright law.
+
+It should be pretty simple to tell what's text and what's code.
+  Anything parsed by a browser or interpreter is code;
+  anything else other than code comments is text.
+
+Example images may contain material copyrighted by their respected authors, used here under Fair Use.
+  Other images, such as those used in interactive demos and including UI elements, can be considered part of the code.
+
+Someday there will be a more detailed license, but for now, if you use the material in this repo, you agree to be bound by
+  the most reasonable reading of these terms.  In cases where the wording may be a bit inexact but my intention is clear,
+  you're bound by my intention.  For example, from time to time there may be portions of the text that are commented out.
+  That's obviously still text, not code comments; you don't get the excuse that I didn't explicitly say it above therefore
+  it's unclear.  If my intention is actually unclear, then you can contact me in good faith and ask.
