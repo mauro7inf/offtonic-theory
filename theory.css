@@ -1,0 +1,67 @@
+body {
+	background-color: #000020;
+	margin: 32px;
+}
+
+body.applet {
+	background-color: #EEEEEE;
+	margin: 10px;
+}
+
+div.outer-container {
+	background-color: #4040FF;
+	border-width: 1px;
+	border-color: #8080FF;
+	border-style: solid;
+	padding: 1px;
+}
+
+div.inner-container {
+	background-color: #EEEEEE;
+	border-width: 1px;
+	border-color: #8080FF;
+	border-style: solid;
+	padding: 16px;
+}
+
+div.clear {
+	clear: both;
+}
+
+div.vspace {
+	clear: both;
+	height: 16px;
+}
+
+img.example {
+	display: block;
+	margin: 0 auto;
+}
+
+audio.example {
+	width: 96%;
+	display: block;
+	margin: 0 auto;
+}
+
+p.caption {
+	text-align: center;
+}
+
+canvas.keyboard {
+	display: block;
+	margin: 0 auto;
+}
+
+div.metronome {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #DDDDDD;
+	padding: 8px;
+	width: 270px;
+}
+
+input.metronome-input {
+	margin-left: 8px;
+	margin-right: 8px;
+}
