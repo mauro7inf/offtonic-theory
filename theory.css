@@ -65,3 +65,26 @@ input.metronome-input {
 	margin-left: 8px;
 	margin-right: 8px;
 }
+
+div.hemiola {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #DDDDDD;
+	padding: 8px;
+	width: 270px;
+}
+
+input.hemiola-input {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+input.hemiola-input-numerator {
+	margin-left: 8px;
+	margin-top: 8px;
+}
+
+input.hemiola-input-denominator {
+	margin-right: 8px;
+	margin-top: 8px;
+}
