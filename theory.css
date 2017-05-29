@@ -33,13 +33,29 @@ div.vspace {
 	height: 16px;
 }
 
+a:link {
+	color: #4040FF;
+}
+
+a:visited {
+	color: #8080FF;
+}
+
+a:hover {
+	color: #808080;
+}
+
+a:active {
+	color: #404040;
+}
+
 img.example {
 	display: block;
 	margin: 0 auto;
 }
 
 audio.example {
-	width: 96%;
+	width: 800px;
 	display: block;
 	margin: 0 auto;
 }
