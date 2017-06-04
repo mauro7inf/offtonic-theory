@@ -64,6 +64,10 @@ p.caption {
 	text-align: center;
 }
 
+p.equation {
+	text-align: center;
+}
+
 canvas.keyboard {
 	display: block;
 	margin: 0 auto;
@@ -75,6 +79,14 @@ div.metronome {
 	background-color: #DDDDDD;
 	padding: 8px;
 	width: 270px;
+}
+
+div.tonegenerator {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #DDDDDD;
+	padding: 8px;
+	width: 280px;
 }
 
 input.metronome-input {
