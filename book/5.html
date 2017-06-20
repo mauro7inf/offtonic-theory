@@ -17,9 +17,11 @@
 		<script src="../lib/intervalorgan.js"></script>
 		<script src="../lib/circleorgan.js"></script>
 		<script src="../lib/intervalexplorer.js"></script>
+		<script src="../lib/scaledegreetrainer.js"></script>
+		<script src="../lib/intervaleartrainer.js"></script>
 		<script src="../lib/chapters/5.js"></script>
 	</head>
-	<body onload="load();">
+	<body>
 		<div class="outer-container"><div class="inner-container">
 			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a></h3>
 			<h1 class="chapter-title">Chapter 5: Ear Training</h1>
@@ -149,7 +151,7 @@
 			<p class="text">We begin with the humblest and simplest of intervals: the perfect unison.  It measures 0 semitones, 0 cents.  Its frequency ratio is 1.  It looks like this:</p>
 			<img class="example" src="../png/5/5.png" title="The most fun interval?" alt="Example 5.5" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval P1.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval P1.mp3"></audio>
 			<p class="caption">Example 5.5</p>
 			<p class="text">That's the sound of a perfect unison, first as a harmonic interval, then as a melodic interval, starting at a bunch of places in the C major scale.</p>
 			<h4 class="question">OK.  Looks like a waste of time.  How do you play that first chord, by the way?</h4>
@@ -158,7 +160,7 @@
 			<p class="text">It's easy to hear a perfect unison: you hear one note, then you hear the same note.  The first two notes of Happy Birthday form a perfect unison:</p>
 			<img class="example" src="../png/4/17.png" title="To me, to me!" alt="Example 5.6" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Happy Birthday.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Happy Birthday.mp3"></audio>
 			<p class="caption">Example 5.6</p>
 			<h4 class="question">This is <em>incredibly</em> trivial.  Do you have anything <em>interesting</em> to say about the perfect unison?</h4>
 			<p class="text">No.  But what happens if your perfect unison is... less than perfect?  It sounds funny, but it's a real problem.  (Funny musical instrument joke involving violence against woodwind players: How do you make two oboes play in unison?  Shoot one of them.  How do you make two piccolos play in unison?  Shoot both of them.)  Whenever many people are making music together, you may run into two notes that should be the same but aren't.  Even on a guitar, you might have two strings that should be making the same pitch but aren't.  In a large ensemble, entire sections need to play the same note together.  In fact, outside of digital synthesis, you will <em>never</em> get two instruments (or singers) to play <em>exactly</em> the same note.  We say that they are <em>out of tune</em> with each other when that happens.  If they <em>are</em> playing the same note, they are <em>in tune</em> with each other.  While this is almost never the case <em>exactly</em>, any skilled ensemble will be able to get close enough to sound good.</p>
@@ -180,7 +182,7 @@
 			<p class="text">Here are many examples of P8's, with a low C as a <em>drone</em>, meaning a constant note.  For each of the 12 notes of the chromatic scale, we have an octave ascending, an octave descending, and the two notes played together.</p>
 			<img class="example" src="../png/5/7.png" title="SomeWHEEEERE!" alt="Example 5.7" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval P8.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval P8.mp3"></audio>
 			<p class="caption">Example 5.7</p>
 			<h4 class="question">What's the point of all this?  Why not just have the first measure, sans drone?</h4>
 			<p class="text">For the octave it's not a huge deal, but intervals can happen at any place in the scale, and the weird part is that the octave will sound different every time.  Whenever you hear a piece of music, you hear many pitches at the same time.  One of those is the tonic of the scale.  Oftentimes, ear training attempts will include intervals out of context: here are two notes; can you identify the interval between them?  The problem is that you contextualize those two notes differently depending on the key.  For example, if you're in C major and you hear E and G, you'll think, hey, that sounds major!  It must be a major third!  But it isn't.  It's a minor third.  Your ears are tricked, because C E G form a C major triad (next chapter), and when you hear an E and a G in C major, you hear the C as well since it's the tonic of the key.  If you heard C and E instead, which <em>is</em> a major third, you would also be hearing an incomplete C major triad, but C to E is a major third while E to G is a minor third.</p>
@@ -188,7 +190,7 @@
 			<p class="text">A fantastic example of a melodic P8 is Somewhere Over the Rainbow, from The Wizard of Oz.  If you want to remember this interval, just hum the beginning of that song (sing it yourself first before playing the recording):</p>
 			<img class="example" src="../png/5/8.png" title="OOOOver the rainbow!" alt="Example 5.8" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Over the Rainbow.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Over the Rainbow.mp3"></audio>
 			<p class="caption">Example 5.8</p>
 			<p class="text">I took the liberty of doing some basic melodic analysis for you.  The opening interval is, of course, a perfect octave, and that's what you should have in mind when you see one on the page that you're trying to reproduce.  But there are two recurring motifs in this short melody, which I labeled A and B.  Motif A is two half notes wide apart followed by a step down.  In measure 1, we have 1 1 7, going up an octave then down a step.  In measure 3, we have 1 6 5, where the wide interval is an M6.  At measure 5, we have 6 4 3, where the wide interval is an m6.  These wide intervals get narrower with each iteration, while the overall contour of the melody also goes down.  I marked the scale with upbow symbols (the V's).  These notes also happen at predictable points: the high note of the A motif and the note after, which overlaps with the start of the B motif.  There's also a third motif that is too trivial to really be a motif, so I didn't label it: the whole note at the end of each phrase.  Phrase 1 is like a question, ending on the dominant.  Phrase 2 is like an answer, ending on the tonic.  We call a phrase that sounds like a question or a setup an <em>antecedent</em>, and its reply is the <em>consequent</em>.  Given these three motifs, <em>all</em> of which repeat, we can see that this little melody is extremely tight, with every little bit of it playing multiple roles and not a single wasted note.  The less recognizable bridge of the song is nowhere near this tight (and also has some very tricky intervals), which is why everyone knows this part better!</p>
 			<p class="text">Now let's talk about tuning.  Your task here is the same as before: listen to the sound of the octave for a good long while — like, minutes, not just seconds — and get intimately familiar with its sound.  Then go off to the sides and listen to what it sounds like when it's a bit flat or sharp.</p>
@@ -205,7 +207,7 @@
 			<p class="text">This is the first nontrivial interval in the bunch.  Like, it's actually between different notes.  Cool, huh?  So I'm giving it to you here both ascending and descending, on all twelve notes of the chromatic scale relative to a C drone.  You get a different feeling from each one, and it's good to be able to unite them all as the same interval.</p>
 			<img class="example" src="../png/5/9.png" title="Is it a little eerie?" alt="Example 5.9" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval P5.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval P5.mp3"></audio>
 			<p class="caption">Example 5.9</p>
 			<p class="text">The perfect fifth is an open consonance, meaning that it's a kind of bare sound.  The perfect fifth is very stable — in fact, it makes other notes stable just by being there!  Despite the drone, on every measure you can kind of feel the tonal center shifting.  The only tension in the perfect fifth comes from other notes, so for example, in the Db - Ab fifth, both notes have a tendency to resolve down to C, the tonic (as given by the drone).  Similarly, in the next fifth between the F and the C, the F wants to resolve down to E because the interval the F makes with the drone, the perfect fourth, is unstable.</p>
 			<h4 class="question">It sounds wider than a perfect fourth, now that you mention it.</h4>
@@ -215,7 +217,7 @@
 			<p class="text">The song most people use to remember how the perfect fifth goes is Twinkle Twinkle Little Star:</p>
 			<img class="example" src="../png/1/18.png" title="I've seen this before!" alt="Example 5.10" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Twinkle.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Twinkle.mp3"></audio>
 			<p class="caption">Example 5.10</p>
 			<p class="text">Since the fifth of the scale is the dominant, the most important note after the tonic, bass instruments very often alternate between the 1 and the 5, making either a perfect fifth or a perfect fourth depending on which one is higher.  Timpani before the 20th century would almost always be tuned to the 1 and the 5; in keys like C major they'd be G and C (think of the timpani in the introduction to Richard Strauss's <a href="https://www.youtube.com/watch?v=dfe8tCcHnKY">Also Sprach Zarathustra</a>), but in G major they'd be G and D, a perfect fifth.  Bass singers are often cursed with having to sing nothing but 1's and 5's all day too.</p>
 			<p class="text">Let's listen deeply to the fifth.  This time, listen also to the 3/2 pure fifth (by which I mean spend minutes taking in the sound):</p>
@@ -229,7 +231,7 @@
 			<p class="text">Now, the fifth, the fifth...  The fifth is a special interval.  It's consonant and stable (and stabilizing), but without other notes it sounds bare, as we'll discuss in the next chapter.  Because of that bareness, it has a fairly harsh sound.  An open fifth — that is, a fifth without anything else inside — is not an interval that happens particularly often.  One of my first compositions (which actually won an award), <a href="http://offtonic.com/music/brass.php#tower">Tower</a>, is based on open fifths (listen to the first movement, and excuse the bad brass synthesis).  Open fifths can also connote strength, like in the first of Malcolm Arnold's <a href="https://www.youtube.com/watch?v=9dWZX89j6qg">Four Scottish Dances</a>; listen for them in the brass, as well as the opening interval.  The second movement begins with a descending perfect fifth, which has a totally different connotation.  The perfect fifth is also known in pop music as a <em>power chord</em>, and it's especially useful for guitar sounds with a lot of distortion, because its bare nature makes it sound much cleaner than a chord with more notes.  The low registers on the piano have similar properties; compare:</p>
 			<img class="example" src="../png/5/11.png" title="Right in the mud." alt="Example 5.11" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Low Fifth.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Low Fifth.mp3"></audio>
 			<p class="caption">Example 5.11</p>
 			<p class="text">The first chord is very muddy; the second chord is much nicer.  It gets fuller when you add more notes, but look at the notes.  The third chord has a fifth and an octave, which sounds fuller (this is common in power chords as well).  The fourth chord also adds the third of the chord, the B.  The first chord and the second chord have the same notes, just in different octaves, and notice how that perfect fifth between the bottom voices changes things.  Low, complex sounds like an overdriven guitar or even a piano just don't play well with small intervals.  There are acoustic reasons for this.  The (almost) 3/2 ratio of the perfect fifth reduces the nastiness.</p>
 			<p class="text">Here comes the next most important interval in Western music:</p>
@@ -237,14 +239,14 @@
 			<p class="text">The major third also comes in another flavor, the enharmonically equivalent diminished fourth.  Here's how it sounds on each scale degree against a drone:</p>
 			<img class="example" src="../png/5/12.png" title="Disorienting." alt="Example 5.12" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval M3.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval M3.mp3"></audio>
 			<p class="caption">Example 5.12</p>
 			<p class="text">Disorienting, isn't it?</p>
 			<h4 class="question">Why are some of them spelled as d4's instead of M3's?</h4>
 			<p class="text">I could have done it either way, but they do actually sound really different in context.  Here's a comparison for you:</p>
 			<img class="example" src="../png/5/13.png" title="Very dark indeed!" alt="Example 5.13" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval d4.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval d4.mp3"></audio>
 			<p class="caption">Example 5.13</p>
 			<h4 class="question">The diminished fourth is... dark.</h4>
 			<p class="text">It can be!  But the major third generally is very bright.  The major third is what gives music the feeling of sounding major.  The major chord is called major because it has this major third with the root, and the major scale is called major because it has the major chord on the tonic, so this major third is extremely important.  It's also very stable, though it can sometimes tend towards the fourth.  On the other hand, diminished intervals almost always want to collapse inwards and augmented intervals almost always want to expand outwards, and the diminished fourth is no exception!  The major third is very stable, but the diminished fourth is extremely unstable with a tendency to collapse inwards as in the above example.  The major third is also a consonance, but it's not an open consonance.  It wasn't always considered one, which is why you hear less of this interval if you listen to early music, like, pre-Renaissance.  The diminished fourth, of course, is dissonant, but it's a kind of strange case because it really does sound like a major third, a consonant interval, and that's why the diminished fourth is one of my all-time favorite intervals.  I never leave home without it!</p>
@@ -252,7 +254,7 @@
 			<p class="text">To hear the major third, many people recommend just thinking about the major arpeggio or just singing the major scale (1 2 3...).  One song you can think about is Johann Strauss, Jr.'s Blue Danube (<a href="https://www.youtube.com/watch?v=_CTYymbbEL4">An der schönen blauen Donau</a>, the theme starts like a minute and a half in) (<a href="http://imslp.org/wiki/The_Blue_Danube,_Op.314_%28Strauss_Jr.,_Johann%29">score</a>):</p>
 			<img class="example" src="../png/5/14.png" title="Very dark indeed!" alt="Example 5.14" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Blue Danube.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Blue Danube.mp3"></audio>
 			<p class="caption">Example 5.14</p>
 			<p class="text">I did some very basic analysis of the form here.  First, the M3 at the start is in a box.  That's not part of the analysis.  The thing I want to show you is that the analysis can be multi-level.  We have these two-measure motifs, the Q (for Question) and A (for Answer) motifs.  The Q motif is rising and feels like it's asking a question; the A motif is falling and always starts on the same note that the question ended on but up an octave (if you listen to the orchestral recording it makes more sense), and it feels like it's answering that question.  But on a wider level, we have four-measure phrases, where the first phrase is a statement and the second phrase is a question, followed by a third phrase that's a question and a fourth that's a statement.  And these, too, are part of eight-measure periods (which I didn't mark), where the first eight bars are a question and the second eight bars are the answer.  The third period (two phrases generally make a period) is a bit special, because the main theme has already been stated and answered, but now we're building, with higher notes, towards that high F# in the fourth period which will take us to the ending.  The fourth period begins with a Q motif, but the rest of it is fairly different material.  The thing that stays the same is the quarter-quarter-half rhythm that happens three times.  That rhythm can be said to be a fragment of Q.  When small bits of motifs are scavenged like this to create new material, we call it <em>development</em>.</p>
 			<h4 class="question">I listened to the waltz in the video, and the rhythm is... weird.  Like, it's uneven.  What's up with that?</h4>
@@ -268,7 +270,7 @@
 			<p class="text">While perfect fifths are open, thirds are the exact opposite.  A fifth needs a third for a full sound; a third needs nothing.  Therefore, it's very common for a melody to be doubled in thirds (both major and minor), or occasionally sixths, which are just inverted thirds:</p>
 			<img class="example" src="../png/5/15.png" title="Is this mariachi music?" alt="Example 5.15" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Chopsticks.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Chopsticks.mp3"></audio>
 			<p class="caption">Example 5.15</p>
 			<p class="text">This is Chopsticks, which was originally intended to be played with the hands in vertical position, doing a chopping motion.  The original version is actually <a href="http://imslp.org/wiki/The_Celebrated_Chop_Waltz_%28Allen,_Euphemia%29">fairly different</a> from this popular version (don't mind the racist cover...).  Most of the melody is in diatonic thirds, both major and minor (which I labeled M and m, respectively).  In the second half (actually the first part in the original), the intervals get more varied, but not really that much.  The M2 is dissonant and consists of the 4 and the 5, so the 5 (which is stable) stays and the 4 (which is unstable) resolves to the 3.  The M6 is just an inverted third.  The P8 is the only one that's really out of place.  Every chord here has two notes, generally in thirds, but the P8 has only one note.  For consistency, that bottom note should be an E, not a C, but see Rule 0.  The P4 in the next measure is just a passing sonority; it also sounds a little off but it's only for an eighth note; the composer/arrangers clearly thought that the scales in both voices were more important than this one interval.</p>
 			<p class="text">Thirds sound muddy in very low registers (which is why the fifth is generally preferable), and due to equal temperament being... temperamental when it comes to thirds, they can also sound strident and grating in very high registers.  They usually sound sweet or at least neutral in middle registers.  Melodic thirds usually suggest chords, and they're very common intervals that don't usually require special consideration.</p>
@@ -278,12 +280,12 @@
 			<p class="text">Unlike the third, the diminished fourth has a distinct feel.  The most common places to find a diminished fourth are between the 7 and b3 or between the #4 and b7, though there are of course other possibilities.  This interval is not generally used harmonically in tonal music; if it is, it's a dissonance.  For example, you could have a 7 b3 resolving to 1 b3, or even going the other way around; this creates a very rootless harmony:</p>
 			<img class="example" src="../png/5/16.png" title="Scary sci-fi movie shit." alt="Example 5.16" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Trombone d4.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Trombone d4.mp3"></audio>
 			<p class="caption">Example 5.16</p>
 			<p class="text">A fantastic melodic example of the diminished fourth is in the (first) subject of Bach's Well-Tempered Clavier Book I, the <a href="https://youtu.be/zdD_QygwRuY?t=192">Fugue Nº4 in C#m</a> (starts at 3:12).  Here's the exposition (with the five voices written out):</p>
 			<img class="example" src="../png/5/17.png" title="My favorite fugue!" alt="Example 5.17" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Fugue 4 Exposition.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Fugue 4 Exposition.mp3"></audio>
 			<p class="caption">Example 5.17</p>
 			<h4 class="question">What <em>is</em> a fugue anyway?</h4>
 			<p class="text">A <a href="https://en.wikipedia.org/wiki/Fugue">fugue</a> is a piece for several independent voices where all of the voices have similar material but at different times, kind of imitating each other.  In particular, a fugue begins with the subject in one voice, followed by the subject in another voice, and so on until all of the voices have entered with the subject, and from there various things happen.  This section, where each of the voices comes in with the subject in turn, is called the <em>exposition</em>, and that's what I've included here; the fugue goes on for much longer (as you can hear at the link).  By the way, Bach wrote the Well-Tempered Clavier, from which this fugue is taken, for... the clavier, or keyboard.  It was not supposed to be an <em>equal-tempered</em> instrument, but it was a temperament where every key was at least usable, something that hadn't been the case previously.  Bach wrote 24 preludes and fugues, one in each major and minor key, and then he did it again for Book II.  This is my favorite piece in the collection (second favorite: Fugue 24 in Bm from Book I).</p>
@@ -297,20 +299,20 @@
 			<p class="text">Like the major third, the minor third also has an enharmonic cousin, the augmented second.</p>
 			<img class="example" src="../png/5/18.png" title="I feel like Mozart...  Yuck!" alt="Example 5.18" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval min3.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval min3.mp3"></audio>
 			<p class="caption">Example 5.18</p>
 			<p class="text">The minor third is the most neutral of neutral things ever.  It doesn't really make the bottom note sound like a tonic, which the major third does a little and which the perfect fifth does a lot.  The b3 scale degree can sound dark since it signifies that the mode is minor, lik4 it does in the first measure here, but the interval itself has no such connotation.  For example, the eighth bar has the E - G minor third, which sounds quite happy because, over the C drone, E - G makes a C major triad (C E G).  The minor third is considered consonant and stable.</p>
 			<p class="text">The augmented second, on the other hand, is an interesting animal.  Usually it appears as a scale step.  For example, there's an augmented second in the harmonic minor scale between the b6 and the 7.  In this case, the inverval is considered a dissonance, and it's actually pretty carefully avoided in Common Practice music.  Avoiding the augmented second is the reason why the melodic minor scale exists in the first place.  When it does happen, as an augmented interval, the tendency is to widen to a major third or perfect fourth (so it's unstable).  For example, b6 7 can widen to 5 7 or to 5 1 (usually with other notes in the chord too):</p>
 			<img class="example" src="../png/5/19.png" title="Dark...ish?" alt="Example 5.19" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval A2.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval A2.mp3"></audio>
 			<p class="caption">Example 5.19</p>
 			<p class="text">I actually just noticed that A2 - M3 is the same, enharmonically, as m3 - d4.  Shows how important context is!</p>
 			<p class="text">In extended tonality — that is, stuff with tonal centers but that doesn't specifically follow the rules of Common Practice — augmented seconds have a lot of great uses.  Besides the beautiful b6 - 7 of the harmonic minor scale, it shows up in the b2 - 3 of the phrygian dominant scale and the b3 - #4 of the dorian #4 scale (more about these in a few chapters).  Another useful thing to note is that the chromatic scale has 12 semitones, so the major third at 4 semitones and the minor third at 3 semitones both divide it evenly.  This means that if you go up 3 major thirds or 4 minor thirds, you end up where you started.  We'll talk more about this in the chapter on chords.</p>
 			<p class="text">To remember what the minor third sounds like, one can think of the first two notes of Greensleeves:</p>
 			<img class="example" src="../png/5/20.png" title="This is so English!" alt="Example 5.20" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Greensleeves.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Greensleeves.mp3"></audio>
 			<p class="caption">Example 5.20</p>
 			<h4 class="question">Why isn't "lute" capitalized?</h4>
 			<p class="text">I thought it would be cute, since "flute" and "lute" are just one letter off.  Actually, I wrote this to be easily playable on a regular guitar.  I have no idea how to write for actual lute.  And I used the harp sound in Sibelius because I thought it fit better.  So ignore the whole "lute" thing, I guess.</p>
@@ -318,7 +320,7 @@
 			<p class="text">Because I don't see a good enough reason not to, here's another English melody, John Stafford Smith's <a href="https://en.wikipedia.org/wiki/To_Anacreon_in_Heaven">Anacreonic Song</a>, that begins with a descending minor third.  I'll show you the American version:</p>
 			<img class="example" src="../png/5/21.png" title="I honestly don't know why they couldn't use a tune by an American composer like William Billings." alt="Example 5.21" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Star-Spangled Banner.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Star-Spangled Banner.mp3"></audio>
 			<p class="caption">Example 5.21</p>
 			<p class="text">There are obviously a great many renditions of this tune, what with it being America's national anthem and everything.  A particularly great version is an arrangement by Jack Stamp entitled <a href="https://www.youtube.com/watch?v=33vi2o_h6vg">A Love Song to Our Country</a>, written just after the events of 9/11/2001, that is very in line with the original theme of Francis Scott Key's poem: that even in the red glare of the attacks against America, its Star-Spangled Banner yet waves, symbolizing the Republic for which it stands, in defiance against the attackers.  Stamp took a familiar melody and reharmonized it and recontextualized it to take on a new meaning, which shows you just how flexible musical elements can be.  It also hopefully exemplifies how instrumental music can convey meaning in general.  Skilled composers have been injecting their compositions with meaning — by which I mean politics, by the way — from time immemorial.  Dmitri Shostakovich, for example, laughed at Stalin in the famous <a href="https://youtu.be/T1h1NJMKtnc?t=178">finale to his Symphony Nº5</a>: the theme in the upper strings and woodwinds represents Stalin, and the trumpets represent laughing at him.  Shostakovich was not a huge fan of Soviet communism, it turns out.</p>
 			<p class="text">Anyway, what were we talking about?</p>
@@ -333,7 +335,7 @@
 			<p class="text">Both melodically and harmonically, the minor third is similar to the major third, so there's not much more to say about it.  The augmented second, though, is more interesting.  The reason why it tends to expand outward is because almost always, one of the notes in the interval will have a strong tendency.  For example, if you have 1 - #2, then the #2 wants to resolve up to 3.  b2 - 3, the b2 wants to go to 1.  b6 - 7, both notes want to resolve, the b6 down to 6 and the 7 up to 1.  b3 - #4, #4 wants to go up to 5.  Harmonically, though, the augmented second sounds just like the minor third that it's enharmonic to.  The diminished fourth is much darker than the major third thanks to context, but since there is no note "inside" the augmented second, it doesn't have a very interesting sound as a harmonic interval.  But melodically, it's a whole other ball game.  The problem is that it has a sort of exotic sound, probably because it's associated with "exotic" music (from the Western European perspective, anyway).  Musics in Eastern Europe, the Middle East, Andalusia, Judaism, Roma, etc. all feature this lovely interval in a prominent way.  I've already shown you a few examples (1.21, 2.6, 4.21), but here's another:</p>
 			<img class="example" src="../png/5/22.png" title="Yeah, who *can* find?  I mean, besides my wife." alt="Example 5.22" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Eshet Chayil.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Eshet Chayil.mp3"></audio>
 			<p class="caption">Example 5.22</p>
 			<p class="text">This is Ben Zion Shenker's Eshet Chayil, sung on Friday nights at the Shabbat table.  The words are from Proverbs 31:10-31, but the melody is by an extremely prolific composer that belonged to the Modzitz sect of Chasidim.  Many of his tunes became very well-known in the wider Jewish world, and Eshet Chayil is one of his most ubiquitous.  Jewish music is often written in this interesting scale called <em>phrygian dominant</em>.  We'll talk about it more when we discuss modes, but it goes 1 b2 3 4 5 b6 b7, featuring an augmented second between the b2 and the 3.  The scale goes by different names, including freygish in Yiddish, Ahavah Rabbah in Hebrew, and maqam Hijaz in Arabic (those terms all have different connotations, though, so they're not quite interchangeable).</p>
 			<h4 class="question">Why is the key signature D minor, though?</h4>
@@ -343,7 +345,7 @@
 			<p class="text">The major sixth is enharmonic to the diminished seventh.  Here's how they sound in the scale:</p>
 			<img class="example" src="../png/5/23.png" title="I'm running out of things to say.  Have been for a long time." alt="Example 5.23" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval M6.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval M6.mp3"></audio>
 			<p class="caption">Example 5.23</p>
 			<p class="text">Sixths are weird, because they're consonant, but they don't sound that consonant melodically.  To my ears at least, the major sixth actually emphasizes a note that's not part of the interval, the note a fourth above the lower note.  You often see the major sixth between scale degrees 5 and 3, the reason being that it just sounds too awkward to use unless you're outlining an obvious chord.  You of course also hear this interval from b3 to 1, where the tonic is the 1 and you're outlining a minor chord.  It's difficult to hear the major sixth and tell it apart from the minor sixth because of this; you rely on your ears to tell you if it's major or minor, but 5 to 3 sounds major while b3 to 1 sounds minor and they're both major sixths.</p>
 			<p class="text">Using sixths harmonically is fine and dandy, just like thirds.  They work much the same way.  Generally, this is the case because the harmony is well-established already, because the sixth on its own is difficult to interpret.  Melodically, though, the jump is just too wide to be singable or to sound pleasant without other notes in between; if you do come across an interval of a sixth, it's almost always followed by a move by step in the opposite direction.  Downward sixths are especially awkward.  These are all much less awkward if the sixth is outlining a chord already present in the harmony at that point, and then, the sixth, major or minor, can be one of the prettiest intervals you'll hear.</p>
@@ -351,7 +353,7 @@
 			<p class="text">The tune I've most often seen to represent the major sixth (in the US, at least) is the <a href="https://en.wikipedia.org/wiki/NBC_chimes">NBC chimes</a>:</p>
 			<img class="example" src="../png/5/24.png" title="C B S!" alt="Example 5.24" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/NBC.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/NBC.mp3"></audio>
 			<p class="caption">Example 5.24</p>
 			<p class="text">This has one obvious downside: it sounds major, because it's a 5 - 3 major sixth, and it doesn't give much aural insight into the minor-sounding b3 - 1 major sixth.  Unfortunately, I can't actually think of any tunes that begin with a b3 - 1, so... sorry.</p>
 			<p class="text">Let's just do the deep listening.  Again, start by listening to the pure (5/3) major sixth for a while before moving on to the equal-tempered major sixth.</p>
@@ -365,7 +367,7 @@
 			<p class="text">Harmonically, the sixth is the same as the third.  If you're harmonizing with someone, you'll probably sing either a third or a sixth above or below.  Melodically, the major sixth is very often used as a quite emotional pickup, as seen in Nobuo Uematsu's soundtrack for Final Fantasy VI, <a href="https://www.youtube.com/watch?v=f9_C7BQ1wHU">Gau's Theme</a>, or in the trio of the Spanish pasodoble <a href="https://youtu.be/nEVJdTwq2ww?t=88">Pepita Greus</a>, by <a href="https://es.wikipedia.org/wiki/Pascual_P%C3%A9rez_Chov%C3%AD">Pascual Pérez Chovi</a>.  This last piece also heavily features quintuplets in the opening, if you want to listen for how those go.  And holy shit that clarinet solo the second time through the trio!  And, of course, my favorite song beginning with a major sixth, <a href="https://www.youtube.com/watch?v=-bOnxayWzBM">Tristeza</a> (here mostly a guitar instrumental by Toquinho with help from Vinicius de Moraes), by Haroldo and Niltinho, which I showed you back in Example 1.7:</p>
 			<img class="example" src="../png/1/7.png" title="Still such a happy song!" alt="Example 5.25" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Tristeza Trumpet.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Tristeza Trumpet.mp3"></audio>
 			<p class="caption">Example 5.25</p>
 			<p class="text">We can't quit the major sixth without talking at least a little more about the diminished seventh.  Harmonically it's used in diminished seventh chords (we'll talk about them soon) and not much else (well, other than similar chords), but those chords do pop up pretty often.  The first movement of Beethoven's <a href="https://www.youtube.com/watch?v=aOCMskjSfm0">Pathétique</a> (Piano Sonata No. 8) uses it melodically <em>right</em> before the alternating octaves we talked about earlier in the section on octaves, in a 7 - b6 situation.  Note that while augmented seconds are somewhat avoided in Western music, diminished sevenths are not.  The diminished seventh is dissonant, sure, but it's one that's commonly used and resolved.</p>
 			<p class="text">Now we switch flavors:</p>
@@ -373,25 +375,25 @@
 			<p class="text">The minor sixth also has an enharmonic associate, the augmented fifth:</p>
 			<img class="example" src="../png/5/26.png" title="Do I have to come up with a thing?" alt="Example 5.26" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval min6.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval min6.mp3"></audio>
 			<p class="caption">Example 5.26</p>
 			<p class="text">Minor sixths are similar to major sixths in that they're kind of neutral and can be either major or minor depending on the circumstance.  5 - b3 outlines a minor chord and tonicizes the 1 between them; 3 - 1 outlines a major chord and tonicizes the upper note.  If you just listen for whether the interval sounds major or minor, your ears will deceive you, so be sure to think about it carefully when identifying this interval.  The minor sixth is consonant and needs no resolution.</p>
 			<p class="text">On the other hand, augmented fifths are dissonant as fuck.  Unlike the other augmented and diminished intervals we've come across so far, the augmented fifth does not have much of a tendency to resolve anywhere, but it's not actually stable either.  It's the inversion of the diminished fourth, so you could resolve it outwards like augmented intervals usually do, but it's not very satisfying.  In context, though, it makes sense:</p>
 			<img class="example" src="../png/5/27.png" title="I like clarinets." alt="Example 5.27" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval A5.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval A5.mp3"></audio>
 			<p class="caption">Example 5.27</p>
 			<p class="text">(The bass clarinet is usually written in treble clef and reads an octave down, but I just did it in bass clef here to be simpler.)  Both of the resolutions in Example 5.27 begin and end with the same chords, but the resolution of the A5 is different.  In the first, the Eb B resolves to Eb C, which is just not really very satisfying.  The chord is C minor with a B; the B is the dissonant note, so that's the note that has to resolve.  The second resolution is a bit nicer.  By changing the root of the chord, the chord becomes a G major chord with an Eb, so now the Eb is the dissonant note; that resolves down to D before the new chord resolves to C minor.  Again, we're going to talk about chords soon, though cadences like these will have to wait just a bit longer.</p>
 			<p class="text">To hear the minor sixth, there are a few options, but none is particularly universal like for the other intervals we've seen so far, so I'm just going with one that I like: Luiz Bonfá's <a href="https://www.youtube.com/watch?v=nVkDfnGobmI">Manhã de Carnaval</a>:</p>
 			<img class="example" src="../png/5/28.png" title="I like bass clarinets." alt="Example 5.28" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Manhã de Carnaval.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Manhã de Carnaval.mp3"></audio>
 			<p class="caption">Example 5.28</p>
 			<p class="text">I didn't write an analysis on the music directly this time, but that doesn't stop us from thinking about it, right?  From the beginning to bar 16, we have one complete phrase.  It's a fairly long one, but that's the first time the melody actually reaches a cadence.  It's broken up into four-measure segments.  The first four bars and the second four bars are nearly identical, but the harmony is different; measure 2 has a C# while measure 6 has a C natural.  (This is jazz, so the rhythms are fungible; we don't need to worry about those being exact since the performer will improvise them anyway.)  Then, we get these two-bar motifs going down, first in 8-9, then a step lower in 10-11, and finally another step lower in 12-13, with 14-15 being a similar pattern that doesn't go all the way down like the others and instead sets up the repetition.  17-20 are exactly the same as 1-4 (I wrote the rhythm differently, but that's not important).  On the other hand, 21-24 repeats that phrase a step lower instead of at a similar pitch level.  25-26 and 27-28 are the attempt to resolve that with a similar motif to what we had earlier in 8-9 but with different intervals, and 29-31 resolves the melody with a mostly different motif altogether.  Then there's a coda that's basically a separate thing; it almost feels like it doesn't belong.</p>
 			<p class="text">Anyway, this piece starts with a minor sixth.  Another piece that starts with a minor sixth that feels completely different is the first melody from Scott Joplin's <a href="https://www.youtube.com/watch?v=fPmruHc4S9Q">The Entertainer</a>:</p>
 			<img class="example" src="../png/5/29.png" title="ARE YOU NOT ENTERTAINED?" alt="Example 5.29" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/The Entertainer.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/The Entertainer.mp3"></audio>
 			<p class="caption">Example 5.29</p>
 			<p class="text">The minor sixth in question is the one in the right hand at measure 5.  I figured it was worth including this because Manhã de Carnaval begins with a 5 - b3 minor sixth, while this has a 3 - 1.  It's a completely different feel due to the context.</p>
 			<h4 class="question">What's a "first strain"?</h4>
@@ -408,14 +410,14 @@
 			<p class="text">While the perfect fourth is enharmonic to the augmented third, in practice it just doesn't come up.  I'm sure you could contrive a reasonable setup for it (how about this: C Db E F# G, but skip the E; you have an augmented third between the Db and F#), but you can analyze that situation yourself.</p>
 			<img class="example" src="../png/5/30.png" title="Why did I wait so long for the humble fourth?" alt="Example 5.30" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval P4.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval P4.mp3"></audio>
 			<p class="caption">Example 5.30</p>
 			<h4 class="question">Why are we doing the perfect fourth now instead of right after the perfect fifth?</h4>
 			<p class="text">That's because the fourth is a very special interval.  It's the inversion of the perfect fifth, of course, which is an open consonance, so of course, the perfect fourth is also an open consonance, right?  Well, actually... yeah.  It is.  But the fifth is very strongly stabilizing; when you play a perfect fifth, you plonk the bottom note of that interval down as a root.  The fourth is the opposite: it's <em>de</em>stabilizing.  If I play C G, I make C my root interval.  If I play G C... I make C my root interval.  But it's the top note, not the bottom note, and we generally want to hear the bottom note as the root.  The perfect fourth therefore rips us in two directions.  Inside a chord, the perfect fourth is as featureless and as consonant as a third or sixth, but when the fourth is with the bass, that mofo is unstable as all hell.  It's a beautiful, pure, crisp instability, but it's unstable.  If major thirds are available in the scale, the perfect fourth tends to resolve there, but if they aren't, the perfect fourth will just sit there, upside down.</p>
 			<p class="text">Melodically, though, it's not much different from a third or sixth except when it emphasizes the tonic (or the root of the current harmony).  Our most common melodic example is known as "<a href="https://www.youtube.com/watch?v=8J7Jhx93s9w">Here Comes the Bride</a>", the <a href="https://en.wikipedia.org/wiki/Bridal_Chorus">Bridal Chorus</a> from Dick Wagger's Lohengrin, which I tried to keep as close as possible to the original scoring:</p>
 			<img class="example" src="../png/5/31.png" title="Am I the only one who is reminded of Wagner when smelling cat shit?" alt="Example 5.31" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Dick Wagger Bride.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Dick Wagger Bride.mp3"></audio>
 			<p class="caption">Example 5.31</p>
 			<h4 class="question">Dick Wagger?  I thought his name was Richard Wagner, pronounced "rickARD vahgner".</h4>
 			<p class="text">Oh, <a href="https://en.wikipedia.org/wiki/Das_Judenthum_in_der_Musik">is it</a>?</p>
@@ -429,7 +431,7 @@
 			<p class="text">I'm glad you asked, because it also begins with a perfect fourth!  I used this Spanish and Portuguese melody, with words from Ps. 118:</p>
 			<img class="example" src="../png/5/32.png" title="I think it sounds better a cappella." alt="Example 5.32" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/baruch Haba.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/baruch Haba.mp3"></audio>
 			<p class="caption">Example 5.32</p>
 			<p class="text">The melody is in the tenor (first trombone) until pickups to 17, at which point it moves to the soprano (first trumpet).  At my wedding I had my a cappella group sing this (the brass quartet is because Sibelius sucks at rendering voices), and it continued into an Italian melody for the same text that I didn't include here.  Of course, note the perfect fourth at the very opening, which is doubled in the soprano and tenor.  Note also the scale degrees: this perfect fourth goes 5 - 1.  This is the most natural function of the perfect fourth: it emphasizes the tonic by springboarding off of the dominant.</p>
 			<p class="text">Let's do a deep listen.  The pure fourth at 4/3 and the 12-TET fourth are very close, just like the pure fifth at 3/2 and the 12-TET fifth (they're inversions of each other, so it makes sense).  However, start with the 4/3, move right until you hear beats, and then see if you can still hear the beats with the 12-TET fourth.  And let that unstable open consonance permeate your very soul.</p>
@@ -446,7 +448,7 @@
 			<p class="text">If I stack two perfect fourths, I get a fairly characteristic <em>quartal</em> sound (quartal means it uses fourths).  I can just embrace the fourth, or I can try to resolve the dissonance.  How does that work?</p>
 			<img class="example" src="../png/5/33.png" title="Pensive." alt="Example 5.33" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/P4's.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/P4's.mp3"></audio>
 			<p class="caption">Example 5.33</p>
 			<p class="text">That first chord is the simplest example of a quartal chord, and the perfect fourth is the basis for it.  Our chords are normally in thirds (making them <em>tertian</em>), so in a way, the perfect fourth is kind of like the muon to the third's electon, the silicon to the third's carbon.  What the perfect fourth does is provide a simple, non-dissonant sound that is nonetheless fundamentally different from the usual forms of harmony, even though you can shoehorn it into tonality like I did above in Example 5.33.  The fourth is brooding, pensive, sharp, alien, settled yet unsettling, upside down like a handstand.  It's used in music to create complexity without sacrificing clarity.  Jazz musicians often use fourths in their voicings for this reason.  The most glorious use of fourths, in my opinion, is the entire Chrono Trigger soundtrack, by Yasunori Mitsuda and Nobuo Uematsu (Mitsuda was the primary composer, but he had a health issue and Uematsu had to fill in (he got better).  We don't have the time or space to analyze the entire soundtrack, which is one of the best ever composed — it's so tight that it's difficult to believe it wasn't all by one person.  The opening motif, <a href="https://www.youtube.com/watch?v=cXGi7pqxsgk">A Premonition</a>, consists of basically three mostly quartal chords with a 1 5 4 1 4 5 1 accompaniment, and those three chords set the stage for the entire game to follow.  The <a href="https://www.youtube.com/watch?v=BFrcz0QJAgk">main theme of the game</a>, which is variably called Chrono Trigger or Crono's Theme, is a paradise of perfect fourths.  You notice that it's not exactly tonal, with both 3's and b3's in constant use.  I hope we'll get a chance to analyze this melody more later, or perhaps even the harmony with those delicious fourths.  And, OK, I know it's kind of a spoiler, but I can't talk about Chrono Trigger without <a href="https://www.youtube.com/watch?v=ajg3h_YIA90">To Far Away Times</a>, the finale to this composition.  This is how you know how special perfect fourths are.  Listen for the thirds!  There's a 3 in the piece — but not until 32 seconds in!  The entire introduction to To Far Away Times is just building tension on this one quartal chord, which has been unresolved for pretty much the entire game, and man, do Mitsuda and Uematsu make you wait for that resolution!</p>
 			<h4 class="question">So... should I play Chrono Trigger?</h4>
@@ -463,7 +465,7 @@
 			<p class="text">Our first dissonant interval is the major second.  Its enharmonic cousin is the diminished third:</p>
 			<img class="example" src="../png/5/34.png" title="One of the prettiest intervals." alt="Example 5.34" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval M2.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval M2.mp3"></audio>
 			<p class="caption">Example 5.34</p>
 			<h4 class="question">This interval is great!  What do you mean that it's dissonant?</h4>
 			<p class="text">Yeah, that word's not so well-defined.  "Dissonant" doesn't mean that it doesn't sound good, necessarily.  It usually means that there's a tension that needs to be resolved (classically), and the major second is an interval that, when used harmonically, needs to be resolved.  Resolving to the unison is generally not very satisfying since one of the notes is already there, but it happens.  More often, though, the major second resolves to the third, either with the top note moving up or the bottom note moving down (I think the bottom note moving down may be more common, but they both happen).  Classically.  In extended tonality, the sound of the major second needs no resolution.  Melodically, of course, it's just a scale step.  Moving by step (could be major and minor seconds) is standard for melodies; most of the time melodies tend to move either by step or by outlining a chord, with leaps (movement by something other than a second) being the exception, not the norm.</p>
@@ -471,14 +473,14 @@
 			<p class="text">The standard melody for the major second is Happy Birthday, between the second and third note, which I will show you here yet again:</p>
 			<img class="example" src="../png/4/17.png" title="I need to stop having all these birthdays.  I'm getting too old!" alt="Example 5.35" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Happy Birthday.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Happy Birthday.mp3"></audio>
 			<p class="caption">Example 5.35</p>
 			<p class="text">You can also just think of the first two notes of the major scale.  That might be easier.</p>
 			<h4 class="question">What about the diminished third; what does that sound like?</h4>
 			<p class="text">Here's one of the most beautiful pieces ever to grace a guitar, <a href="https://www.youtube.com/watch?v=sdaPoUNk5R8">Recuerdos de la Alhambra</a> by Francisco Tárrega (<a href="http://imslp.org/wiki/Recuerdos_de_la_Alhambra_(T%C3%A1rrega,_Francisco)">score</a>):</p>
 			<img class="example" src="../png/5/36.png" title="I remember it..." alt="Example 5.36" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Recuerdos de la Alhambra.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Recuerdos de la Alhambra.mp3"></audio>
 			<p class="caption">Example 5.36</p>
 			<p class="text">The diminished third in question is from measure 12 to measure 13, in the voice with all the repeated 32nd notes.  We're in A minor, and we go from a G# to a Bb.  The G# is the 7 of the scale; we're lingering on it for a while, for two bars, and at the end of those two bars, instead of resolving the chord and the 7 to the 1, we instead overshoot the 1 and land on the Bb, which is the b2.  That eventually does resolve back down to the 1, but by then the harmony has moved on, and we don't actually get a complete resolution until the end of the next section, which I didn't include in the excerpt.</p>
 			<h4 class="question">Wow.  How do you play those 32nd notes?</h4>
@@ -512,12 +514,12 @@
 			<p class="text">For one, it's much less dissonant:</p>
 			<img class="example" src="../png/5/38.png" title="Dulcissime?" alt="Example 5.38" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval M9.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval M9.mp3"></audio>
 			<p class="caption">Example 5.38</p>
 			<p class="text">The major ninth is not often used as a melodic interval because it's extremely awkward, but it does happen, like in Orff's <a href="https://en.wikipedia.org/wiki/Carmina_Burana_(Orff)">Carmina Burana</a>, in the very brief movement <a href="https://www.youtube.com/watch?v=BFq8vH7tPxs">Dulcissime</a>.  On the other hand, the major second pops up almost everywhere.  The major ninth's power comes from its use as a harmony.  Classically, of course, it's a dissonance, and the upper note tends to resolve down a whole step to make an octave (this is called a 9 - 8 movement).  But less classically, it's actually quite stable.  The major ninth is added to many chords because it's just a very pretty interval in a major chord (second only to the #11) and a conflicted interval in a minor chord.  But its most interesting feature is this:</p>
 			<img class="example" src="../png/5/39.png" title="Cutting." alt="Example 5.39" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/The Ninth.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/The Ninth.mp3"></audio>
 			<p class="caption">Example 5.39</p>
 			<p class="text">The beautiful thing about the major ninth is how it's two perfect fifths stacked.  The perfect fifth has a pure sound even in equal temperament, and the major ninth retains that pure sound even though it's a dissonance.</p>
 			<p class="text">In modern times, the major ninth is treated as a consonance as much as possible.  It's a popular and beautiful interval for harmonies.  Here's a piece that uses this major ninth sound quite a bit, Warren Benson's <a href="https://www.youtube.com/watch?v=rHCuWmMELPg">Solitary Dancer</a>.  When you listen to it, imagine, as the composer intended, a dancer mentally preparing for a performance, and feel the quiet excitement and the intervals, especially the major ninths, open fifths, and seconds.  This is a piece to get wholly absorbed into, if you can.</p>
@@ -531,21 +533,21 @@
 			<p class="text">The minor second is enharmonic to the augmented unison.</p>
 			<img class="example" src="../png/5/40.png" title="Jaws!" alt="Example 5.40" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval min2.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval min2.mp3"></audio>
 			<p class="caption">Example 5.40</p>
 			<h4 class="question">What is that natural-sharp notation?  That's supposed to cancel a double sharp, but I don't see any of those.</h4>
 			<p class="text">That's how Sibelius treats two notes on the same spot on the staff with different accidentals.  There are actually other ways to do that: a split chord (which Sibelius doesn't do) has diagonal lines linking to the two versions of the note with different accidentals.  It's weird-looking.</p>
 			<p class="text">Melodically, the minor second is used as a step between scale degrees, just like the major second.  The augmented unison is also used in chromatic passages to complement the minor second, so you may have, for example, C C# D, with C to C# being an A1 and C# to D being an m2.  Harmonically, the minor second is a harsh dissonance (unlike the mild dissonance of the major second), and for good reason.  You pretty much want to resolve this one.  Since the minor second sounds so harsh, it's used whenever harsh sounds are desired (duh).  The exception is inside chords where the other components dominate the sound, so the harshness of the minor second doesn't come through.  Here's an example, from the third of Philip Sparke's <a href="https://www.youtube.com/watch?v=pP4ntlTEVsk">Dance Movements</a>.  You get a chord like this one:</p>
 			<img class="example" src="../png/5/41.png" title="This is actually pretty." alt="Example 5.41" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Lydian Cluster.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Lydian Cluster.mp3"></audio>
 			<p class="caption">Example 5.41</p>
 			<p class="text">This type of chord where there's a bunch of seconds close together is called a <em>cluster</em>.  But because of the way the notes come one at a time and because the notes are pretty in any chord, the minor second between the A and the Bb doesn't sound harsh.  In most cases, though, it does.  To resolve it, the thing to do is <em>usually</em> to bring the lower note down a whole step, so E F resolves to D F.  Of course you can always do something else if you think it sounds the way you want it to sound, but that's literally always the case in music (see Rule 0).  By the way, I will tell you this from personal experience: singing in minor seconds is <em>really fucking hard</em>.  Don't have one part singing a half step higher than another part if you can help it.  Major seconds, sure.  They sound neat.  Minor seconds, GTFO.  The natural tendency when singing is to tune to the people around us, and if we're a half step away, we're gonna tune to them, which is not what you want.  So don't do it unless there's a good way of tuning to someone else (for both members of the minor second) or your singers are <em>really</em> expert.</p>
 			<p class="text">The augmented unison doesn't generally turn up in chords, though there's nothing stopping you from making a chromatic cluster.  It's just probably going to sound quite ugly (which might be what you want).  If you have two notes a half step apart in your chord, chances are they're really in a minor second relationship, not augmented unison.  Melodically, however, is another story.  The augmented unison is how you switch between versions of the same scale degree.  For example, a b3 can become a 3, or a #4 can become a 4, etc.  If you remember in the last chapter when we were talking about the tendencies of scale degrees, that is why you may want a #4 instead of a b5, and #4 - 4 might make perfect sense in that context, more so than b5 - 4.  Just to remind you, a minor second is also known as a <em>diatonic semitone</em>, while an augmented unison is also known as a <em>chromatic semitone</em>.</p>
 			<p class="text">The tune usually associated with the minor second is John Williams's <a href="https://www.youtube.com/watch?v=ZvCI-gNK_y4">theme from Jaws</a>:</p>
 			<img class="example" src="../png/5/42.png" title="I don't like the Jaws ride at Universal Orlando.  Too much fire." alt="Example 5.42" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Jaws.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Jaws.mp3"></audio>
 			<p class="caption">Example 5.42</p>
 			<h4 class="question">What does "ostinato" mean?</h4>
 			<p class="text">An <em>ostinato</em> is a pattern that some section or instrument keeps repeating while other people do something else.  In this case, the last four bars of Example 5.42 get repeated by the bass instruments throughout the piece while other stuff happens above it, so that bass line is an ostinato.</p>
@@ -564,7 +566,7 @@
 			<p class="text">The minor ninth is enharmonic to the augmented octave, but to be honest, that doesn't come up very often.</p>
 			<img class="example" src="../png/5/43.png" title="So much atonality." alt="Example 5.43" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval min9.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval min9.mp3"></audio>
 			<p class="caption">Example 5.43</p>
 			<p class="text">The minor ninth is sometimes known as the last dissonance.  Over the 20th century and before (and after), we've gradually moved from requiring the resolution of all dissonances to embracing said dissonances as parts of the chord.  Well, not this one.  The minor ninth is the holdout.  A minor ninth inside a chord is like taking a big bite out of a clove of raw garlic.  Melodically, the interval is awkward as all fuck, but it does come up.  Generally, wide melodic intervals are balanced by step motion in the opposite direction, so if you go up a minor ninth, you should probably go down a half step right after to resolve that dissonance.  Or just live with the dissonance if you hate your listeners.  Which you might.  Actually, yeah, if you want to cause people discomfort, the minor ninth is your tool!  I was going to say it's your friend, but the minor ninth is not your friend.  The minor ninth is nobody's friend.  The minor ninth is sour like spoiled gasoline milk.</p>
 			<p class="text">There is one big exception to this, and it's the 7b9 chord that we'll talk about in the next chapter.  You can hear it in arpeggio form at the opening of Gloria Gaynor's <a href="https://www.youtube.com/watch?v=Tth-8wA3PdY">I Will Survive</a>; it contains the notes 1 3 5 b7 b9.  In A minor, the V7b9 chord would be spelled E G# B D F, with E - F forming a minor ninth.</p>
@@ -577,7 +579,7 @@
 			<p class="text">That's the minor ninth for you.  Let's hear the glory of the minor ninth in action, shall we?</p>
 			<img class="example" src="../png/5/44.png" title="This one is all tonal.  Just... dissonant." alt="Example 5.44" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Weird m9.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Weird m9.mp3"></audio>
 			<p class="caption">Example 5.44</p>
 			<p class="text">Dissonant, eh?</p>
 			<h4 class="question">Coulda been worse.</h4>
@@ -590,18 +592,18 @@
 			<p class="text">This is the major seventh, which is enharmonic to the diminished octave:</p>
 			<img class="example" src="../png/5/45.png" title="Oddly peaceful." alt="Example 5.45" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval M7.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval M7.mp3"></audio>
 			<p class="caption">Example 5.45</p>
 			<p class="text">The major seventh is considered a harsh dissonance, and classically it tends to resolve either to an octave or to a major sixth, by moving either the top or the bottom note in either direction by step.  And the major seventh is actually pretty dissonant, but... in modern times, people have realized their love for this interval, and it's rare to find a chord in jazz that doesn't have a seventh, either major or minor.  Example 5.44 above has a bunch of major sevenths inside chords that you can listen to, and in the next chapter we'll talk about this much more in depth.  While the 7, the leading tone, is considered unstable in traditional contexts, the interval between the 1 and the 7 is actually considered stable in modern contexts provided that there are other notes in between.</p>
 			<p class="text">Melodically, the major seventh is fairly rare.  It's just too awkward.  You may see it outlined, like if the melody goes C G B, but on its own it's just not particularly useful.  I've used it, though!  In one of my pieces, the third movement of my <a href="http://offtonic.com/music/band.php#sym1">Symphony Nº1</a>, I have a motif that uses it (in the tuba and bells starting at 3:13, and it comes back a few times).  It's just five notes:</p>
 			<img class="example" src="../png/5/46.png" title="Can I not write longer motifs?  No, apparently." alt="Example 5.46" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Symphony 1 - III motif.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Symphony 1 - III motif.mp3"></audio>
 			<p class="caption">Example 5.46</p>
 			<p class="text">I'm not the only one who has ever used the major seventh melodically.  While the most popular way to sing this interval is to sing an octave then go down a half step, there are actually some songs that use it, like the chorus of <a href="https://www.youtube.com/watch?v=djV11Xbc914">Take On Me</a> by A-ha:</p>
 			<img class="example" src="../png/5/47.png" title="Take on holy shit it's high.  How the hell does he do it?" alt="Example 5.47" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Take On Me.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Take On Me.mp3"></audio>
 			<p class="caption">Example 5.47</p>
 			<h4 class="question">How the fuck.  How the fuck does he sing this?  HOW?</h4>
 			<p class="text">I DON'T KNOW!  This is a two and a half octave range in ONE CHORUS!  Morten Harket, lead singer of A-ha, is INSANE!  Sibelius marked both the lower notes <em>and</em> the upper notes as out of range, and this dude, this dude does it!</p>
@@ -609,7 +611,7 @@
 			<p class="text">The diminished octave is a weird interval.  It's very rare melodically, and harmonically it's often rewritten as a major seventh when it's really not.  The diminished octave is used, much like the augmented unison (or augmented octave), when two notes occupy the same scale degree but have different qualities (the diminished octave is generally preferrable to the augmented octave because, as we've seen, the augmented octave sounds a lot more dissonant than the diminished octave).  This is sometimes called a <em>false relation</em> or a <em>cross-relation</em>.  There's an example of this in Example 5.44, second half of the third measure.  Most of the time when the diminished octave shows up, it's between a 7 and a b7.  The 7, the leading tone, pushes upwards to the tonic, while the b7 pulls downwards to the b6 and the 5.  It's a diminished interval, and diminished intervals usually contract.  Here's <a href="https://www.youtube.com/watch?v=uIiK8Ht2Xbc">another example</a> from Villa-Lobos:</p>
 			<img class="example" src="../png/5/48.png" title="These chords are weird, yo." alt="Example 5.48" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Chorinho.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Chorinho.mp3"></audio>
 			<p class="caption">Example 5.48</p>
 			<p class="text">The chord in the box contains a diminished octave.  We're temporarily in A minor at this point (the piece is in C major), so we have the G# leading tone and the G subtonic.  The G# (the 7) wants to resolve up (it doesn't, but it wants to) and the G natural (the b7) resolves down to the b6 then to the 5.  Most of the time, this is how diminished octaves behave.  They're dissonant, but they're satisfying as well because they have such obvious tension: the 7 wants to go one way, the b7 another.  They have directionality.  The major seventh has the same dissonance but without the directionality.  The minor ninth and augmented fifth have even harsher dissonance and even less directionality (some of the time, anyway).  Dissonances are satisfying if they thirst for resolution, regardless of whether you provide it or deny it.</p>
 			<p class="text">Let's listen deeply to the sound of the major seventh.  Start with the pure major seventh (the 15/8) then go to the equal-tempered one.</p>
@@ -622,20 +624,20 @@
 			<p class="text">The minor seventh has a common enharmonic variant, the augmented sixth:</p>
 			<img class="example" src="../png/5/49.png" title="Theeeeere's a plaaaace..." alt="Example 5.49" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval min7.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval min7.mp3"></audio>
 			<p class="caption">Example 5.49</p>
 			<p class="text">The minor seventh is a soft dissonance, similar to the major second, and it's one of the most popular sounds in music.  It's a very directional sound; it tends to resolve inward to the major third.</p>
 			<h4 class="question">The major third, really?  All the way there?</h4>
 			<p class="text">Yep.  Most of the time, the minor seventh comes up between the 5 and the 4, so the 5 resolves up (or down) to 1 and the 4 resolves down to 3 (or b3 in minor).  Of course, plenty of other resolutions are possible.  The minor seventh, though, is the kind of interval that suggests that the root is a fourth above the lower note rather than one of the notes of the interval.  In more modern times, especially in blues and in rock/pop/etc., the minor seventh has tended to be a 1 - b7 interval, where the b7 resolves up to 1 and the 1 stays to form an octave.  Alternatively, the 1 - b7 could resolve down to 1 - 5, with the b7 doing b7 - 6 - 5 (or, less often, b7 - b6 - 5).  Here's all that in practice:</p>
 			<img class="example" src="../png/5/50.png" title="Not sure there's a place anymore." alt="Example 5.50" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval A6.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval A6.mp3"></audio>
 			<p class="caption">Example 5.50</p>
 			<p class="text">The first line contains the minor seventh cases we just talked about.  The second line contains examples of the augmented sixth.  The augmented sixth is a very misunderstood interval, and we'll get to it more when we talk about the chords in this example.  Classically, the augmented sixth comes between the b6 and #4 and resolves to an octave on the dominant, 5 and 5.  In extended tonality, this is also done towards the tonic, so b2 - 7 resolves to 1 - 1.  In the above example I resolved one of the b6 - #4's to a minor seventh instead, 5 - 4, just to show you that resolutions can be subverted — now this 5 - 4 has to resolve too!  Well, it doesn't <em>have</em> to do anything, but you get the point.  The reason why the augmented sixth is so powerful is that the two notes in the interval are leading tones, one from above and one from below.  The b6 is a leading tone to the 5, and the #4 is a leading tone to the 5 from below.  Like any augmented interval, the tendency is for it to expand.</p>
 			<p class="text">Both the minor seventh and augmented sixth are little used melodically, again because they're just too large to be singable, and we as humans have a preference for singable melodies.  When they do happen, the minor seventh especially comes at emotional moments where the leap makes sense.  Large downward leaps are less useful, generally.  The popular signature song of the minor seventh is <a href="https://www.youtube.com/watch?v=-BQMgCy-n6U">Somewhere</a> from West Side Story:</p>
 			<img class="example" src="../png/5/51.png" title="We know how this one turns out!" alt="Example 5.51" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Somewhere.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Somewhere.mp3"></audio>
 			<p class="caption">Example 5.51</p>
 			<h4 class="question">Oh, I do hope that Tony and Maria find their happy place!</h4>
 			<p class="text">I'm sure they will.  I'm sure they will.</p>
@@ -656,7 +658,7 @@
 			<p class="text"><a href="https://www.youtube.com/watch?v=YyknBTm_YyM">IT'S THE INTERVAL OF THE DEVIL</a> (turn your volume up for Saint-Saëns's Danse Macabre)!  The tritone, which technically refers to the augmented fourth, is also the diminished fifth:</p>
 			<img class="example" src="../png/5/52.png" title="Ooh, scary demon!" alt="Example 5.52" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Interval TT.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Interval TT.mp3"></audio>
 			<p class="caption">Example 5.52</p>
 			<h4 class="question">Why the different format?</h4>
 			<p class="text">Mainly because the tritone splits the octave exactly in half, so the inversion of a tritone is just the opposite tritone.  C to F# is an A4; F# to C is a d5.  Might as well just stick them both together.</p>
@@ -666,7 +668,7 @@
 			<p class="text">The augmented fourth does tend to resolve outward (unless the resolution is subverted, which happens very commonly) and the diminished fifth tends to resolve inward (again, unless it doesn't).  This is generally true for augmented and diminished intervals, respectively, and it's one of the simpler ways of deciding whether a particular tritone should be an A4 or a d5.  Oh, and the tritone is <em>incredibly</em> common harmonically.  For an interval so often linked to demonic hosts, it sure gets plenty of use!  It comes up much less often melodically, though, because it's devilishly (ha) hard to sing in tune.  The problem is that it's close to the fourth and the fifth, which are easier, so you tend to sing one of those instead.  The two most common songs for the tritone are <a href="https://www.youtube.com/watch?v=Xqog63KOANc">The Simpsons'</a> theme and, again from West Side Story, <a href="https://www.youtube.com/watch?v=VpdB6CN7jww">Maria</a>:</p>
 			<img class="example" src="../png/5/53.png" title="So Tony decides that the most interesting thing about the girl he just met and kissed is her NAME?  Yeah, this relationship's gonna work." alt="Example 5.53" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/Maria.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/Maria.mp3"></audio>
 			<p class="caption">Example 5.53</p>
 			<p class="text">"Maria!"  There's so much exuberance in that augmented fourth; Tony just met some girl and now he's obsessed with her name, so he screams it out in a tritone!  "Maria!"  I think it's weird.  Anyway, I've shown you already how the #4 can be one of the prettiest notes in a chord.  When we talk about modes, we'll discuss this note a bit more; it's often known as the lydian note (on the other hand, the locrian note, the b5, is the darkest).</p>
 			<p class="text">But I can't pass up some analysis, especially when we get together two of the most brilliant musical minds of the 20th century (and 21st century for Sondheim).  We start with that tritone, emphasizing the #4, and it just gets hammered, four times times in the first three measures.  Note how the rhythmic motif used for the name "Maria" is actually the same as the one used for the word "somewhere" in Example 5.51.  Since these are both part of the same larger work, the musical West Side Story, it makes sense that they'd have motifs in common and that they'd be thematically linked.  Contrast how excited Tony is here in Maria versus how worried he is in Somewhere, with the same musical motif.  Anyway, we continue with the descending eighth notes in measures 4 and 5 (note the G natural in 4 and Gb in 5).  At 8, the first phrase repeats (just like in Somewhere), but at measure 9, it goes up instead of down like in measure 3.  We then go to the descending eighth notes again, but now they're much higher.  Along the way, we see that Sondheim's put internal rhymes in the lyrics: "suddenly that <em>name</em> will never be the <em>same</em>", etc.  Sondheim's famous for these internal rhymes.  The same internal rhyme scheme happens at 10 and 11 when the descending eighths come back.</p>
@@ -683,7 +685,7 @@
 			<p class="text">Let's take a look at some of the resolutions of the tritone.  This interval is said to be the most important one for determining a mode because 7 - 4 resolves to 1 - 3, but of course that isn't the only possibility.  Check these out:</p>
 			<img class="example" src="../png/5/54.png" title="THE DEVIL'S INTERVAL IS... normal?" alt="Example 5.54" width="800"/>
 			<div class="vspace"></div>
-			<audio class="example" controls="controls" src="../mp3/TT Resolutions.mp3"></audio>
+			<audio class="example" controls="controls" preload="none" src="../mp3/TT Resolutions.mp3"></audio>
 			<p class="caption">Example 5.54</p>
 			<h4 class="question">Holy shit.  That's a lot of them.</h4>
 			<p class="text">Those are just <em>some</em> of the ones I could think of right now.  The tritone is incredibly versatile.  Let's go through these.  I'm going to label them by measure since that's easier; I hope you don't mind.  Chords 1 and 5 are the same and resolve the same, but you should recognize that the 4 can also resolve to b3 instead of 3, and this is standard in minor.  The 4 doesn't have a strong leading tone relationship with the b3, but it does still resolve that way.  Chords 3 and 7 are the same as chords 1 and 5 but are interpreted in Gb instead of C.  Since the equal-tempered tritone is symmetric, you can't tell which key you're in from the tritone alone, and since this tritone is common to keys a tritone apart, you can use it to modulate between those keys.  This 7 - 4 to 1 - 3 resolution is the standard one in tonal music.</p>
@@ -701,6 +703,38 @@
 			<h4 class="question">All of them?</h4>
 			<p class="text">All of the intervals we care about, anyway.  I've left out compound intervals wider than the ninth (they're not too different from the one inside the octave, just more separated) and doubly augmented/diminished/whatever intervals, mostly because those just don't come up often enough to need identification and explanation.  Now comes the more difficult work of ear training.</p>
 			<h2 class="section-title" id="all-together">Putting it All Together</h2>
+			<p class="text">Now that we've studied the intervals, we ought to be able to hear them and sing them, both ascending and descending.  I listed a characteristic song for each of them, but there are <a href="https://www.earmaster.com/products/free-tools/interval-song-chart-generator.html">lots more</a>.  There are <a href="http://flypaper.soundfly.com/tips/interval-cheat-sheet-songs-to-help-you-remember-common-intervals/">plenty</a> of <a href="https://www.musical-u.com/learn/interval-reference-songs-that-youve-actually-heard-of/#">sites</a> with this stuff.  It can be difficult to identify intervals, but if you start singing one of these songs you can compare it to the notes you hear, and from some starting pitch you can sing the song and figure out the next note in an interval.</p>
+			<h4 class="question">What's the point of doing this?</h4>
+			<p class="text">That's actually a good question.  If you want music theory to actually be useful, if you want it to be more than some abstract set of names of things, if you want it to be <em>meaningful</em>, you need to be able to put it on real music.  Ear training helps you do two things.  First, it helps you to hear a piece of music and understand what's happening in it.  Second, it means that you really understand the intervals, at least in your own way, and that's important for knowing when to use them.  Third, and most importantly, it helps you to see a piece of music written and understand what it sounds like.  As a bonus, you're ready to join any amateur singing group simply by doing that second thing.  If you can take a piece of sheet music and sing what's on it, you can sing.  You may not have a great voice.  You may have plenty of other issues.  But if you do that, you can sing.  It's not difficult, but there are enough people out there who can't that it's a problem.</p>
+			<p class="text">So, to start with, you're going to need to work on your singing.  This means: open up the <a href="../applets/keyboard.html" target="_blank">Offtonic Keyboard</a> and pick a note and an interval.  Now, sing that interval above and below the note.  If it's out of your range, just move the note up or down by an octave.  Do this for all the intervals.  You can click on one of the keys then drag your mouse pointer off of it; this way, the key turns on but not off, and you can just practice singing intervals with that.  You could even try to sing intervals other than the 12 intervals of the chromatic scale, if you're adventurous!</p>
+			<p class="text">It's good to practice this whenever you can.  When you hear a microwave or a car alarm, that's your chance to sing intervals.  Any drone or repeated pitched sound (SO NOT FUCKING JACKHAMMERS) is a great medium for practicing intervals.  Our ancestors probably discovered harmony by doing something like this.  They heard a sound — maybe a voice — and tried to sing with it, and they discovered that if they sang certain intervals they could make magic happen.  You can!</p>
+			<p class="text">The other thing you need to do, of course, is to be able to hear them.  To that end, I give you two applets.  The first one plays a drone and another note, and you have to figure out what scale degree that note is relative to the drone.  Click to start or stop; you hear the drone for two seconds and the note for four before the answer pops up.</p>
+			<canvas id="scaledegreetrainer" class="keyboard" height="200" width="220"></canvas>
+			<p class="caption"><a href="../applets/scaledegreetrainer.html" target="_blank">(open in new tab)</a></p>
+			<div class="vspace"></div>
+			<p class="text">The second one plays a drone and two notes, and you have to figure out the interval between the notes.  The drone plays for two seconds, and then either one note plays for two seconds and the other for four, or both notes play together for four seconds.  This one can be pretty challenging!</p>
+			<canvas id="intervaleartrainer" class="keyboard" height="200" width="220"></canvas>
+			<p class="caption"><a href="../applets/intervaleartrainer.html" target="_blank">(open in new tab)</a></p>
+			<div class="vspace"></div>
+			<h4 class="question">Dude, why is this so much harder than other ear trainer apps?</h4>
+			<p class="text">Because ear trainer apps don't usually give you context.  You get an interval and have to identify the interval, but all you're really identifying are scale degrees, because you hear the first note as the root.  Here, the root is not related to the other notes, so you have to think on your feet a bit more.  In other words, the lower note that the applet plays is not actually part of the exercise, but your brain doesn't quite realize it.</p>
+			<h4 class="question">Aha, so it's a trick!</h4>
+			<p class="text">It's not a trick.  In real music, intervals aren't nicely packaged.  You don't hear two notes alone and try to decide what interval they make.  Music (almost) always has context.  Ear training without context is like learning to how pronounce the letters one at a time and never learning about digraphs.  I mean, just look at the previous sentence.  "Time" has a silent E.  The A in "at" and in "a" are very different.  "Learning" has a rhotic "ea", which is unlike any of the other uses.  "Digraphs" has a PH, which is not a P plus an H.  Learning the intervals without context is like learning the letters without words (in English, anyway).</p>
+			<h2 class="section-title" id="summary">Summary</h2>
+			<p class="text">Now that you can sing and identify the intervals and hopefully understand a little about how they behave and how they sound, I think we're actually ready to move on.</p>
+			<h4 class="question">Whew!  That was long!  What should I know from this chapter?  I dread to ask.</h4>
+			<p class="text">EVERYTHING.  Well.  Hopefully you know a little bit about sound and how frequencies and pitch relate, because that's really helpful to understand what it means to be in tune.  And you should know, by listening, whether things are in tune.  You should be able to tell if a fifth is right, if a third is right.  And you should definitely be able to tell your fifths from your thirds!  You should be able to identify any scale degree or interval by listening.  And you should hopefully understand how to use the different intervals in your own writing, though I suspect that facility will come later.</p>
+			<h4 class="question">What about all the fractions?  The 3/2 fifths, 5/4 major thirds, septimal and undecimal intervals, Pythagorean intervals, 17-TET and 19-TET intervals, all that stuff?</h4>
+			<p class="text">Don't worry about those for now.  The important bit there is that you should know what 12-TET is relative to all those other things that are not 12-TET, and you should be aware of how 12-TET isn't actually in tune.  We'll talk about the specifics more in later chapters, but it's kind of an advanced subject and it's only relevant if you care about that sort of thing.  I think it's incredibly cool, personally (and I have a bit of personal history with microtonal music that I don't need to get into), but most Western music sticks strictly to 12-TET, and that's OK, so long as we understand that it's out of tune.  You should know that a 5/4 major third exists and it's not 400 cents, but more than that, don't worry about it for now unless you're interested.</p>
+			<p class="text">There's one more thing I'd like you to know from this chapter, and it's a bit unrelated but not really.</p>
+			<h4 class="question">What is it?</h4>
+			<p class="text">How to do melodic analysis.  Very soon we'll start doing harmonic analysis, and it can feel all-consuming.  When self-taught people start learning music theory these days, they actually <em>start</em> with chords.  They skip almost all of the stuff we've done in these first six chapters (I'm including chapter 0, because that seems to be the most missed chapter of all).  As a result, they don't know anything about melody.  It should be really obvious to you by now that the melody is the most important part of a piece of music (well, for music that has a melody, anyway).  If you frequent various music theory forums online, though, the questions are pretty much all about harmonic analysis, and whenever there's a question about melody, it can feel as if the person has never listened to a piece of music in his or her life.  Stuff like "for two instruments to be able to play together, they just need to be in the same key, right?"</p>
+			<h4 class="question">What?  WTF?  Seriously?  That makes <em>no</em> sense.</h4>
+			<p class="text">I KNOW!  I mean, no offense, but how can someone who knows even a little bit of music theory be so off-base?  And it gets worse.  My friend is a high school teacher, and one of his students once brought a ukulele to class.  My friend asked that student to play a D (or something like that), and the student only knew how to play a D <em>chord</em>, not a D <em>note</em>.  The student did not understand the notes that went in the chords, just the chord shapes.</p>
+			<h4 class="question">There are people like that?</h4>
+			<p class="text">There are.  There really are.  This is one of the reasons why I'm writing this book: if those people can read it, they will be able to learn.  You, who started with notes and rhythms, with notation, with scale degrees, and now finally with intervals, you <em>have</em> that basic understanding of music.  Because you've seen the examples I've shown with all the accidentals, you know that you aren't restricted to the seven notes of the scale.  And now, when we finally work on chords, you'll understand what chords really are.</p>
+			<h4 class="question">And what are they?</h4>
+			<p class="text">I suppose we'll see in the next chapter, won't we?</p>
 			<a href="../index.html">Up</a>: Table of Contents<br />
 			<a href="4.html">Previous</a>: Chapter 4: Intervals and Scale Degrees<br />
 			<a href="6.html">Next</a>: Chapter 6: Chords
