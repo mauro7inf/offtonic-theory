@@ -81,6 +81,16 @@ div.metronome {
 	width: 270px;
 }
 
+div.keyboard {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px;
+	width: 800px;
+	height: 800px;
+	background-color: #000000;
+	position: relative;
+}
+
 div.tonegenerator {
 	text-align: center;
 	margin: 0 auto;
