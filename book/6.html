@@ -1,66 +1,61 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
-		<meta name="keywords" content="music theory, sightsinging, chords, harmony" />
-		<title>Chapter 6: Chords - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<div class="outer-container"><div class="inner-container">
-			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a></h3>
-			<h1 class="chapter-title">Chapter 6: Chords</h1>
-			<p class="text">And finally, CHORDS!</p>
-			<h4 class="question">Took you long enough.</h4>
-			<p class="text">Oh, shut up.  In this chapter, we'll talk about chords and harmony.</p>
-			<h4 class="question">What's the difference?</h4>
-			<p class="text">Aha!</p>
-			<ul class="table-of-contents-sublist">
-				<li><a href="6-1.html">6.1 Chords and Harmony</a></li>
-				<li><a href="6-2.html">6.2 Basic Chord Concepts</a></li>
-				<ul class="table-of-contents-subsublist">
-					<li><a href="6-2.html#triads">6.2.1 Triads</a></li>
-					<li><a href="6-2.html#diatonic-chords">6.2.2 Diatonic Chords</a></li>
-					<li><a href="6-2.html#chord-function">6.2.3 Chord Function</a></li>
-				</ul>
-				<li><a href="6-3.html">6.3 Classical Chord Types</a></li>
-				<ul class="table-of-contents-subsublist">
-					<li><a href="6-3.html#major-minor-triads">6.3.1 Major and Minor Triads</a></li>
-					<li><a href="6-3.html#dominant-sevenths">6.3.2 Dominant Sevenths</a></li>
-					<li><a href="6-3.html#non-dominant-sevenths">6.3.3 Non-Dominant Sevenths</a></li>
-					<li><a href="6-3.html#diminished-chords">6.3.4 Diminished Chords</a></li>
-					<li><a href="6-3.html#augmented-chords">6.3.5 Augmented Chords</a></li>
-					<li><a href="6-3.html#augmented-sixth-chords">6.3.6 Augmented Sixth Chords</a></li>
-				</ul>
-				<li><a href="6-4.html">6.4 Popular Chord Types</a></li>
-				<ul class="table-of-contents-subsublist">
-					<li><a href="6-4.html#triad-varieties">6.4.1 Triad Varieties</a></li>
-					<li><a href="6-4.html#seventh-chords">6.4.2 Seventh Chords</a></li>
-					<li><a href="6-4.html#sixth-chords">6.4.3 Sixth Chords</a></li>
-					<li><a href="6-4.html#chord-extensions">6.4.4 Chord Extensions</a></li>
-					<li><a href="6-4.html#the-9">6.4.5 The 9</a></li>
-					<li><a href="6-4.html#the-b9">6.4.6 The b9</a></li>
-					<li><a href="6-4.html#the-s9">6.4.7 The #9/b10</a></li>
-					<li><a href="6-4.html#the-11">6.4.8 The 11</a></li>
-					<li><a href="6-4.html#the-s11">6.4.9 The #11/b5</a></li>
-					<li><a href="6-4.html#the-b13">6.4.10 The b13/#5</a></li>
-					<li><a href="6-4.html#the-13">6.4.11 The 13</a></li>
-				</ul>
-				<li><a href="6-5.html">6.5 Jazz Chords</a></li>
-				<ul class="table-of-contents-subsublist">
-					<li><a href="6-5.html#major-scale-harmony">6.5.1 Major Scale Harmony</a></li>
-					<li><a href="6-5.html#melodic-minor-scale-harmony">6.5.2 Melodic Minor Scale Harmony</a></li>
-					<li><a href="6-5.html#symmetric-scale-harmony">6.5.3 Symmetric Scale Harmony</a></li>
-				</ul>
-				<li><a href="6-6.html">6.6 Other Chords</a></li>
-				<li><a href="6-7.html">6.7 Summary</a></li>
-			</ul>
-			<a href="../index.html">Up</a>: Table of Contents<br />
-			<a href="5.html">Previous</a>: Chapter 5: Ear Training<br />
-			<a href="7.html">Next</a>: Chapter 7: Modes and Scales
-		</div></div>
-	</body>
-</html>
+require('../book.php');
+$label = 'chords';
+
+createPageHeader($label);
+
+?>
+
+<p class="text">And finally, CHORDS!</p>
+<h4 class="question">Took you long enough.</h4>
+<p class="text">Oh, shut up.  In this chapter, we'll talk about chords and harmony.</p>
+<h4 class="question">What's the difference?</h4>
+<p class="text">Aha!</p>
+<ul class="table-of-contents-sublist">
+	<li><a href="6-1.html">6.1 Chords and Harmony</a></li>
+	<li><a href="6-2.html">6.2 Basic Chord Concepts</a></li>
+	<ul class="table-of-contents-subsublist">
+		<li><a href="6-2.html#triads">6.2.1 Triads</a></li>
+		<li><a href="6-2.html#diatonic-chords">6.2.2 Diatonic Chords</a></li>
+		<li><a href="6-2.html#chord-function">6.2.3 Chord Function</a></li>
+	</ul>
+	<li><a href="6-3.html">6.3 Classical Chord Types</a></li>
+	<ul class="table-of-contents-subsublist">
+		<li><a href="6-3.html#major-minor-triads">6.3.1 Major and Minor Triads</a></li>
+		<li><a href="6-3.html#dominant-sevenths">6.3.2 Dominant Sevenths</a></li>
+		<li><a href="6-3.html#non-dominant-sevenths">6.3.3 Non-Dominant Sevenths</a></li>
+		<li><a href="6-3.html#diminished-chords">6.3.4 Diminished Chords</a></li>
+		<li><a href="6-3.html#augmented-chords">6.3.5 Augmented Chords</a></li>
+		<li><a href="6-3.html#augmented-sixth-chords">6.3.6 Augmented Sixth Chords</a></li>
+	</ul>
+	<li><a href="6-4.html">6.4 Popular Chord Types</a></li>
+	<ul class="table-of-contents-subsublist">
+		<li><a href="6-4.html#triad-varieties">6.4.1 Triad Varieties</a></li>
+		<li><a href="6-4.html#seventh-chords">6.4.2 Seventh Chords</a></li>
+		<li><a href="6-4.html#sixth-chords">6.4.3 Sixth Chords</a></li>
+		<li><a href="6-4.html#chord-extensions">6.4.4 Chord Extensions</a></li>
+		<li><a href="6-4.html#the-9">6.4.5 The 9</a></li>
+		<li><a href="6-4.html#the-b9">6.4.6 The b9</a></li>
+		<li><a href="6-4.html#the-s9">6.4.7 The #9/b10</a></li>
+		<li><a href="6-4.html#the-11">6.4.8 The 11</a></li>
+		<li><a href="6-4.html#the-s11">6.4.9 The #11/b5</a></li>
+		<li><a href="6-4.html#the-b13">6.4.10 The b13/#5</a></li>
+		<li><a href="6-4.html#the-13">6.4.11 The 13</a></li>
+	</ul>
+	<li><a href="6-5.html">6.5 Jazz Chords</a></li>
+	<ul class="table-of-contents-subsublist">
+		<li><a href="6-5.html#major-scale-harmony">6.5.1 Major Scale Harmony</a></li>
+		<li><a href="6-5.html#melodic-minor-scale-harmony">6.5.2 Melodic Minor Scale Harmony</a></li>
+		<li><a href="6-5.html#symmetric-scale-harmony">6.5.3 Symmetric Scale Harmony</a></li>
+	</ul>
+	<li><a href="6-6.html">6.6 Other Chords</a></li>
+	<li><a href="6-7.html">6.7 Summary</a></li>
+</ul>
+
+<?php
+
+createPageFooter($label);
+
+?>

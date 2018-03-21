@@ -1,47 +1,36 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
-		<meta name="keywords" content="music theory, sightsinging" />
-		<title>Section 1.5: Counting Rhythms - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />
-		<script src="../lib/audioplayer.js"></script>
-		<script src="../lib/globals.js"></script>
-		<script src="../lib/notes.js"></script>
-		<script src="../lib/tone.js"></script>
-		<script src="../lib/metronome.js"></script>
-		<script src="../lib/chapters/1-5.js"></script>
-	</head>
-	<body>
-		<div class="outer-container"><div class="inner-container">
-			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a> — <a href="1.html">Chapter 1: The Basics</a></h3>
-			<h2 class="section-title" id="counting-rhythms">1.5 Counting Rhythms</h2>
-			<p class="text">In the next chapter we'll talk about time signatures.  For now, everything will be in 4/4, which is also known as <em>Common Time</em>.  If you recall, the top number is the number of beats in the measure, and the bottom number is the note that represents a single beat.  In this case, the 4 on the bottom means that each beat is a quarter note, and the 4 on the top means that each measure has the equivalent of 4 quarter notes.</p>
-			<p class="text">To count a rhythm, all you have to do is say the name of the beat that each note starts on!  The catch is, you have to do it in time.  The main beats are just 1, 2, 3, 4; the eighth note in the middle is "and" (usually written +) and the 16th notes between those are e (said as in the letter E) and a (like you'd say "uh").  So, a bunch of 16th notes in a row might be something like one-ee-and-uh-two-ee-and-uh, etc., written 1 e + a 2 e + a.  Here's an example:</p>
-			<img class="example" src="../png/1/16.png" title="I only learned my numbers up to 4.  Don't tell my parents." alt="Example 1.16" width="800"/>
-			<div class="vspace"></div>
-			<audio class="example" controls="controls" preload="none" src="../mp3/Counting Rhythms.mp3"></audio>
-			<p class="caption">Example 1.16</p>
-			<p class="text">Meh, I don't think I sounded very good.  Oh well.  Definitely running out of air in that whole note in the second measure.  You can probably do better than me!</p>
-			<h4 class="question">How would I count 32nd notes, or triplets, or whatever else?</h4>
-			<p class="text">Some people do 1 and a 2 for triplets, which has the same syllables as an eighth and two 16ths so some people don't like it.  Some people do 1 la li 2, which I find... unconvincing.  But it's up to you.  Of course, if you're reading 32nd notes, you shouldn't need to do this kind of counting at all.  It's helpful for beginners, but you grow out of counting things this way quickly enough.  However, it's actually a pretty nice way to get used to rhythms.  I recommend that you try it now.  Put on a metronome to a comfortable tempo (I think 80 BPM is pretty comfortable, but you're welcome to go higher or lower) and try these measures (one at a time, if you want) until you get them right:</p>
-			<div class="metronome" id="metronome2"></div>
-			<p class="caption"><a href="../applets/metronome.html" target="_blank">(open in new tab)</a></p>
-			<img class="example" src="../png/1/17.png" title="O NOES!  HW!" alt="Example 1.17" width="800"/>
-			<p class="caption">Example 1.17</p>
-			<h4 class="question">That was actually pretty hard!</h4>
-			<p class="text">Hah, yeah!  I can read these rhythms pretty easily, but I'm <em>so</em> not used to counting this way!  Did you ever notice that you were going faster or slower than the metronome?  If not, try setting the metronome even slower and see how that feels.</p>
-			<h4 class="question">I actually didn't notice the first time, but I tried it again and, yeah, on the 16th notes I do sometimes tend to get ahead of the metronome.</h4>
-			<p class="text">When you go slower than the rest of the ensemble (which in this case is just you and the metronome), you're <em>dragging</em>.  If you go faster, you're <em>rushing</em>.  Fast notes tend to rush in slow tempos and drag in fast tempos.  Staccato quarter notes, on the other hand, will always rush no matter what.  As music director, it's important for me to know these things!  Generally, difficult passages will drag because you're too focused on getting all the details to be able to do it in time.  If the music gets really exciting, you also tend to rush because you just get so excited.  In real life, there isn't usually a metronome keeping time, and instead, everyone is playing together and listening to each other.  So if you start to go faster than everyone else, other people will start following you, and soon enough the whole group will be racing like the Stig's musician cousin!  (Some say...)  It's especially important to pay attention to the small notes.  I had one director tell me that small notes are like babies; they need more attention, not less.  So if you fumble your 16th notes, you are KILLING BABIES.  Do you want THAT on your conscience?</p>
-			<p class="text">The way to properly keep from dragging or rushing is to internalize the beat and <em>subdivide</em>.  When you put on the metronome, you should be thinking "1 and 2 and 3 and 4 and 1 and 2 and 3 and 4 and..." <em>constantly</em> (at least if the tempo is slow enough to allow it; otherwise you'll just be slowing down).  Keeping time requires thought and precision and constant effort; if you manage to stay in time, you should feel proud of your hard work, because it should actually be hard work.  In music, it is always better to be early than to be on time... to rehearsal.  When you're actually playing music, you need to be on time, precisely.  Being early is like eating a cracker that's gotten soggy, and being late is like eating one that's gone stale.  When you practice counting these rhythms, slow down the tempo a bit and focus on precision.  You don't even have to bother with the numbers and syllables; you can just speak them all on "da" or whatever.</p>
-			<h4 class="question">I actually spoke these rhythms <em>really</em> badly the first time, but I got better after doing them a few times.  How can I get them right the first time so that it doesn't take so long?</h4>
-			<p class="text">Aha, sightreading.  Let's talk about that.</p>
-			<a href="1.html">Up</a>: Chapter 1: The Basics<br />
-			<a href="1-4.html">Previous</a>: 1.4 Rhythm Notation<br />
-			<a href="1-6.html">Next</a>: 1.6 Singing
-		</div></div>
-	</body>
-</html>
+require('../book.php');
+$label = 'counting rhythms';
+
+createPageHeader($label);
+
+?>
+
+<p class="text">In the next chapter we'll talk about time signatures.  For now, everything will be in 4/4, which is also known as <em>Common Time</em>.  If you recall, the top number is the number of beats in the measure, and the bottom number is the note that represents a single beat.  In this case, the 4 on the bottom means that each beat is a quarter note, and the 4 on the top means that each measure has the equivalent of 4 quarter notes.</p>
+<p class="text">To count a rhythm, all you have to do is say the name of the beat that each note starts on!  The catch is, you have to do it in time.  The main beats are just 1, 2, 3, 4; the eighth note in the middle is "and" (usually written +) and the 16th notes between those are e (said as in the letter E) and a (like you'd say "uh").  So, a bunch of 16th notes in a row might be something like one-ee-and-uh-two-ee-and-uh, etc., written 1 e + a 2 e + a.  Here's an example:</p>
+<img class="example" src="../png/1/16.png" title="I only learned my numbers up to 4.  Don't tell my parents." alt="Example 1.16" width="800"/>
+<div class="vspace"></div>
+<audio class="example" controls="controls" preload="none" src="../mp3/Counting Rhythms.mp3"></audio>
+<p class="caption">Example 1.16</p>
+<p class="text">Meh, I don't think I sounded very good.  Oh well.  Definitely running out of air in that whole note in the second measure.  You can probably do better than me!</p>
+<h4 class="question">How would I count 32nd notes, or triplets, or whatever else?</h4>
+<p class="text">Some people do 1 and a 2 for triplets, which has the same syllables as an eighth and two 16ths so some people don't like it.  Some people do 1 la li 2, which I find... unconvincing.  But it's up to you.  Of course, if you're reading 32nd notes, you shouldn't need to do this kind of counting at all.  It's helpful for beginners, but you grow out of counting things this way quickly enough.  However, it's actually a pretty nice way to get used to rhythms.  I recommend that you try it now.  Put on a metronome to a comfortable tempo (I think 80 BPM is pretty comfortable, but you're welcome to go higher or lower) and try these measures (one at a time, if you want) until you get them right:</p>
+<div class="metronome" id="metronome2"></div>
+<p class="caption"><a href="../applets/metronome.html" target="_blank">(open in new tab)</a></p>
+<img class="example" src="../png/1/17.png" title="O NOES!  HW!" alt="Example 1.17" width="800"/>
+<p class="caption">Example 1.17</p>
+<h4 class="question">That was actually pretty hard!</h4>
+<p class="text">Hah, yeah!  I can read these rhythms pretty easily, but I'm <em>so</em> not used to counting this way!  Did you ever notice that you were going faster or slower than the metronome?  If not, try setting the metronome even slower and see how that feels.</p>
+<h4 class="question">I actually didn't notice the first time, but I tried it again and, yeah, on the 16th notes I do sometimes tend to get ahead of the metronome.</h4>
+<p class="text">When you go slower than the rest of the ensemble (which in this case is just you and the metronome), you're <em>dragging</em>.  If you go faster, you're <em>rushing</em>.  Fast notes tend to rush in slow tempos and drag in fast tempos.  Staccato quarter notes, on the other hand, will always rush no matter what.  As music director, it's important for me to know these things!  Generally, difficult passages will drag because you're too focused on getting all the details to be able to do it in time.  If the music gets really exciting, you also tend to rush because you just get so excited.  In real life, there isn't usually a metronome keeping time, and instead, everyone is playing together and listening to each other.  So if you start to go faster than everyone else, other people will start following you, and soon enough the whole group will be racing like the Stig's musician cousin!  (Some say...)  It's especially important to pay attention to the small notes.  I had one director tell me that small notes are like babies; they need more attention, not less.  So if you fumble your 16th notes, you are KILLING BABIES.  Do you want THAT on your conscience?</p>
+<p class="text">The way to properly keep from dragging or rushing is to internalize the beat and <em>subdivide</em>.  When you put on the metronome, you should be thinking "1 and 2 and 3 and 4 and 1 and 2 and 3 and 4 and..." <em>constantly</em> (at least if the tempo is slow enough to allow it; otherwise you'll just be slowing down).  Keeping time requires thought and precision and constant effort; if you manage to stay in time, you should feel proud of your hard work, because it should actually be hard work.  In music, it is always better to be early than to be on time... to rehearsal.  When you're actually playing music, you need to be on time, precisely.  Being early is like eating a cracker that's gotten soggy, and being late is like eating one that's gone stale.  When you practice counting these rhythms, slow down the tempo a bit and focus on precision.  You don't even have to bother with the numbers and syllables; you can just speak them all on "da" or whatever.</p>
+<h4 class="question">I actually spoke these rhythms <em>really</em> badly the first time, but I got better after doing them a few times.  How can I get them right the first time so that it doesn't take so long?</h4>
+<p class="text">Aha, sightreading.  Let's talk about that.</p>
+
+<?php
+
+createPageFooter($label);
+
+?>

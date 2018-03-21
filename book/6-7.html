@@ -1,27 +1,22 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
-		<meta name="keywords" content="music theory, sightsinging, chords, harmony" />
-		<title>Section 6.7: Summary - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<div class="outer-container"><div class="inner-container">
-			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a> — <a href="6.html">Chapter 6: Chords</a></h3>
-			<h2 class="section-title" id="summary">6.7 Summary</h2>
-			<h4 class="question">So what do I need to know?  (Get it?  "So what?")</h4>
-			<p class="text">Wow, you're becoming worse than me.</p>
-			<p class="text">You should understand what harmony is and what chords are.  The main thing: you should understand triads and how to build them and what they sound like.  There's major, minor, diminished, augmented.  You should understand the basics of chord function, though we'll get into that much more in later chapters.  You should understand dominant 7ths, non-dominant 7ths, diminished and half-diminished 7ths, and hopefully augmented 6th chords.  You should understand any chord symbol you come across, no matter what extensions are on it.  You should understand how to create a chord with extensions.  You should understand the basics of how jazz chords work and how they refer to scales.  You should understand that there's a lot more harmony out there just waiting for you to discover it, and most of it's actually really ugly.  That's it.</p>
-			<h4 class="question">That's it?</h4>
-			<p class="text">Well, it's actually a lot of information.  I tried to explain the how and why of each chord feature along with simply telling you what that feature is.  You don't need to internalize all that, but you should be able to think about chords and come up with those analyses yourself if you need.</p>
-			<p class="text">Speaking of analysis, along the way we looked at quite a few pieces and did some analysis on them.  I'd say that analysis is the main activity of music theory, and if you can, you should continue to analyze.  We'll definitely do that in further chapters.  Speaking of which, now we can actually go to that next chapter — let's talk modes and scales!</p>
-			<a href="6.html">Up</a>: Chapter 6: Chords<br />
-			<a href="6-6.html">Previous</a>: 6.6 Other Chords<br />
-			<a href="7.html">Next</a>: Chapter 7: Modes and Scales
-		</div></div>
-	</body>
-</html>
+require('../book.php');
+$label = 'chords summary';
+
+createPageHeader($label);
+
+?>
+
+<h4 class="question">So what do I need to know?  (Get it?  "So what?")</h4>
+<p class="text">Wow, you're becoming worse than me.</p>
+<p class="text">You should understand what harmony is and what chords are.  The main thing: you should understand triads and how to build them and what they sound like.  There's major, minor, diminished, augmented.  You should understand the basics of chord function, though we'll get into that much more in later chapters.  You should understand dominant 7ths, non-dominant 7ths, diminished and half-diminished 7ths, and hopefully augmented 6th chords.  You should understand any chord symbol you come across, no matter what extensions are on it.  You should understand how to create a chord with extensions.  You should understand the basics of how jazz chords work and how they refer to scales.  You should understand that there's a lot more harmony out there just waiting for you to discover it, and most of it's actually really ugly.  That's it.</p>
+<h4 class="question">That's it?</h4>
+<p class="text">Well, it's actually a lot of information.  I tried to explain the how and why of each chord feature along with simply telling you what that feature is.  You don't need to internalize all that, but you should be able to think about chords and come up with those analyses yourself if you need.</p>
+<p class="text">Speaking of analysis, along the way we looked at quite a few pieces and did some analysis on them.  I'd say that analysis is the main activity of music theory, and if you can, you should continue to analyze.  We'll definitely do that in further chapters.  Speaking of which, now we can actually go to that next chapter — let's talk modes and scales!</p>
+
+<?php
+
+createPageFooter($label);
+
+?>

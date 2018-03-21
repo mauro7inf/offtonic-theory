@@ -1,54 +1,43 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
-		<meta name="keywords" content="music theory, sightsinging, intervals, scale degrees" />
-		<title>Section 4.1: The Diatonic Scale - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />
-		<script src="../lib/audioplayer.js"></script>
-		<script src="../lib/globals.js"></script>
-		<script src="../lib/notes.js"></script>
-		<script src="../lib/tone.js"></script>
-		<script src="../lib/keyboardKey.js"></script>
-		<script src="../lib/keyboard.js"></script>
-		<script src="../lib/chapters/4-1.js"></script>
-	</head>
-	<body>
-		<div class="outer-container"><div class="inner-container">
-			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a> — <a href="4.html">Chapter 4: Intervals and Scale Degrees</a></h3>
-			<h2 class="section-title" id="diatonic-scale">4.1 The Diatonic Scale</h2>
-			<p class="text">Scales are... difficult to explain.  We'll spend much more time on scales and modes in later chapters, but we have to start somewhere, right?</p>
-			<h4 class="question">What <em>is</em> a scale?</h4>
-			<p class="text">A scale is a bunch of pitches in order (ascending or descending).  You don't have to play those pitches, but that's what the scale is.  For example, this is a C major scale, ascending:</p>
-			<img class="example" src="../png/4/1.png" title="C major." alt="Example 4.1" width="800"/>
-			<div class="vspace"></div>
-			<audio class="example" controls="controls" preload="none" src="../mp3/C Major Scale.mp3"></audio>
-			<p class="caption">Example 4.1</p>
-			<h4 class="question">What does "C major" mean?  What's with the whole note?  How do you play the filled-in noteheads with no stems?</h4>
-			<p class="text">Rhythm doesn't matter here; I'm just showing you the notes.  C major means that the scale is based on C, so I made that C into a whole note just to make it stand out.  This basis note is called the <em>tonic</em>.  The G is also very important; that note is called the <em>dominant</em>.  I made it a non-filed-in notehead.  The upper C is just a repetition of the lower C, so I put it in parentheses.</p>
-			<p class="text">"C major" means that the tonic is C and the <em>mode</em> is major.  There are <em>many</em> other modes, but the most important ones are major and minor (we'll talk about minor later).  The mode is basically the flavor of the scale.  This is a little hard to explain, but it will make sense in a little bit.</p>
-			<p class="text">If you're astute, you may have noticed that these notes are all... white keys on the keyboard!</p>
-			<canvas id="keyboard1" class="keyboard" height="400" width="800"></canvas>
-			<p class="caption"><a href="../applets/keyboard.html" target="_blank">(open in new tab)</a></p>
-			<div class="vspace"></div>
-			<h4 class="question">Where did the note names go?</h4>
-			<p class="text">You do not need them anymore.  You're a big &lt;child of your gender&gt; now.  I left the dot on Middle C because it's not clear from looking at the keyboard which note is Middle C, but by now you should be able to tell which note is which on the keyboard without the note names.</p>
-			<p class="text">Anyway, the C major scale is an octave of the white keys <em>starting on C</em>.</p>
-			<h4 class="question">And if I start on D instead, it's D major?</h4>
-			<p class="text">No, actually.  We'll see why soon enough!  I would tell you what it is, except that... it's complicated.  If you know your music theory, you know the answer: it's the D dorian scale.  If you <em>really</em> know your music theory, you know that there's still some missing information: it could be the hypomixolydian scale!  We'll save that discussion for when we get to modes.</p>
-			<h4 class="question">Hypomixolydian.  You're making that up.</h4>
-			<p class="text"><a href="https://en.wikipedia.org/wiki/Gregorian_mode">Am I</a>?</p>
-			<p class="text">That's actually a good place to start.  The early history of Western music, loosely speaking, is these so-called <em>Gregorian modes</em> (check the link just above).  People used these notes for their church singing (so they're also called <em>church modes</em>), and the modes were named based on which note was the <em>final</em> — the resting place of the music — and what the range was.  So, if your music went from D to D with a final on D (D E F G A B C D), that was called the dorian mode (Mode I in the Gregorian system), but if it used the same notes with the music ending on G instead of D, it was called the hypomixolydian mode (Mode VIII in their system).  Some notes might have been sung higher or lower to make sounds work better.  In the dorian mode, for example the B was often lowered a bit.  If you look at the <a href="https://en.wikipedia.org/wiki/Gregorian_mode#/media/File:The_eight_musical_modes.png">image at that link</a>, you can see that the lowest note in any mode was the A below the staff (A3, but they weren't so strict on pitch back then) in the hypodorian (Mode 2), and the highest note was the G above the staff (G5) in the mixolydian (Mode VII).  If we label these notes starting on A, we have A B C D E F G H I K L M N O.  Remember when we talked about this back in Chapter 1?  They eventually realized that the note they called H was really just an A but an octave higher, and the other letters fell out of use.</p>
-			<p class="text">Eventually we settled on the so-called major scale using those notes, which was not one of the 8 Gregorian Modes, and that starts on C.  But those notes, A B C D E F G and their like...  Together, those notes have a name...</p>
-			<p class="text">...the <em>diatonic scale</em>.</p>
-			<h4 class="question">What?  Is it the diatonic scale or the C major scale?</h4>
-			<p class="text">The C major scale is an example of a diatonic scale.  The white keys from D to C, E to D, F to E, G to F, A to G or B to A are also diatonic scales.  In fact, any scale that follows the same pattern as the white keys on the keyboard is a diatonic scale, like, for example, D major: D E F# G A B C#.</p>
-			<p class="text">So let's talk about the properties of the diatonic scale, shall we?</p>
-			<a href="4.html">Up</a>: Chapter 4: Intervals and Scale Degrees<br />
-			<a href="4-2.html">Next</a>: 4.2 Naming Intervals
-		</div></div>
-	</body>
-</html>
+require('../book.php');
+$label = 'diatonic scale';
+
+createPageHeader($label);
+
+?>
+
+<p class="text">Scales are... difficult to explain.  We'll spend much more time on scales and modes in later chapters, but we have to start somewhere, right?</p>
+<h4 class="question">What <em>is</em> a scale?</h4>
+<p class="text">A scale is a bunch of pitches in order (ascending or descending).  You don't have to play those pitches, but that's what the scale is.  For example, this is a C major scale, ascending:</p>
+<img class="example" src="../png/4/1.png" title="C major." alt="Example 4.1" width="800"/>
+<div class="vspace"></div>
+<audio class="example" controls="controls" preload="none" src="../mp3/C Major Scale.mp3"></audio>
+<p class="caption">Example 4.1</p>
+<h4 class="question">What does "C major" mean?  What's with the whole note?  How do you play the filled-in noteheads with no stems?</h4>
+<p class="text">Rhythm doesn't matter here; I'm just showing you the notes.  C major means that the scale is based on C, so I made that C into a whole note just to make it stand out.  This basis note is called the <em>tonic</em>.  The G is also very important; that note is called the <em>dominant</em>.  I made it a non-filed-in notehead.  The upper C is just a repetition of the lower C, so I put it in parentheses.</p>
+<p class="text">"C major" means that the tonic is C and the <em>mode</em> is major.  There are <em>many</em> other modes, but the most important ones are major and minor (we'll talk about minor later).  The mode is basically the flavor of the scale.  This is a little hard to explain, but it will make sense in a little bit.</p>
+<p class="text">If you're astute, you may have noticed that these notes are all... white keys on the keyboard!</p>
+<canvas id="keyboard1" class="keyboard" height="400" width="800"></canvas>
+<p class="caption"><a href="../applets/keyboard.html" target="_blank">(open in new tab)</a></p>
+<div class="vspace"></div>
+<h4 class="question">Where did the note names go?</h4>
+<p class="text">You do not need them anymore.  You're a big &lt;child of your gender&gt; now.  I left the dot on Middle C because it's not clear from looking at the keyboard which note is Middle C, but by now you should be able to tell which note is which on the keyboard without the note names.</p>
+<p class="text">Anyway, the C major scale is an octave of the white keys <em>starting on C</em>.</p>
+<h4 class="question">And if I start on D instead, it's D major?</h4>
+<p class="text">No, actually.  We'll see why soon enough!  I would tell you what it is, except that... it's complicated.  If you know your music theory, you know the answer: it's the D dorian scale.  If you <em>really</em> know your music theory, you know that there's still some missing information: it could be the hypomixolydian scale!  We'll save that discussion for when we get to modes.</p>
+<h4 class="question">Hypomixolydian.  You're making that up.</h4>
+<p class="text"><a href="https://en.wikipedia.org/wiki/Gregorian_mode">Am I</a>?</p>
+<p class="text">That's actually a good place to start.  The early history of Western music, loosely speaking, is these so-called <em>Gregorian modes</em> (check the link just above).  People used these notes for their church singing (so they're also called <em>church modes</em>), and the modes were named based on which note was the <em>final</em> — the resting place of the music — and what the range was.  So, if your music went from D to D with a final on D (D E F G A B C D), that was called the dorian mode (Mode I in the Gregorian system), but if it used the same notes with the music ending on G instead of D, it was called the hypomixolydian mode (Mode VIII in their system).  Some notes might have been sung higher or lower to make sounds work better.  In the dorian mode, for example the B was often lowered a bit.  If you look at the <a href="https://en.wikipedia.org/wiki/Gregorian_mode#/media/File:The_eight_musical_modes.png">image at that link</a>, you can see that the lowest note in any mode was the A below the staff (A3, but they weren't so strict on pitch back then) in the hypodorian (Mode 2), and the highest note was the G above the staff (G5) in the mixolydian (Mode VII).  If we label these notes starting on A, we have A B C D E F G H I K L M N O.  Remember when we talked about this back in Chapter 1?  They eventually realized that the note they called H was really just an A but an octave higher, and the other letters fell out of use.</p>
+<p class="text">Eventually we settled on the so-called major scale using those notes, which was not one of the 8 Gregorian Modes, and that starts on C.  But those notes, A B C D E F G and their like...  Together, those notes have a name...</p>
+<p class="text">...the <em>diatonic scale</em>.</p>
+<h4 class="question">What?  Is it the diatonic scale or the C major scale?</h4>
+<p class="text">The C major scale is an example of a diatonic scale.  The white keys from D to C, E to D, F to E, G to F, A to G or B to A are also diatonic scales.  In fact, any scale that follows the same pattern as the white keys on the keyboard is a diatonic scale, like, for example, D major: D E F# G A B C#.</p>
+<p class="text">So let's talk about the properties of the diatonic scale, shall we?</p>
+
+<?php
+
+createPageFooter($label);
+
+?>

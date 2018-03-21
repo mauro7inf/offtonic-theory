@@ -1,34 +1,29 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
-		<meta name="keywords" content="music theory, sightsinging, notation" />
-		<title>Chapter 3: Notation - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<div class="outer-container"><div class="inner-container">
-			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a></h3>
-			<h1 class="chapter-title">Chapter 3: Notation</h1>
-			<p class="text">In this chapter we'll get deeper into notation.</p>
-			<h4 class="question">But what, there's more?</h4>
-			<p class="text">Not a lot more, actually.  Now that you know how to read notes and rhythms, the rest is just details.  Let's start with how soft or loud you get to play:</p>
-			<ul class="table-of-contents-sublist">
-				<li><a href="3-1.html">3.1 Dynamics</a></li>
-				<li><a href="3-2.html">3.2 Control Structures</a></li>
-				<li><a href="3-3.html">3.3 Articulations</a></li>
-				<li><a href="3-4.html">3.4 Ornaments</a></li>
-				<li><a href="3-5.html">3.5 Tempos and Style</a></li>
-				<li><a href="3-6.html">3.6 Part Assignments</a></li>
-				<li><a href="3-7.html">3.7 Stopping Time</a></li>
-				<li><a href="3-8.html">3.8 Summary</a></li>
-			</ul>
-			<a href="../index.html">Up</a>: Table of Contents<br />
-			<a href="2.html">Previous</a>: Chapter 2: Rhythm<br />
-			<a href="4.html">Next</a>: Chapter 4: Intervals and Scale Degrees
-		</div></div>
-	</body>
-</html>
+require('../book.php');
+$label = 'notation';
+
+createPageHeader($label);
+
+?>
+
+<p class="text">In this chapter we'll get deeper into notation.</p>
+<h4 class="question">But what, there's more?</h4>
+<p class="text">Not a lot more, actually.  Now that you know how to read notes and rhythms, the rest is just details.  Let's start with how soft or loud you get to play:</p>
+<ul class="table-of-contents-sublist">
+	<li><a href="3-1.html">3.1 Dynamics</a></li>
+	<li><a href="3-2.html">3.2 Control Structures</a></li>
+	<li><a href="3-3.html">3.3 Articulations</a></li>
+	<li><a href="3-4.html">3.4 Ornaments</a></li>
+	<li><a href="3-5.html">3.5 Tempos and Style</a></li>
+	<li><a href="3-6.html">3.6 Part Assignments</a></li>
+	<li><a href="3-7.html">3.7 Stopping Time</a></li>
+	<li><a href="3-8.html">3.8 Summary</a></li>
+</ul>
+
+<?php
+
+createPageFooter($label);
+
+?>

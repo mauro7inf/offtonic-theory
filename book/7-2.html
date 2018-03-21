@@ -1,34 +1,22 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
-		<meta name="keywords" content="music theory, sightsinging, scales, modes" />
-		<title>Section 7.2: The Offtonic Scale Keyboard - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />
-		<script src="../lib/globals.js"></script>
-		<script src="../lib/notes.js"></script>
-		<script src="../lib/audioplayer.js"></script>
-		<script src="../lib/tone.js"></script>
-		<script src="../lib/keyboardKey.js"></script>
-		<script src="../lib/ScaleKeyboard.js"></script>
-		<script src="../lib/chapters/7-2.js"></script>
-	</head>
-	<body>
-		<div class="outer-container"><div class="inner-container">
-			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a> — <a href="7.html">Chapter 7: Modes and Scales</a></h3>
-			<h2 class="section-title" id="scale-keyboard">7.2 The Offtonic Scale Keyboard</h2>
-			<div id="keyboard1" class="keyboard"></div>
-			<p class="caption"><a href="../applets/scalekeyboard.html" target="_blank">(open in new tab)</a></p>
-			<div class="vspace"></div>
-			<p class="text">Over on the top right, there are drop-down menus for the scale and the root of the scale.  If you want to play around in F mixolydian, for example, you can choose Mixolydian from the upper menu and F from the lower.  You'll have to click on the player itself to turn it on and it will turn darker gray, much like the Offtonic Keyboard.  The colored circles give you an idea of how far apart the notes actually are.  Try to see what you can play on this!</p>
-			<h4 class="question">Some of the scales have d's and t's; what's up with that?</h4>
-			<p class="text">The t's are half-sharps and the d's are half-flats.  I really don't have a better way of representing them in text.  We'll soon get to some modes that use them, and it will be awesome.  Let's start simple, though:</p>
-			<a href="7.html">Up</a>: Chapter 7: Modes and Scales<br />
-			<a href="7-1.html">Previous</a>: 7.1 Definitions<br />
-			<a href="7-3.html">Next</a>: 7.3 The Principal Modes
-		</div></div>
-	</body>
-</html>
+require('../book.php');
+$label = 'modes keyboard';
+
+createPageHeader($label);
+
+?>
+
+<div id="keyboard1" class="keyboard"></div>
+<p class="caption"><a href="../applets/scalekeyboard.html" target="_blank">(open in new tab)</a></p>
+<div class="vspace"></div>
+<p class="text">Over on the top right, there are drop-down menus for the scale and the root of the scale.  If you want to play around in F mixolydian, for example, you can choose Mixolydian from the upper menu and F from the lower.  You'll have to click on the player itself to turn it on and it will turn darker gray, much like the Offtonic Keyboard.  The colored circles give you an idea of how far apart the notes actually are.  Try to see what you can play on this!</p>
+<h4 class="question">Some of the scales have d's and t's; what's up with that?</h4>
+<p class="text">The t's are half-sharps and the d's are half-flats.  I really don't have a better way of representing them in text.  We'll soon get to some modes that use them, and it will be awesome.  Let's start simple, though:</p>
+
+<?php
+
+createPageFooter($label);
+
+?>

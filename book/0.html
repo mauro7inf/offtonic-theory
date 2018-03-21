@@ -1,36 +1,31 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
-		<meta name="keywords" content="music theory, sightsinging" />
-		<title>Chapter 0: Rules of Music - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<div class="outer-container"><div class="inner-container">
-			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a></h3>
-			<h1 class="chapter-title">Chapter 0: Rules of Music</h1>
-			<p class="text">There are no rules of music.  You can do literally anything you want.</p>
-			<h4 class="question">But wait, can I d—</h4>
-			<p class="text">Yes.</p>
-			<h4 class="question">...Will it sound good?</h4>
-			<p class="text">Maybe?  Maybe not.</p>
-			<h4 class="question">What if it breaks the rules of music?</h4>
-			<p class="text">There are no rules of music.  You can do literally anything you want.</p>
-			<h4 class="question">YOU JUST SAID THAT!</h4>
-			<p class="text">Yep.</p>
-			<h4 class="question">So... I can't play a wrong note?</h4>
-			<p class="text">Sure you can.  I mean, if I want you to play one note and you play a different one, I think you're wrong, but maybe you think I'm wrong.  Creative differences.  You can also play a note that you think is wrong by accident.  You can write a chord that you think doesn't sound the way you want it to sound, and that's a wrong chord.  But maybe you can decide that you actually do want it to sound like that, and now it's the right chord.  There are no rules of music, but that doesn't mean that there are no bad choices.  We just don't have to agree on whether a choice is good or bad.  Music theory doesn't judge you.</p>
-			<p class="text">That said, if you're trying to sound like Bach and you use a musical device that Bach would not have used, yeah, that's wrong.  But that doesn't mean that your music is wrong.  Your music <em>can't</em> be wrong; it's your music.  It just doesn't meet the external restriction of sounding like Bach.</p>
-			<h4 class="question">This book won't tell me to do anything then?</h4>
-			<p class="text">Well...  There will be "rules".  Not real rules, though, more like guidelines.  These guidelines show you how to write music that sounds "good", where "good" means whatever you want, but you can <em>always</em> choose not to follow these guidelines if you think your music will sound better that way.</p>
-			<p class="text">There are no rules of music.  You can do literally anything you want.</p>
-			<a href="../index.html">Up</a>: Table of Contents<br />
-			<a href="intro.html">Previous</a>: Introduction<br />
-			<a href="1.html">Next</a>: Chapter 1: The Basics
-		</div></div>
-	</body>
-</html>
+require('../book.php');
+$label = 'zero';
+
+createPageHeader($label);
+
+?>
+
+<p class="text">There are no rules of music.  You can do literally anything you want.</p>
+<h4 class="question">But wait, can I d—</h4>
+<p class="text">Yes.</p>
+<h4 class="question">...Will it sound good?</h4>
+<p class="text">Maybe?  Maybe not.</p>
+<h4 class="question">What if it breaks the rules of music?</h4>
+<p class="text">There are no rules of music.  You can do literally anything you want.</p>
+<h4 class="question">YOU JUST SAID THAT!</h4>
+<p class="text">Yep.</p>
+<h4 class="question">So... I can't play a wrong note?</h4>
+<p class="text">Sure you can.  I mean, if I want you to play one note and you play a different one, I think you're wrong, but maybe you think I'm wrong.  Creative differences.  You can also play a note that you think is wrong by accident.  You can write a chord that you think doesn't sound the way you want it to sound, and that's a wrong chord.  But maybe you can decide that you actually do want it to sound like that, and now it's the right chord.  There are no rules of music, but that doesn't mean that there are no bad choices.  We just don't have to agree on whether a choice is good or bad.  Music theory doesn't judge you.</p>
+<p class="text">That said, if you're trying to sound like Bach and you use a musical device that Bach would not have used, yeah, that's wrong.  But that doesn't mean that your music is wrong.  Your music <em>can't</em> be wrong; it's your music.  It just doesn't meet the external restriction of sounding like Bach.</p>
+<h4 class="question">This book won't tell me to do anything then?</h4>
+<p class="text">Well...  There will be "rules".  Not real rules, though, more like guidelines.  These guidelines show you how to write music that sounds "good", where "good" means whatever you want, but you can <em>always</em> choose not to follow these guidelines if you think your music will sound better that way.</p>
+<p class="text">There are no rules of music.  You can do literally anything you want.</p>
+
+<?php
+
+createPageFooter($label);
+
+?>

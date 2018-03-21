@@ -1,31 +1,26 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
-		<meta name="keywords" content="music theory, sightsinging, scales, modes" />
-		<title>Section 7.12: Summary - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<div class="outer-container"><div class="inner-container">
-			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a> — <a href="7.html">Chapter 7: Modes and Scales</a></h3>
-			<h2 class="section-title" id="summary">7.12 Summary</h2>
-			<h4 class="question">HOLY SHIT.  I thought it would never end!</h4>
-			<p class="text">Well, it's about to!</p>
-			<h4 class="question">So what should I know?  Don't say "literally everything" or I will kill you where you sit.</h4>
-			<p class="text">No, not literally everything.  Actually, what you should know is mostly how to think about scales.  You should understand the difference between scales and modes, you should definitely understand how the major and minor scales work (including the melodic and harmonic aspects of minor versus aeolian), you should know the diatonic modes and understand how they're different from major and minor, and you should know the damn difference between the modern diatonic modes and the modes of Gregorian chant.  Too many people don't know that.</p>
-			<p class="text">You should also have some passing familiarity with all of the other modes and scales we talked about.  You should definitely know the major and minor pentatonic scales, the blues scale, the fact that you <em>can</em> make modes out of the melodic minor scale, etc.  You should understand that you can make up new scales.  You don't need to have memorized all of the maqamat, but you should understand how to break up a melody into ajnas, whether you're listening to maqam music or any other genre.  You should understand the difference between plagal and authentic, and between modal and tonal and atonal.  You should know how to find chords inside a scale and that you can just use chords outside the scale.  And you should be able to think of chords as scales.</p>
-			<h4 class="question">Huh, that's a reasonable summary.</h4>
-			<p class="text">But wait, there's more!</p>
-			<h4 class="question">God fucking damn it.</h4>
-			<p class="text">You should be able to sing pretty much all of the examples in this chapter, and maybe even the ones with quarter tones.  And you should understand a bit more about how tuning works, too, but the singing part is key.  I deliberately didn't include audio examples for most of the songs here, though I did link to YouTube videos, so that you could try them for yourself.  I hope you've been doing that, because you won't progress in music theory if you aren't training your ear by reading actual music.  Ear training exercises are pretty much worthless, but reading music is invaluable.  Every time I learn a new scale, I try singing it to myself, not necessarily out loud.  By doing that I've even been able to kind of get a feel for where the notes are, so even though I don't have perfect pitch, if I see a scale that starts on D, I'll sing it higher than if I see a scale that starts on C.  I may be a bit off, but that doesn't matter, right?  Understanding melody and modes requires that you be able to sing the melodies, even if just to yourself, instead of just looking at them.</p>
-			<p class="text">And now we're <em>actually</em> done with the chapter.  Next chapter we'll talk about some of the ancillary aspects of composition before moving on to the nitty-gritty of harmonic analysis.</p>
-			<a href="7.html">Up</a>: Chapter 7: Modes and Scales<br />
-			<a href="7-11.html">Previous</a>: 7.11 Using Scales and Modes<br />
-			<a href="8.html">Next</a>: Chapter 8: Composition
-		</div></div>
-	</body>
-</html>
+require('../book.php');
+$label = 'modes summary';
+
+createPageHeader($label);
+
+?>
+
+<h4 class="question">HOLY SHIT.  I thought it would never end!</h4>
+<p class="text">Well, it's about to!</p>
+<h4 class="question">So what should I know?  Don't say "literally everything" or I will kill you where you sit.</h4>
+<p class="text">No, not literally everything.  Actually, what you should know is mostly how to think about scales.  You should understand the difference between scales and modes, you should definitely understand how the major and minor scales work (including the melodic and harmonic aspects of minor versus aeolian), you should know the diatonic modes and understand how they're different from major and minor, and you should know the damn difference between the modern diatonic modes and the modes of Gregorian chant.  Too many people don't know that.</p>
+<p class="text">You should also have some passing familiarity with all of the other modes and scales we talked about.  You should definitely know the major and minor pentatonic scales, the blues scale, the fact that you <em>can</em> make modes out of the melodic minor scale, etc.  You should understand that you can make up new scales.  You don't need to have memorized all of the maqamat, but you should understand how to break up a melody into ajnas, whether you're listening to maqam music or any other genre.  You should understand the difference between plagal and authentic, and between modal and tonal and atonal.  You should know how to find chords inside a scale and that you can just use chords outside the scale.  And you should be able to think of chords as scales.</p>
+<h4 class="question">Huh, that's a reasonable summary.</h4>
+<p class="text">But wait, there's more!</p>
+<h4 class="question">God fucking damn it.</h4>
+<p class="text">You should be able to sing pretty much all of the examples in this chapter, and maybe even the ones with quarter tones.  And you should understand a bit more about how tuning works, too, but the singing part is key.  I deliberately didn't include audio examples for most of the songs here, though I did link to YouTube videos, so that you could try them for yourself.  I hope you've been doing that, because you won't progress in music theory if you aren't training your ear by reading actual music.  Ear training exercises are pretty much worthless, but reading music is invaluable.  Every time I learn a new scale, I try singing it to myself, not necessarily out loud.  By doing that I've even been able to kind of get a feel for where the notes are, so even though I don't have perfect pitch, if I see a scale that starts on D, I'll sing it higher than if I see a scale that starts on C.  I may be a bit off, but that doesn't matter, right?  Understanding melody and modes requires that you be able to sing the melodies, even if just to yourself, instead of just looking at them.</p>
+<p class="text">And now we're <em>actually</em> done with the chapter.  Next chapter we'll talk about some of the ancillary aspects of composition before moving on to the nitty-gritty of harmonic analysis.</p>
+
+<?php
+
+createPageFooter($label);
+
+?>

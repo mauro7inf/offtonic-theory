@@ -1,0 +1,411 @@
+{
+	"label": "contents",
+	"url": "index.html",
+	"title": "Offtonic Theory",
+	"bread": "OFFTONIC THEORY",
+	"directionTitle": "Table of Contents",
+	"keywords": "music theory, sightsinging, composition",
+	"subsections": [
+		{
+			"title": "Preface",
+			"subsections": [
+				{
+					"label": "intro",
+					"url": "book/intro.html",
+					"title": "Introduction"
+				},
+				{
+					"label": "zero",
+					"number": "0",
+					"url": "book/0.html",
+					"title": "Rules of Music"
+				}
+			]
+		},
+		{
+			"title": "Part I: Preliminaries",
+			"subsections": [
+				{
+					"label": "basics",
+					"number": "1",
+					"url": "book/1.html",
+					"title": "The Basics",
+					"keywords": "music notation",
+					"subsections": [
+						{
+							"label": "sheet music",
+							"number": "1",
+							"url": "book/1-1.html",
+							"title": "Sheet Music"
+						},
+						{
+							"label": "notes keyboard",
+							"number": "2",
+							"url": "book/1-2.html",
+							"title": "Notes on the Keyboard",
+							"js": ["audioplayer.js", "globals.js", "notes.js", "tone.js", "keyboardKey.js", "keyboard.js", "chapters/1-2.js"]
+						},
+						{
+							"label": "pitch notation",
+							"number": "3",
+							"url": "book/1-3.html",
+							"title": "Pitch Notation"
+						},
+						{
+							"label": "rhythm notation",
+							"number": "4",
+							"url": "book/1-4.html",
+							"title": "Rhythm Notation",
+							"js": ["audioplayer.js", "globals.js", "notes.js", "tone.js", "metronome.js", "chapters/1-4.js"]
+						},
+						{
+							"label": "counting rhythms",
+							"number": "5",
+							"url": "book/1-5.html",
+							"title": "Counting Rhythms",
+							"js": ["audioplayer.js", "globals.js", "notes.js", "tone.js", "metronome.js", "chapters/1-5.js"]
+						},
+						{
+							"label": "basics singing",
+							"number": "6",
+							"url": "book/1-6.html",
+							"title": "Singing"
+						},
+						{
+							"label": "basics summary",
+							"number": "7",
+							"url": "book/1-7.html",
+							"title": "Summary"
+						}
+					]
+				},
+				{
+					"label": "rhythm",
+					"number": "2",
+					"url": "book/2.html",
+					"title": "Rhythm",
+					"keywords": "rhythm",
+					"subsections": [
+						{
+							"label": "meter time",
+							"number": "1",
+							"url": "book/2-1.html",
+							"title": "Meter and Time Signatures"
+						},
+						{
+							"label": "rhythm tuplets",
+							"number": "2",
+							"url": "book/2-2.html",
+							"title": "Tuplets",
+							"js": ["globals.js", "notes.js", "audioplayer.js", "tone.js", "hemiola.js", "chapters/2-2.js"]
+						},
+						{
+							"label": "notating rhythms",
+							"number": "3",
+							"url": "book/2-3.html",
+							"title": "Notating Rhythms"
+						},
+						{
+							"label": "metric modulation",
+							"number": "4",
+							"url": "book/2-4.html",
+							"title": "Metric Modulation"
+						},
+						{
+							"label": "rhythm swing",
+							"number": "5",
+							"url": "book/2-5.html",
+							"title": "Swing"
+						},
+						{
+							"label": "rhythm summary",
+							"number": "6",
+							"url": "book/2-6.html",
+							"title": "Summary"
+						}
+					]
+				},
+				{
+					"label": "notation",
+					"number": "3",
+					"url": "book/3.html",
+					"title": "Notation",
+					"keywords": "music notation",
+					"subsections": [
+						{
+							"label": "notation dynamics",
+							"number": "1",
+							"url": "book/3-1.html",
+							"title": "Dynamics"
+						},
+						{
+							"label": "control structures",
+							"number": "2",
+							"url": "book/3-2.html",
+							"title": "Control Structures"
+						},
+						{
+							"label": "notation articulations",
+							"number": "3",
+							"url": "book/3-3.html",
+							"title": "Articulations"
+						},
+						{
+							"label": "notation ornaments",
+							"number": "4",
+							"url": "book/3-4.html",
+							"title": "Ornaments"
+						},
+						{
+							"label": "tempos style",
+							"number": "5",
+							"url": "book/3-5.html",
+							"title": "Tempos and Style"
+						},
+						{
+							"label": "part assignments",
+							"number": "6",
+							"url": "book/3-6.html",
+							"title": "Part Assignments"
+						},
+						{
+							"label": "stopping time",
+							"number": "7",
+							"url": "book/3-7.html",
+							"title": "Stopping Time"
+						},
+						{
+							"label": "notation summary",
+							"number": "8",
+							"url": "book/3-8.html",
+							"title": "Summary"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Part II: Building Blocks",
+			"subsections": [
+				{
+					"label": "scale degrees",
+					"number": "4",
+					"url": "book/4.html",
+					"title": "Intervals and Scale Degrees",
+					"keywords": "intervals, scale degrees",
+					"subsections": [
+						{
+							"label": "diatonic scale",
+							"number": "1",
+							"url": "book/4-1.html",
+							"title": "The Diatonic Scale",
+							"js": ["audioplayer.js", "globals.js", "notes.js", "tone.js", "keyboardKey.js", "keyboard.js", "chapters/4-1.js"]
+						},
+						{
+							"label": "naming intervals",
+							"number": "2",
+							"url": "book/4-2.html",
+							"title": "Naming Intervals",
+							"js": ["globals.js", "notes.js", "intervalCalculator.js", "intervalKeyboardDiagram.js", "intervalNamer.js", "chapters/4-2.js"]
+						},
+						{
+							"label": "scales keys",
+							"number": "3",
+							"url": "book/4-3.html",
+							"title": "Scales and Keys"
+						},
+						{
+							"label": "circle fifths",
+							"number": "4",
+							"url": "book/4-4.html",
+							"title": "The Circle of Fifths",
+							"js": ["audioplayer.js", "globals.js", "notes.js", "tone.js", "keyboardKey.js", "circleKeyboard.js", "chapters/4-4.js"]
+						},
+						{
+							"label": "scale summary",
+							"number": "5",
+							"url": "book/4-5.html",
+							"title": "Summary"
+						}
+					]
+				},
+				{
+					"label": "ear training",
+					"number": "5",
+					"url": "book/5.html",
+					"title": "Ear Training",
+					"keywords": "ear training",
+					"subsections": [
+						{
+							"label": "pitch space",
+							"number": "1",
+							"url": "book/5-1.html",
+							"title": "Pitch Space",
+							"js": ["graph.js", "globals.js", "audioplayer.js", "tone.js", "tonegenerator.js", "lineorgan.js", "intervalorgan.js", "circleorgan.js", "chapters/5-1.js"]
+						},
+						{
+							"label": "sound intervals",
+							"number": "2",
+							"url": "book/5-2.html",
+							"title": "The Sound of Intervals",
+							"js": ["globals.js", "audioplayer.js", "tone.js", "intervalexplorer.js", "chapters/5-2.js"]
+						},
+						{
+							"label": "ear together",
+							"number": "3",
+							"url": "book/5-3.html",
+							"title": "Putting it All Together",
+							"js": ["globals.js", "audioplayer.js", "tone.js", "scaledegreetrainer.js", "intervaleartrainer.js", "chapters/5-3.js"]
+						},
+						{
+							"label": "ear summary",
+							"number": "4",
+							"url": "book/5-4.html",
+							"title": "Summary"
+						}
+					]
+				},
+				{
+					"label": "chords",
+					"number": "6",
+					"url": "book/6.html",
+					"title": "Chords",
+					"keywords": "chords, harmony",
+					"subsections": [
+						{
+							"label": "chords harmony",
+							"number": "1",
+							"url": "book/6-1.html",
+							"title": "Chords and Harmony"
+						},
+						{
+							"label": "basic chords",
+							"number": "2",
+							"url": "book/6-2.html",
+							"title": "Basic Chord Concepts"
+						},
+						{
+							"label": "classical chords",
+							"number": "3",
+							"url": "book/6-3.html",
+							"title": "Classical Chord Types"
+						},
+						{
+							"label": "pop chords",
+							"number": "4",
+							"url": "book/6-4.html",
+							"title": "Popular Chord Types"
+						},
+						{
+							"label": "jazz chords",
+							"number": "5",
+							"url": "book/6-5.html",
+							"title": "Jazz Chords"
+						},
+						{
+							"label": "other chords",
+							"number": "6",
+							"url": "book/6-6.html",
+							"title": "Other Chords"
+						},
+						{
+							"label": "chords summary",
+							"number": "7",
+							"url": "book/6-7.html",
+							"title": "Summary"
+						}
+					]
+				},
+				{
+					"label": "modes",
+					"number": "7",
+					"url": "book/7.html",
+					"title": "Modes and Scales",
+					"keywords": "scales, modes",
+					"subsections": [
+						{
+							"label": "modes definitions",
+							"number": "1",
+							"url": "book/7-1.html",
+							"title": "Definitions"
+						},
+						{
+							"label": "modes keyboard",
+							"number": "2",
+							"url": "book/7-2.html",
+							"title": "The Offtonic Scale Keyboard",
+							"js": ["audioplayer.js", "globals.js", "notes.js", "tone.js", "keyboardKey.js", "ScaleKeyboard.js", "chapters/7-2.js"]
+						},
+						{
+							"label": "principal modes",
+							"number": "3",
+							"url": "book/7-3.html",
+							"title": "The Principal Modes"
+						},
+						{
+							"label": "diatonic modes",
+							"number": "4",
+							"url": "book/7-4.html",
+							"title": "The Diatonic Modes"
+						},
+						{
+							"label": "pentatonic scale",
+							"number": "5",
+							"url": "book/7-5.html",
+							"title": "The Pentatonic Scale"
+						},
+						{
+							"label": "harmonic minor modes",
+							"number": "6",
+							"url": "book/7-6.html",
+							"title": "The Harmonic Minor Modes"
+						},
+						{
+							"label": "melodic minor modes",
+							"number": "7",
+							"url": "book/7-7.html",
+							"title": "The Melodic Minor Modes"
+						},
+						{
+							"label": "symmetric scales",
+							"number": "8",
+							"url": "book/7-8.html",
+							"title": "Symmetric Scales"
+						},
+						{
+							"label": "modes maqamat",
+							"number": "9",
+							"url": "book/7-9.html",
+							"title": "Maqamat",
+							"js": ["audioplayer.js", "globals.js", "notes.js", "tone.js", "combgenerator.js", "chapters/7-9.js"]
+						},
+						{
+							"label": "other modes",
+							"number": "10",
+							"url": "book/7-10.html",
+							"title": "Other Scales"
+						},
+						{
+							"label": "using modes",
+							"number": "11",
+							"url": "book/7-11.html",
+							"title": "Using Scales and Modes"
+						},
+						{
+							"label": "modes summary",
+							"number": "12",
+							"url": "book/7-12.html",
+							"title": "Summary"
+						}
+					]
+				},
+				{
+					"label": "composition",
+					"number": "8",
+					"url": "book/8.html",
+					"title": "Composition"
+				}
+			]
+		}
+	]
+}

@@ -24,6 +24,18 @@ div.inner-container {
 	padding: 16px;
 }
 
+div.directions {
+	font-size: 110%;
+}
+
+div.previous {
+	float: left;
+}
+
+div.next {
+	float: right;
+}
+
 div.clear {
 	clear: both;
 }

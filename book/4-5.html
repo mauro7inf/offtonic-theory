@@ -1,29 +1,24 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
-		<meta name="keywords" content="music theory, sightsinging, intervals, scale degrees" />
-		<title>Section 4.5: Summary - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<div class="outer-container"><div class="inner-container">
-			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a> — <a href="4.html">Chapter 4: Intervals and Scale Degrees</a></h3>
-			<h2 class="section-title" id="summary">4.5 Summary</h2>
-			<h4 class="question">There was a lot of stuff in this chapter.  What are the highlights?</h4>
-			<p class="text">You should understand intervals in major scales and be able to name any interval.  You should understand the patterns for both major and minor scales, and you should also know all the key signatures.</p>
-			<h4 class="question">Wait, wait.  You want me to memorize <em>all</em> the key signatures?</h4>
-			<p class="text">Uh, yep.  All of 'em.  Major and minor.  The reason why is simple: those key signatures actually come up, and in order to play in them, you need to know what's in them without having to look every single measure.  Indeed, if you see five sharps, you should already know that you're in B major (or G# minor) and you should know what those sharps are (F#, C#, G#, D#, A#) without actually having to look.</p>
-			<p class="text">You should also understand how scale degrees work and how to label them, both diatonic and chromatic.  And you should have some notion about how those scale degrees tend to behave in music.  This is the kind of thing that comes from listening carefully and analyzing, so your "homework", if you will, is to find other melodies (ideally ones in a genre you like) and analyze them.  How do they reuse rhythmic elements?  What do the melodic contours look like?  Where does each scale degree tend to go?  You may find that different genres have different conventions for this sort of thing.  For example, in classical music, scale degree 7 is very unstable, but in jazz, it's actually stable.</p>
-			<h4 class="question">That's a little open-ended, I think.</h4>
-			<p class="text">Yeah.  Remember Rule 0?  There's actually a corollary to Rule 0, which is that there is no particular way in which you're <em>supposed</em> to hear/analyze something.  If you have a good argument for why that 4 doesn't tend towards that 3, then so be it, that's how <em>you</em> hear it!  So because of this, music theory is always going to be open-ended.  If you're not a music theory beginner, you've probably learned about chords and harmonic (Roman numeral) analysis.  In fact, you may have <em>started</em> with that.  I'm deliberately not doing that and starting with <em>melodic</em> analysis, because I think harmonic analysis teaches the wrong lessons.  In harmonic analysis, you figure out what function each chord has, and you think you're done.  Look, you did some music theory!  But what a music-theoretical analysis is <em>actually</em> about is understanding how a piece of music works, not merely slapping labels on things.  Musical analysis is always open-ended.  What you learn from a piece of music is up to you.  You can pay attention to whatever you're interested in.  For example, one common problem composers have is that their melodies are too short or too final, so how do you fix that?  Go find music and see how other composers handle their melodic material.  After this chapter, you have the tools to analyze music, real music, for yourself.</p>
-			<p class="text">Now, join me in the next chapter, where we'll sink deeper into the intervals we've learned about in this chapter while developing some practical skills.</p>
-			<a href="4.html">Up</a>: Chapter 4: Intervals and Scale Degrees<br />
-			<a href="4-3.html">Previous</a>: 4.4 The Circle of Fifths<br />
-			<a href="5.html">Next</a>: Chapter 5: Ear Training
-		</div></div>
-	</body>
-</html>
+require('../book.php');
+$label = 'scale summary';
+
+createPageHeader($label);
+
+?>
+
+<h4 class="question">There was a lot of stuff in this chapter.  What are the highlights?</h4>
+<p class="text">You should understand intervals in major scales and be able to name any interval.  You should understand the patterns for both major and minor scales, and you should also know all the key signatures.</p>
+<h4 class="question">Wait, wait.  You want me to memorize <em>all</em> the key signatures?</h4>
+<p class="text">Uh, yep.  All of 'em.  Major and minor.  The reason why is simple: those key signatures actually come up, and in order to play in them, you need to know what's in them without having to look every single measure.  Indeed, if you see five sharps, you should already know that you're in B major (or G# minor) and you should know what those sharps are (F#, C#, G#, D#, A#) without actually having to look.</p>
+<p class="text">You should also understand how scale degrees work and how to label them, both diatonic and chromatic.  And you should have some notion about how those scale degrees tend to behave in music.  This is the kind of thing that comes from listening carefully and analyzing, so your "homework", if you will, is to find other melodies (ideally ones in a genre you like) and analyze them.  How do they reuse rhythmic elements?  What do the melodic contours look like?  Where does each scale degree tend to go?  You may find that different genres have different conventions for this sort of thing.  For example, in classical music, scale degree 7 is very unstable, but in jazz, it's actually stable.</p>
+<h4 class="question">That's a little open-ended, I think.</h4>
+<p class="text">Yeah.  Remember Rule 0?  There's actually a corollary to Rule 0, which is that there is no particular way in which you're <em>supposed</em> to hear/analyze something.  If you have a good argument for why that 4 doesn't tend towards that 3, then so be it, that's how <em>you</em> hear it!  So because of this, music theory is always going to be open-ended.  If you're not a music theory beginner, you've probably learned about chords and harmonic (Roman numeral) analysis.  In fact, you may have <em>started</em> with that.  I'm deliberately not doing that and starting with <em>melodic</em> analysis, because I think harmonic analysis teaches the wrong lessons.  In harmonic analysis, you figure out what function each chord has, and you think you're done.  Look, you did some music theory!  But what a music-theoretical analysis is <em>actually</em> about is understanding how a piece of music works, not merely slapping labels on things.  Musical analysis is always open-ended.  What you learn from a piece of music is up to you.  You can pay attention to whatever you're interested in.  For example, one common problem composers have is that their melodies are too short or too final, so how do you fix that?  Go find music and see how other composers handle their melodic material.  After this chapter, you have the tools to analyze music, real music, for yourself.</p>
+<p class="text">Now, join me in the next chapter, where we'll sink deeper into the intervals we've learned about in this chapter while developing some practical skills.</p>
+
+<?php
+
+createPageFooter($label);
+
+?>

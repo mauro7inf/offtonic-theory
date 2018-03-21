@@ -1,41 +1,36 @@
-<!DOCTYPE html>
+<?php
+error_reporting(E_ALL);
 
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
-		<meta name="keywords" content="music theory, sightsinging, rhythm" />
-		<title>Section 2.4: Metric Modulation - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<div class="outer-container"><div class="inner-container">
-			<h3 class="book-name"><a href="../index.html">OFFTONIC THEORY</a> — <a href="2.html">Chapter 2: Rhythm</a></h3>
-			<h2 class="section-title" id="metric-modulation">2.4 Metric Modulation</h2>
-			<p class="text">The answer is that you get to pick.  Generally the eighth note stays constant:</p>
-			<img class="example" src="../png/2/24.png" title="This is... plain." alt="Example 2.24" width="800"/>
-			<div class="vspace"></div>
-			<audio class="example" controls="controls" preload="none" src="../mp3/Metric Same.mp3"></audio>
-			<p class="caption">Example 2.24</p>
-			<p class="text">But you could make the beat stay constant instead:</p>
-			<img class="example" src="../png/2/25.png" title="This is... also plain." alt="Example 2.25" width="800"/>
-			<div class="vspace"></div>
-			<audio class="example" controls="controls" preload="none" src="../mp3/Metric Different.mp3"></audio>
-			<p class="caption">Example 2.25</p>
-			<p class="text">This is denoted with that little expression, quarter note equals dotted quarter note.  What this means is that the old thing on the left is the new thing on the right.  So, in this case, the old quarter note is the new dotted quarter note; in the previous example, the old eighth note is the new eighth note.  This is known as a <em>metric modulation</em>.  In Example 2.24, we start at quarter = 96 and end at dotted quarter = 64.  While the eighth note stays constant, the beat changes.  In Example 2.25, we start at quarter = 96 and end at dotted quarter = 96.  The beat stays constant but the subdivision changes.  This is also sometimes notated as <em>L'istesso Tempo</em>.</p>
-			<h4 class="question">Can you do other sorts of metric modulations?</h4>
-			<p class="text">Sure, why not?  A metric modulation is a change of meter.  Unlike earlier, where we were talking about pieces whose meter changes every measure or just briefly, generally a metric modulation is more permanent; we were in one meter for a while and now we'll spend another while at another meter.  (Of course, you don't <em>have</em> to use metric modulations this way.)  For example, you could go from 4/4 into cut time (2/2) with quarter note = half note, which keeps the tempo the same, or quarter note = quarter note, which halves the <em>feel</em> of the tempo while keeping the motion the same.  Here's an example:</p>
-			<img class="example" src="../png/2/26.png" title="Still plain." alt="Example 2.26" width="800"/>
-			<div class="vspace"></div>
-			<audio class="example" controls="controls" preload="none" src="../mp3/Metric Half.mp3"></audio>
-			<p class="caption">Example 2.26</p>
-			<h4 class="question">What are <em>those</em>?  Metronome part, third measure.</h4>
-			<p class="text">Oh!  Half notes!  That's just what X-notehead half notes look like sometimes.  Whole notes look the same, but without the stem.  Some people actually use diamond-shaped noteheads for half notes instead of these, but this is Sibelius's default.</p>
-			<p class="text">There's other fun stuff you can do with metric modulation, too.  In one of my a cappella arrangements (same one I mentioned earlier about the "now, quickly"), I did a cool thing (well, I think it's cool): I had a section in 4/4, and when it ended, there was a kind of constant beat.  I did an accelerando — tempo getting faster and faster gradually — until it was twice the original tempo, and then I did a metric modulation, half note = quarter note, back to the original tempo, but now that constant beat was going twice as fast for the next section.  I don't have a recording but it's a cool effect.</p>
-			<a href="2.html">Up</a>: Chapter 2: Rhythm<br />
-			<a href="2-3.html">Previous</a>: 2.3 Notating Rhythm<br />
-			<a href="2-5.html">Next</a>: 2.5 Swing
-		</div></div>
-	</body>
-</html>
+require('../book.php');
+$label = 'metric modulation';
+
+createPageHeader($label);
+
+?>
+
+<p class="text">The answer is that you get to pick.  Generally the eighth note stays constant:</p>
+<img class="example" src="../png/2/24.png" title="This is... plain." alt="Example 2.24" width="800"/>
+<div class="vspace"></div>
+<audio class="example" controls="controls" preload="none" src="../mp3/Metric Same.mp3"></audio>
+<p class="caption">Example 2.24</p>
+<p class="text">But you could make the beat stay constant instead:</p>
+<img class="example" src="../png/2/25.png" title="This is... also plain." alt="Example 2.25" width="800"/>
+<div class="vspace"></div>
+<audio class="example" controls="controls" preload="none" src="../mp3/Metric Different.mp3"></audio>
+<p class="caption">Example 2.25</p>
+<p class="text">This is denoted with that little expression, quarter note equals dotted quarter note.  What this means is that the old thing on the left is the new thing on the right.  So, in this case, the old quarter note is the new dotted quarter note; in the previous example, the old eighth note is the new eighth note.  This is known as a <em>metric modulation</em>.  In Example 2.24, we start at quarter = 96 and end at dotted quarter = 64.  While the eighth note stays constant, the beat changes.  In Example 2.25, we start at quarter = 96 and end at dotted quarter = 96.  The beat stays constant but the subdivision changes.  This is also sometimes notated as <em>L'istesso Tempo</em>.</p>
+<h4 class="question">Can you do other sorts of metric modulations?</h4>
+<p class="text">Sure, why not?  A metric modulation is a change of meter.  Unlike earlier, where we were talking about pieces whose meter changes every measure or just briefly, generally a metric modulation is more permanent; we were in one meter for a while and now we'll spend another while at another meter.  (Of course, you don't <em>have</em> to use metric modulations this way.)  For example, you could go from 4/4 into cut time (2/2) with quarter note = half note, which keeps the tempo the same, or quarter note = quarter note, which halves the <em>feel</em> of the tempo while keeping the motion the same.  Here's an example:</p>
+<img class="example" src="../png/2/26.png" title="Still plain." alt="Example 2.26" width="800"/>
+<div class="vspace"></div>
+<audio class="example" controls="controls" preload="none" src="../mp3/Metric Half.mp3"></audio>
+<p class="caption">Example 2.26</p>
+<h4 class="question">What are <em>those</em>?  Metronome part, third measure.</h4>
+<p class="text">Oh!  Half notes!  That's just what X-notehead half notes look like sometimes.  Whole notes look the same, but without the stem.  Some people actually use diamond-shaped noteheads for half notes instead of these, but this is Sibelius's default.</p>
+<p class="text">There's other fun stuff you can do with metric modulation, too.  In one of my a cappella arrangements (same one I mentioned earlier about the "now, quickly"), I did a cool thing (well, I think it's cool): I had a section in 4/4, and when it ended, there was a kind of constant beat.  I did an accelerando — tempo getting faster and faster gradually — until it was twice the original tempo, and then I did a metric modulation, half note = quarter note, back to the original tempo, but now that constant beat was going twice as fast for the next section.  I don't have a recording but it's a cool effect.</p>
+
+<?php
+
+createPageFooter($label);
+
+?>
