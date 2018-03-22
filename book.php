@@ -5,6 +5,8 @@ $pages = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/theory/page
 $pageLabels = array();
 addLabels($pages);
 
+$applets = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/theory/applets.json'), true);
+
 function addLabels($page) {
 	if (isset($page['label']) && isset($page['url']) && substr($page['url'], 0, 1) !== '#') {
 		global $pageLabels;
@@ -316,6 +318,17 @@ function tableOfContentsAtPath($path, $includeTopLevel) {
 		}
 	}
 	return $table . $end;
+}
+
+function createAppletsTable() {
+	global $applets;
+	echo '<h3 class="subsection-title">Applets</h3>' . "\n";
+	echo '<ul class="table-of-contents">' . "\n";
+	for ($i = 0; $i < count($applets); $i++) {
+		$applet = $applets[$i];
+		echo '<li><a href="' . normalizeUrl($applet['url']) . '" target="_blank">' . $applet['title'] . '</a> — ' . $applet['description'] . '</li>' . "\n";
+	}
+	echo '</ul>' . "\n";
 }
 
 function createPageFooter($label) {

@@ -1,0 +1,98 @@
+[
+	{
+		"label": "keyboard",
+		"url": "applets/keyboard.html",
+		"title": "Offtonic Keyboard",
+		"description": "virtual four-octave keyboard (Ch. 1)"
+	},
+	{
+		"label": "metronome",
+		"url": "applets/metronome.html",
+		"title": "Offtonic Metronome",
+		"description": "simple metronome (Ch. 1)"
+	},
+	{
+		"label": "hemiola",
+		"url": "applets/hemiola.html",
+		"title": "Hemiola Metronome",
+		"description": "hear tuplets against a metronome (Ch. 2)"
+	},
+	{
+		"label": "interval namer",
+		"url": "applets/intervalnamer.html",
+		"title": "Offtonic Interval Namer",
+		"description": "an interval will pop up; name it! (Ch. 4)"
+	},
+	{
+		"label": "circle of fifths",
+		"url": "applets/circleoffifths.html",
+		"title": "Circle of Fifths Keyboard",
+		"description": "playable circle of fifths with Shepard tones (Ch. 4)"
+	},
+	{
+		"label": "tone generator",
+		"url": "applets/tonegenerator.html",
+		"title": "Offtonic Tone Generator",
+		"description": "plays a sine wave at given frequency (Ch. 5)"
+	},
+	{
+		"label": "sawtooth generator",
+		"url": "applets/sawtoothgenerator.html",
+		"title": "Sawtooth Generator",
+		"description": "plays a sawtooth wave at given frequency (Ch. 5)"
+	},
+	{
+		"label": "line organ",
+		"url": "applets/lineorgan.html",
+		"title": "Offtonic Line Organ",
+		"description": "compare linear and log frequency distributions (Ch. 5)"
+	},
+	{
+		"label": "line organ wide",
+		"url": "applets/lineorganwide.html",
+		"title": "Offtonic Line Organ (Wide)",
+		"description": "same but wider (Ch. 5)"
+	},
+	{
+		"label": "interval organ",
+		"url": "applets/intervalorgan.html",
+		"title": "Offtonic Interval Organ",
+		"description": "play intervals of two notes (Ch. 5)"
+	},
+	{
+		"label": "circle organ",
+		"url": "applets/circleorgan.html",
+		"title": "Offtonic Circle Organ",
+		"description": "continuous Shepard tones on a circle (Ch. 5)"
+	},
+	{
+		"label": "interval explorer",
+		"url": "applets/intervalexplorer.html",
+		"title": "Offtonic Interval Explorer",
+		"description": "microtonal interval exploration (Ch. 5)"
+	},
+	{
+		"label": "scale degree trainer",
+		"url": "applets/scaledegreetrainer.html",
+		"title": "Offtonic Scale Degree Trainer",
+		"description": "a tonic and a scale degree will sound; name the scale degree! (Ch. 5)"
+	},
+	{
+		"label": "interval ear trainer",
+		"url": "applets/intervaleartrainer.html",
+		"title": "Offtonic Interval Ear Trainer",
+		"description": "a tonic and two notes forming an interval will sound; name the interval! (Ch. 5)"
+	},
+	{
+		"label": "scale keyboard",
+		"url": "applets/scalekeyboard.html",
+		"title": "Offtonic Scale Keyboard",
+		"description": "virtual four-octave keyboard where you can play a variety of scales (Ch. 7)"
+	},
+	{
+		"label": "comb generator",
+		"url": "applets/combgenerator.html",
+		"title": "Offtonic Comb Generator",
+		"description": "plays a number of sine waves geometrically spaced between two given frequencies (Ch. 7)"
+	}
+]
