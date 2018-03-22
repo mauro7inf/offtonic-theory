@@ -2,13 +2,13 @@
 error_reporting(E_ALL);
 
 $pages = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/theory/pages.json'), true);
-$labels = array();
+$pageLabels = array();
 addLabels($pages);
 
 function addLabels($page) {
-	if (isset($page['label'])) {
-		global $labels;
-		array_push($labels, $page['label']);
+	if (isset($page['label']) && isset($page['url']) && substr($page['url'], 0, 1) !== '#') {
+		global $pageLabels;
+		array_push($pageLabels, $page['label']);
 	}
 	if (isset($page['subsections'])) {
 		for ($i = 0; $i < count($page['subsections']); $i++) {
@@ -122,6 +122,32 @@ function normalizeUrl($url) {
 	return 'http' . (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] ? 's' : '') . '://' . $_SERVER['HTTP_HOST'] . '/' . 'theory/' . $url;
 }
 
+function pageUrlAtPath($path) {
+	$page = pageAtPath($path);
+	if (!isset($page['url']) || substr($page['url'], 0, 1) === '#') {
+		$parentPath = array_slice($path, 0, count($path) - 1);
+		return pageUrlAtPath($parentPath);
+	} else {
+		return normalizeUrl($page['url']);
+	}
+}
+
+function urlAtPath($path) {
+	$page = pageAtPath($path);
+	if (!isset($page['url'])) {
+		$parentPath = array_slice($path, 0, count($path) - 1);
+		return urlAtPath($parentPath);
+	} else {
+		$url = $page['url'];
+		if (substr($url, 0, 1) !== '#') {
+			return normalizeUrl($url);
+		} else {
+			$parentPath = array_slice($path, 0, count($path) - 1);
+			return pageUrlAtPath($parentPath) . $url;
+		}
+	}
+}
+
 function preHeadTitleAtPath($path) {
 	$number = numberAtPath($path);
 
@@ -145,26 +171,26 @@ function prePageTitleAtPath($path) {
 
 	if (count($path) === 2) {
 		return 'Chapter ' . $number . ': ';
-	} else if (count($path) === 3) {
+	} else if (count($path) === 3 || count($path) === 4) {
 		return $number . ' ';
 	}
 }
 
 function directionLabelsFromLabel($label) {
-	global $labels;
+	global $pageLabels;
 	$directionLabels = array();
 	$index = -1;
-	for ($i = 0; $i < count($labels); $i++) {
-		if ($labels[$i] === $label) {
+	for ($i = 0; $i < count($pageLabels); $i++) {
+		if ($pageLabels[$i] === $label) {
 			$index = $i;
 			break;
 		}
 	}
 	if ($index > 0) {
-		$directionLabels['previous'] = $labels[$index - 1];
+		$directionLabels['previous'] = $pageLabels[$index - 1];
 	}
-	if ($index >= 0 && $index < count($labels) - 1) {
-		$directionLabels['next'] = $labels[$index + 1];
+	if ($index >= 0 && $index < count($pageLabels) - 1) {
+		$directionLabels['next'] = $pageLabels[$index + 1];
 	}
 	return $directionLabels;
 }
@@ -216,8 +242,8 @@ function createPageHeader($label) {
 		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
 		<meta name="keywords" content="' . keywordsAtPath($path) . '" />
 		<title>' . preHeadTitleAtPath($path) . $page['title'] . ' - Offtonic Theory</title>
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
-		<link href="../theory.css" rel="stylesheet" type="text/css" />';
+		<link rel="icon" href="' . normalizeUrl('favicon.ico') . '" type="image/x-icon" />
+		<link href="' . normalizeUrl('theory.css') . '" rel="stylesheet" type="text/css" />';
 	if (isset($page['js'])) {
 		for ($i = 0; $i < count($page['js']); $i++) {
 			$pageHeader .= '<script src="' . normalizeUrl('lib/' . $page['js'][$i]) . '"></script>';
@@ -231,6 +257,50 @@ function createPageHeader($label) {
 			' . createDirectionLinks($label) . '<br />
 			' . $pageTitle;
 	echo $pageHeader;
+}
+
+function createTableOfContents($label) {
+	$path = getPagePath($label);
+	echo tableOfContentsAtPath($path);
+}
+
+function tableOfContentsAtPath($path) {
+	$page = pageAtPath($path);
+	$table = '';
+	$end = '';
+	if (count($path) === 0) {
+		// no special start or end for top-level table of contents
+	} else if (count($path) === 1) { // chapters in part
+		$table = '<h3 class="subsection-title">' . $page['title'] . '</h3>' . "\n";
+		if (isset($page['subsections'])) {
+			$table .= '<ul class="table-of-contents">' . "\n";
+			$end = '</ul>' . "\n";
+		}
+	} else if (count($path) === 2) { // sections in chapter
+		$table = '<li><a href="' . urlAtPath($path) . '">' . prePageTitleAtPath($path) . $page['title'] . '</a>';
+		if (isset($page['subsections'])) {
+			$table .= "\n" . '<ul class="table-of-contents-sublist">' . "\n";
+			$end = '</ul>' . "\n";
+		}
+		$end .= '</li>' . "\n";
+	} else if (count($path) === 3) { // subsections in section
+		$table = '<li><a href="' . urlAtPath($path) . '">' . prePageTitleAtPath($path) . $page['title'] . '</a>';
+		if (isset($page['subsections'])) {
+			$table .= "\n" . '<ul class="table-of-contents-subsublist">' . "\n";
+			$end = '</ul>' . "\n";
+		}
+		$end .= '</li>' . "\n";
+	} else if (count($path) === 4) { // subsections; no contents
+		$table = '<li><a href="' . urlAtPath($path) . '">' . prePageTitleAtPath($path) . $page['title'] . '</a></li>' . "\n";
+	}
+	if (isset($page['subsections'])) {
+		for ($i = 0; $i < count($page['subsections']); $i++) {
+			$childPath = $path;
+			array_push($childPath, $i);
+			$table .= tableOfContentsAtPath($childPath);
+		}
+	}
+	return $table . $end;
 }
 
 function createPageFooter($label) {

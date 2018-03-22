@@ -17,7 +17,7 @@
 				{
 					"label": "zero",
 					"number": "0",
-					"url": "book/0.html",
+					"url": "book/zero/0.html",
 					"title": "Rules of Music"
 				}
 			]
@@ -90,14 +90,72 @@
 							"label": "meter time",
 							"number": "1",
 							"url": "book/2-1.html",
-							"title": "Meter and Time Signatures"
+							"title": "Meter and Time Signatures",
+							"subsections": [
+								{
+									"label": "meter time 4/4",
+									"number": "1",
+									"url": "#time-signature-4-4",
+									"title": "4/4"
+								},
+								{
+									"label": "meter time 2/4",
+									"number": "2",
+									"url": "#time-signature-2-4",
+									"title": "2/4"
+								},
+								{
+									"label": "meter time 2/2",
+									"number": "3",
+									"url": "#time-signature-2-2",
+									"title": "2/2"
+								},
+								{
+									"label": "meter time 3/4",
+									"number": "4",
+									"url": "#time-signature-3-4",
+									"title": "3/4"
+								},
+								{
+									"label": "meter time 6/8",
+									"number": "5",
+									"url": "#time-signature-6-8",
+									"title": "6/8"
+								},
+								{
+									"label": "meter time regular",
+									"number": "6",
+									"url": "#regular-meters",
+									"title": "Other (Regular) Meters"
+								},
+								{
+									"label": "meter time irregular",
+									"number": "7",
+									"url": "#irregular-meters",
+									"title": "Irregular Meters"
+								},
+								{
+									"label": "meter time variation",
+									"number": "8",
+									"url": "#meter-variation",
+									"title": "Meter Variation"
+								}
+							]
 						},
 						{
 							"label": "rhythm tuplets",
 							"number": "2",
 							"url": "book/2-2.html",
 							"title": "Tuplets",
-							"js": ["globals.js", "notes.js", "audioplayer.js", "tone.js", "hemiola.js", "chapters/2-2.js"]
+							"js": ["globals.js", "notes.js", "audioplayer.js", "tone.js", "hemiola.js", "chapters/2-2.js"],
+							"subsections": [
+								{
+									"label": "tuplets hemiola",
+									"number": "1",
+									"url": "#hemiola-section",
+									"title": "Hemiola"
+								}
+							]
 						},
 						{
 							"label": "notating rhythms",
@@ -206,13 +264,59 @@
 							"number": "2",
 							"url": "book/4-2.html",
 							"title": "Naming Intervals",
-							"js": ["globals.js", "notes.js", "intervalCalculator.js", "intervalKeyboardDiagram.js", "intervalNamer.js", "chapters/4-2.js"]
+							"js": ["globals.js", "notes.js", "intervalCalculator.js", "intervalKeyboardDiagram.js", "intervalNamer.js", "chapters/4-2.js"],
+							"subsections": [
+								{
+									"label": "naming diatonic intervals",
+									"number": "1",
+									"url": "#diatonic-intervals",
+									"title": "Diatonic Intervals"
+								},
+								{
+									"label": "naming chromatic intervals",
+									"number": "2",
+									"url": "#chromatic-intervals",
+									"title": "Chromatic Intervals"
+								}
+							]
 						},
 						{
 							"label": "scales keys",
 							"number": "3",
 							"url": "book/4-3.html",
-							"title": "Scales and Keys"
+							"title": "Scales and Keys",
+							"subsections": [
+								{
+									"label": "major scales keys",
+									"number": "1",
+									"url": "#major",
+									"title": "Major"
+								},
+								{
+									"label": "minor scales keys",
+									"number": "2",
+									"url": "#minor",
+									"title": "Minor"
+								},
+								{
+									"label": "scales keys tendencies",
+									"number": "3",
+									"url": "#scale-degrees",
+									"title": "Scale Degrees and Tendencies"
+								},
+								{
+									"label": "outside scales keys",
+									"number": "4",
+									"url": "#outside-the-scale",
+									"title": "Outside the Scale"
+								},
+								{
+									"label": "scales keys signatures",
+									"number": "5",
+									"url": "#key-signatures",
+									"title": "Key Signatures"
+								}
+							]
 						},
 						{
 							"label": "circle fifths",
@@ -241,14 +345,132 @@
 							"number": "1",
 							"url": "book/5-1.html",
 							"title": "Pitch Space",
-							"js": ["graph.js", "globals.js", "audioplayer.js", "tone.js", "tonegenerator.js", "lineorgan.js", "intervalorgan.js", "circleorgan.js", "chapters/5-1.js"]
+							"js": ["graph.js", "globals.js", "audioplayer.js", "tone.js", "tonegenerator.js", "lineorgan.js", "intervalorgan.js", "circleorgan.js", "chapters/5-1.js"],
+							"subsections": [
+								{
+									"label": "pitch space waves",
+									"number": "1",
+									"url": "#sound-waves",
+									"title": "Sound Waves"
+								},
+								{
+									"label": "pitch space pitch",
+									"number": "2",
+									"url": "#pitch",
+									"title": "Pitch"
+								},
+								{
+									"label": "pitch space class",
+									"number": "3",
+									"url": "#pitch-class",
+									"title": "Pitch Class"
+								},
+								{
+									"label": "pitch space small",
+									"number": "4",
+									"url": "#measuring-small-intervals",
+									"title": "Measuring Small Intervals"
+								}
+							]
 						},
 						{
 							"label": "sound intervals",
 							"number": "2",
 							"url": "book/5-2.html",
 							"title": "The Sound of Intervals",
-							"js": ["globals.js", "audioplayer.js", "tone.js", "intervalexplorer.js", "chapters/5-2.js"]
+							"js": ["globals.js", "audioplayer.js", "tone.js", "intervalexplorer.js", "chapters/5-2.js"],
+							"subsections": [
+								{
+									"label": "sound intervals P1",
+									"number": "1",
+									"url": "#perfect-unison",
+									"title": "Perfect Unison"
+								},
+								{
+									"label": "sound intervals P8",
+									"number": "2",
+									"url": "#perfect-octave",
+									"title": "Perfect Octave"
+								},
+								{
+									"label": "sound intervals P5",
+									"number": "3",
+									"url": "#perfect-fifth",
+									"title": "Perfect Fifth"
+								},
+								{
+									"label": "sound intervals M3",
+									"number": "4",
+									"url": "#major-third",
+									"title": "Major Third"
+								},
+								{
+									"label": "sound intervals m3",
+									"number": "5",
+									"url": "#minor-third",
+									"title": "Minor Third"
+								},
+								{
+									"label": "sound intervals M6",
+									"number": "6",
+									"url": "#major-sixth",
+									"title": "Major Sixth"
+								},
+								{
+									"label": "sound intervals m6",
+									"number": "7",
+									"url": "#minor-sixth",
+									"title": "Minor Sixth"
+								},
+								{
+									"label": "sound intervals P4",
+									"number": "8",
+									"url": "#perfect-fourth",
+									"title": "Perfect Fourth"
+								},
+								{
+									"label": "sound intervals M2",
+									"number": "9",
+									"url": "#major-second",
+									"title": "Major Second"
+								},
+								{
+									"label": "sound intervals M9",
+									"number": "10",
+									"url": "#major-ninth",
+									"title": "Major Ninth"
+								},
+								{
+									"label": "sound intervals m2",
+									"number": "11",
+									"url": "#minor-second",
+									"title": "Minor Second"
+								},
+								{
+									"label": "sound intervals m9",
+									"number": "12",
+									"url": "#minor-ninth",
+									"title": "Minor Ninth"
+								},
+								{
+									"label": "sound intervals M7",
+									"number": "13",
+									"url": "#major-seventh",
+									"title": "Major Seventh"
+								},
+								{
+									"label": "sound intervals m7",
+									"number": "14",
+									"url": "#minor-seventh",
+									"title": "Minor Seventh"
+								},
+								{
+									"label": "sound intervals TT",
+									"number": "15",
+									"url": "#tritone",
+									"title": "Tritone"
+								}
+							]
 						},
 						{
 							"label": "ear together",
@@ -282,25 +504,171 @@
 							"label": "basic chords",
 							"number": "2",
 							"url": "book/6-2.html",
-							"title": "Basic Chord Concepts"
+							"title": "Basic Chord Concepts",
+							"subsections": [
+								{
+									"label": "basic chords triads",
+									"number": "1",
+									"url": "#triads",
+									"title": "Triads"
+								},
+								{
+									"label": "basic chords diatonic",
+									"number": "2",
+									"url": "#diatonic-chords",
+									"title": "Diatonic Chords"
+								},
+								{
+									"label": "basic chords function",
+									"number": "3",
+									"url": "#chord-function",
+									"title": "Chord Function"
+								}
+							]
 						},
 						{
 							"label": "classical chords",
 							"number": "3",
 							"url": "book/6-3.html",
-							"title": "Classical Chord Types"
+							"title": "Classical Chord Types",
+							"subsections": [
+								{
+									"label": "classical chords triads",
+									"number": "1",
+									"url": "#major-minor-triads",
+									"title": "Major and Minor Triads"
+								},
+								{
+									"label": "classical chords dominant",
+									"number": "2",
+									"url": "#dominant-sevenths",
+									"title": "Dominant Sevenths"
+								},
+								{
+									"label": "classical chords non-dominant",
+									"number": "3",
+									"url": "#non-dominant-sevenths",
+									"title": "Non-Dominant Sevenths"
+								},
+								{
+									"label": "classical chords diminished",
+									"number": "4",
+									"url": "#diminished-chords",
+									"title": "Diminished Chords"
+								},
+								{
+									"label": "classical chords augmented",
+									"number": "5",
+									"url": "#augmented-chords",
+									"title": "Augmented Chords"
+								},
+								{
+									"label": "classical chords aug6",
+									"number": "6",
+									"url": "#augmented-sixth-chords",
+									"title": "Augmented Sixth Chords"
+								}
+							]
 						},
 						{
 							"label": "pop chords",
 							"number": "4",
 							"url": "book/6-4.html",
-							"title": "Popular Chord Types"
+							"title": "Popular Chord Types",
+							"subsections": [
+								{
+									"label": "pop chords triads",
+									"number": "1",
+									"url": "#triad-varieties",
+									"title": "Triad Varieties"
+								},
+								{
+									"label": "pop chords sevenths",
+									"number": "2",
+									"url": "#seventh-chords",
+									"title": "Seventh Chords"
+								},
+								{
+									"label": "pop chords sixths",
+									"number": "3",
+									"url": "#sixth-chords",
+									"title": "Sixth Chords"
+								},
+								{
+									"label": "pop chords extensions",
+									"number": "4",
+									"url": "#chord-extensions",
+									"title": "Chord Extensions"
+								},
+								{
+									"label": "pop chords 9",
+									"number": "5",
+									"url": "#the-9",
+									"title": "The 9"
+								},
+								{
+									"label": "pop chords b9",
+									"number": "6",
+									"url": "#the-b9",
+									"title": "The b9"
+								},
+								{
+									"label": "pop chords b10",
+									"number": "7",
+									"url": "#the-s9",
+									"title": "The #9/b10"
+								},
+								{
+									"label": "pop chords 11",
+									"number": "8",
+									"url": "#the-11",
+									"title": "The 11"
+								},
+								{
+									"label": "pop chords b5",
+									"number": "9",
+									"url": "#the-s11",
+									"title": "The #11/b5"
+								},
+								{
+									"label": "pop chords b13",
+									"number": "10",
+									"url": "#the-b13",
+									"title": "The b13/#5"
+								},
+								{
+									"label": "pop chords 13",
+									"number": "11",
+									"url": "#the-13",
+									"title": "The 13"
+								}
+							]
 						},
 						{
 							"label": "jazz chords",
 							"number": "5",
 							"url": "book/6-5.html",
-							"title": "Jazz Chords"
+							"title": "Jazz Chords",
+							"subsections": [
+								{
+									"label": "jazz chords major",
+									"number": "1",
+									"url": "#major-scale-harmony",
+									"title": "Major Scale Harmony"
+								},
+								{
+									"label": "jazz chords minor",
+									"number": "2",
+									"url": "#melodic-minor-scale-harmony",
+									"title": "Melodic Minor Scale Harmony"
+								},
+								{
+									"label": "jazz chords symmetric",
+									"number": "3",
+									"url": "#symmetric-scale-harmony",
+									"title": "Symmetric Scale Harmony"
+								}
+							]
 						},
 						{
 							"label": "other chords",
@@ -340,25 +708,147 @@
 							"label": "principal modes",
 							"number": "3",
 							"url": "book/7-3.html",
-							"title": "The Principal Modes"
+							"title": "The Principal Modes",
+							"subsections": [
+								{
+									"label": "principal modes major",
+									"number": "1",
+									"url": "#major",
+									"title": "Major"
+								},
+								{
+									"label": "principal modes minor",
+									"number": "2",
+									"url": "#minor",
+									"title": "Minor"
+								},
+								{
+									"label": "principal modes tetrachords",
+									"number": "3",
+									"url": "#tetrachords",
+									"title": "\"Tetrachords\""
+								}
+							]
 						},
 						{
 							"label": "diatonic modes",
 							"number": "4",
 							"url": "book/7-4.html",
-							"title": "The Diatonic Modes"
+							"title": "The Diatonic Modes",
+							"subsections": [
+								{
+									"label": "diatonic modes lydian",
+									"number": "1",
+									"url": "#lydian",
+									"title": "Lydian"
+								},
+								{
+									"label": "diatonic modes ionian",
+									"number": "2",
+									"url": "#ionian",
+									"title": "Ionian"
+								},
+								{
+									"label": "diatonic modes mixolydian",
+									"number": "3",
+									"url": "#mixolydian",
+									"title": "Mixolydian"
+								},
+								{
+									"label": "diatonic modes dorian",
+									"number": "4",
+									"url": "#dorian",
+									"title": "Dorian"
+								},
+								{
+									"label": "diatonic modes aeolian",
+									"number": "5",
+									"url": "#aeolian",
+									"title": "Aeolian"
+								},
+								{
+									"label": "diatonic modes phrygian",
+									"number": "6",
+									"url": "#phrygian",
+									"title": "Phrygian"
+								},
+								{
+									"label": "diatonic modes locrian",
+									"number": "7",
+									"url": "#locrian",
+									"title": "Locrian"
+								},
+								{
+									"label": "diatonic modes writing",
+									"number": "8",
+									"url": "#writing-diatonic",
+									"title": "Writing in the Diatonic Modes"
+								}
+							]
 						},
 						{
 							"label": "pentatonic scale",
 							"number": "5",
 							"url": "book/7-5.html",
-							"title": "The Pentatonic Scale"
+							"title": "The Pentatonic Scale",
+							"subsections": [
+								{
+									"label": "pentatonic scale major",
+									"number": "1",
+									"url": "#major-pentatonic",
+									"title": "Major Pentatonic"
+								},
+								{
+									"label": "pentatonic scale minor",
+									"number": "2",
+									"url": "#minor-pentatonic",
+									"title": "Minor Pentatonic"
+								},
+								{
+									"label": "pentatonic scale blues",
+									"number": "3",
+									"url": "#blues-scale",
+									"title": "The Blues Scale"
+								},
+								{
+									"label": "pentatonic scale other",
+									"number": "4",
+									"url": "#other-pentatonic-modes",
+									"title": "Other Pentatonic Modes"
+								}
+							]
 						},
 						{
 							"label": "harmonic minor modes",
 							"number": "6",
 							"url": "book/7-6.html",
-							"title": "The Harmonic Minor Modes"
+							"title": "The Harmonic Minor Modes",
+							"subsections": [
+								{
+									"label": "harmonic minor scale",
+									"number": "1",
+									"url": "#harmonic-minor",
+									"title": "Harmonic Minor"
+								},
+								{
+									"label": "harmonic minor phrygian dominant",
+									"number": "2",
+									"url": "#phrygian-dominant",
+									"title": "Phrygian Dominant"
+								},
+								{
+									"label": "harmonic minor spanish",
+									"number": "3",
+									"url": "#spanish-scale",
+									"title": "The Spanish Scale"
+								},
+								{
+									"label": "harmonic minor ukrainian dorian",
+									"number": "4",
+									"url": "#ukrainian-dorian",
+									"title": "Ukrainian Dorian"
+								}
+							]
 						},
 						{
 							"label": "melodic minor modes",
@@ -370,26 +860,166 @@
 							"label": "symmetric scales",
 							"number": "8",
 							"url": "book/7-8.html",
-							"title": "Symmetric Scales"
+							"title": "Symmetric Scales",
+							"subsections": [
+								{
+									"label": "symmetric scales chromatic",
+									"number": "1",
+									"url": "#chromatic-scale",
+									"title": "The Chromatic Scale"
+								},
+								{
+									"label": "symmetric scales whole tone",
+									"number": "2",
+									"url": "#whole-tone-scale",
+									"title": "The Whole Tone Scale"
+								},
+								{
+									"label": "symmetric scales diminished",
+									"number": "3",
+									"url": "#diminished-scales",
+									"title": "The Diminished Scales"
+								},
+								{
+									"label": "symmetric scales augmented",
+									"number": "4",
+									"url": "#augmented-scales",
+									"title": "The Augmented Scales"
+								},
+								{
+									"label": "symmetric scales other",
+									"number": "5",
+									"url": "#other-symmetric-scales",
+									"title": "Other Symmetric Scales"
+								}
+							]
 						},
 						{
 							"label": "modes maqamat",
 							"number": "9",
 							"url": "book/7-9.html",
 							"title": "Maqamat",
-							"js": ["audioplayer.js", "globals.js", "notes.js", "tone.js", "combgenerator.js", "chapters/7-9.js"]
+							"js": ["audioplayer.js", "globals.js", "notes.js", "tone.js", "combgenerator.js", "chapters/7-9.js"],
+							"subsections": [
+								{
+									"label": "maqamat fundamental",
+									"number": "1",
+									"url": "#arabic-scale",
+									"title": "The Fundamental Arabic Scale"
+								},
+								{
+									"label": "maqamat rast",
+									"number": "2",
+									"url": "#rast-family",
+									"title": "The Rast Family"
+								},
+								{
+									"label": "maqamat ajam",
+									"number": "3",
+									"url": "#ajam-family",
+									"title": "The Ajam Family"
+								},
+								{
+									"label": "maqamat nahwand",
+									"number": "4",
+									"url": "#nahwand-family",
+									"title": "The Nahwand Family"
+								},
+								{
+									"label": "maqamat kurd",
+									"number": "5",
+									"url": "#kurd-family",
+									"title": "The Kurd Family"
+								},
+								{
+									"label": "maqamat hijaz",
+									"number": "6",
+									"url": "#hijaz-family",
+									"title": "The Hijaz Family"
+								},
+								{
+									"label": "maqamat nawa athar",
+									"number": "7",
+									"url": "#nawa-athar-family",
+									"title": "The Nawa Athar Family"
+								},
+								{
+									"label": "maqamat bayat",
+									"number": "8",
+									"url": "#bayat-family",
+									"title": "The Bayat Family"
+								},
+								{
+									"label": "maqamat siga",
+									"number": "9",
+									"url": "#siga-family",
+									"title": "The Siga Family"
+								},
+								{
+									"label": "maqamat saba",
+									"number": "10",
+									"url": "#saba-family",
+									"title": "The Saba Family"
+								},
+								{
+									"label": "maqamat conclusion",
+									"number": "11",
+									"url": "#maqam-conclusion",
+									"title": "Concluding Thoughts on Maqamat"
+								}
+							]
 						},
 						{
 							"label": "other modes",
 							"number": "10",
 							"url": "book/7-10.html",
-							"title": "Other Scales"
+							"title": "Other Scales",
+							"subsections": [
+								{
+									"label": "other modes synthetic",
+									"number": "1",
+									"url": "#synthetic-scales",
+									"title": "Synthetic Scales"
+								},
+								{
+									"label": "other modes pentatonic",
+									"number": "2",
+									"url": "#other-pentatonic-scales",
+									"title": "Other Pentatonic Scales"
+								},
+								{
+									"label": "other modes gregorian",
+									"number": "3",
+									"url": "#gregorian-modes",
+									"title": "Gregorian Modes"
+								}
+							]
 						},
 						{
 							"label": "using modes",
 							"number": "11",
 							"url": "book/7-11.html",
-							"title": "Using Scales and Modes"
+							"title": "Using Scales and Modes",
+							"subsections": [
+								{
+									"label": "using modes modal",
+									"number": "1",
+									"url": "#modal-tonal",
+									"title": "Modal, Tonal, Atonal, etc."
+								},
+								{
+									"label": "using modes harmony",
+									"number": "2",
+									"url": "#harmony",
+									"title": "Harmony"
+								},
+								{
+									"label": "using modes chord scale",
+									"number": "3",
+									"url": "#chord-scale-theory",
+									"title": "Chord-Scale Theory"
+								}
+							]
 						},
 						{
 							"label": "modes summary",
@@ -403,7 +1033,7 @@
 					"label": "composition",
 					"number": "8",
 					"url": "book/8.html",
-					"title": "Composition"
+					"title": "Composition (under construction)"
 				}
 			]
 		}
