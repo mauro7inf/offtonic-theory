@@ -1,31 +1,14 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'scale degrees';
 
 createPageHeader($label);
 
 ?>
 
-<ul class="table-of-contents-sublist">
-	<li><a href="4-1.html">4.1 The Diatonic Scale</a></li>
-	<li><a href="4-2.html">4.2 Naming Intervals</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="4-2.html#diatonic-intervals">4.2.1 Diatonic Intervals</a></li>
-		<li><a href="4-2.html#chromatic-intervals">4.2.2 Chromatic Intervals</a></li>
-	</ul>
-	<li><a href="4-3.html">4.3 Scales and Keys</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="4-3.html#major">4.3.1 Major</a></li>
-		<li><a href="4-3.html#minor">4.3.2 Minor</a></li>
-		<li><a href="4-3.html#scale-degrees">4.3.3 Scale Degrees and Tendencies</a></li>
-		<li><a href="4-3.html#outside-the-scale">4.3.4 Outside the Scale</a></li>
-		<li><a href="4-3.html#key-signatures">4.3.5 Key Signatures</a></li>
-	</ul>
-	<li><a href="4-4.html">4.4 The Circle of Fifths</a></li>
-	<li><a href="4-5.html">4.5 Summary</a></li>
-</ul>
+<? createTableOfContents($label) ?>
 
 <?php
 

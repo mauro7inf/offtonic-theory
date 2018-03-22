@@ -143,15 +143,21 @@
 							]
 						},
 						{
-							"label": "rhythm tuplets",
+							"label": "rhythm divisions",
 							"number": "2",
 							"url": "book/2-2.html",
-							"title": "Tuplets",
+							"title": "Other Divisions",
 							"js": ["globals.js", "notes.js", "audioplayer.js", "tone.js", "hemiola.js", "chapters/2-2.js"],
 							"subsections": [
 								{
-									"label": "tuplets hemiola",
+									"label": "divisions tuplets",
 									"number": "1",
+									"url": "#tuplets",
+									"title": "Tuplets"
+								},
+								{
+									"label": "divisions hemiola",
+									"number": "2",
 									"url": "#hemiola-section",
 									"title": "Hemiola"
 								}

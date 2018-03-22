@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'ear training';
 
 createPageHeader($label);
@@ -21,35 +21,7 @@ createPageHeader($label);
 <h4 class="question">And what's absolute pitch?</h4>
 <p class="text"><em>Absolute pitch</em> is mostly another name for perfect pitch, but people can disagree on this.  If I play an A then I play a perfect fifth above A, if you have relative pitch you can tell me that I played the second note a perfect fifth above the first note; if you have absolute pitch you can tell me that I played an A and E.  Perfect pitch is a <em>perceptual</em> ability you either have or don't have.  Absolute pitch can come from other sources, too.  For example, when I asked you to sing an F, I was able to do it.  I pulled out the Offtonic Keyboard and checked, and it was indeed an F that I sang.  I could have been wrong!  That's because I don't have perfect pitch; if I did, I would know if I was right or wrong.  Instead, I have a pretty good <em>pitch memory</em>.  I'm fairly good at remembering what pitches sound like simply because I use them so often, but I have to stop and think about it, and I can't have distractions.  Like, if I hear a note on its own, I may be able to tell you what it is within a whole step or so, but if there's other music going on I can't.  If I had perfect pitch, I'd be able to tell you what <em>all</em> of those notes were.</p>
 <p class="text">So, before we dive in to the real ear training stuff, let's talk a little bit about how we hear and <em>what</em> we hear.</p>
-<ul class="table-of-contents-sublist">
-	<li><a href="5-1.html">5.1 Pitch Space</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="5-1.html#sound-waves">5.1.1 Sound Waves</a></li>
-		<li><a href="5-1.html#pitch">5.1.2 Pitch</a></li>
-		<li><a href="5-1.html#pitch-class">5.1.3 Pitch Class</a></li>
-		<li><a href="5-1.html#measuring-small-intervals">5.1.4 Measuring Small Intervals</a></li>
-	</ul>
-	<li><a href="5-2.html">5.2 The Sound of Intervals</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="5-2.html#perfect-unison">5.2.1 Perfect Unison</a></li>
-		<li><a href="5-2.html#perfect-octave">5.2.2 Perfect Octave</a></li>
-		<li><a href="5-2.html#perfect-fifth">5.2.3 Perfect Fifth</a></li>
-		<li><a href="5-2.html#major-third">5.2.4 Major Third</a></li>
-		<li><a href="5-2.html#minor-third">5.2.5 Minor Third</a></li>
-		<li><a href="5-2.html#major-sixth">5.2.6 Major Sixth</a></li>
-		<li><a href="5-2.html#minor-sixth">5.2.7 Minor Sixth</a></li>
-		<li><a href="5-2.html#perfect-fourth">5.2.8 Perfect Fourth</a></li>
-		<li><a href="5-2.html#major-second">5.2.9 Major Second</a></li>
-		<li><a href="5-2.html#major-ninth">5.2.10 Major Ninth</a></li>
-		<li><a href="5-2.html#minor-second">5.2.11 Minor Second</a></li>
-		<li><a href="5-2.html#minor-ninth">5.2.12 Minor Ninth</a></li>
-		<li><a href="5-2.html#major-seventh">5.2.13 Major Seventh</a></li>
-		<li><a href="5-2.html#minor-seventh">5.2.14 Minor Seventh</a></li>
-		<li><a href="5-2.html#tritone">5.2.15 Tritone</a></li>
-	</ul>
-	<li><a href="5-3.html">5.3 Putting it All Together</a></li>
-	<li><a href="5-4.html">5.4 Summary</a></li>
-</ul>
+<? createTableOfContents($label) ?>
 
 <?php
 

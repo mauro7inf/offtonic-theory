@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'principal modes';
 
 createPageHeader($label);
@@ -11,6 +11,7 @@ createPageHeader($label);
 <p class="text">Western music began with the eight modes of Gregorian chant.  This was a descendant of Byzantine chant, the ancient Greek modes (with names similar to our modern ones, but they're completely different), and other modes from that era and earlier.  Music has been played since the dawn of civilization, and for multiple musicians to play together it was necessary that they agree on which notes to use.  A lyre, for example, would be tuned a certain way, and if you wanted to play the same song you had to tune your lyre the same way.  That was basically a mode.  From there, we get to Boethius's comprehensive list of notes (A B C D E F G H I K L M N O; the letter J hadn't been invented yet), eventually a formulation of Gregorian modes based on those notes, eventually more and more modes, and finally, around the Renaissance, all those modes coalesced into just two: major and minor.</p>
 <h4 class="question">Why did we lose all the other modes?</h4>
 <p class="text">That's a great question.  The short answer is tonal harmony.  We're not going to talk about the Gregorian modes in this chapter, but hopefully by the time we've studied more modes it will be clear why tonal harmony works well for major and minor but not so well otherwise.  Let's start with the major mode.  We already talked about this mode quite a bit back in <a href="4.html#major">Chapter 4</a>, but it's worth reviewing.</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="major">7.3.1 Major</h3>
 <p class="text">This time it's going to be a little different.  I'm not going to sound the scale out for you; you can do it yourself on the <a href="applets/keyboard.html" target="_blank">Offtonic Keyboard</a> or the <a href="../applets/scalekeyboard.html" target="_blank">Offtonic Scale Keyboard</a>.  Also, I'm showing you two versions of the major scale:</p>
 <img class="example" src="../png/7/1.png" title="Major, dude." alt="Example 7.1" width="800"/>

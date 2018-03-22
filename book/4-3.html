@@ -1,13 +1,14 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'scales keys';
 
 createPageHeader($label);
 
 ?>
 
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="major">4.3.1 Major</h3>
 <p class="text">Here are some scales:</p>
 <img class="example" src="../png/4/13.png" title="This brings back flashbacks of high school auditions..." alt="Example 4.13" width="800"/>

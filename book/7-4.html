@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'diatonic modes';
 
 createPageHeader($label);
@@ -21,6 +21,7 @@ createPageHeader($label);
 <p class="text">The notes of the diatonic scale are all next to each other on the circle of fifths, as we saw when we talked about the circle of fifths a few chapters back.  As we go down the diatonic modes, though, we shift counterclockwise which group of notes we're using.  So, C lydian is C G D A E B F#, C ionian is F C G D A E B, C mixolydian is Bb F C G D A E, etc.  It should be noted that the <em>new</em> note is the most important characteristic tone of the mode, and it always forms a tritone with another note in the scale.  So, in lydian, we have the #4 making a tritone with 1; in major, we have both the 4 and the 7; in mixolydian, the b7 makes a tritone with the 3; in dorian, the b3 makes a tritone with the 6; in minor, the b6 makes a tritone with the 2; in phrygian, the b2 makes a tritone with the 5; in locrian, the b5 makes a tritone with the 1.  The tritone itself isn't so important, necessarily; what <em>is</em> important is what makes each of these modes sound different from plain major or minor.</p>
 <p class="text">Another interesting aspect of these modes is that if you play one of the modes upside down, you get a different mode.  Lydian upside down becomes locrian; ionian becomes phrygian; mixolydian becomes aeolian; dorian upside down is still dorian.</p>
 <p class="text">All of this is pretty pointless without music, so let's actually hear some in each of these modes.  Well, each of them except ionian, because that's literally the same thing as major, which we've already discussed.  You can play with each of these modes in the <a href="../applets/scalekeyboard.html" target="_blank">Offtonic Scale Keyboard</a>, and I would encourage you to do so and noodle around a bit as we talk about each mode.</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="lydian">7.4.1 Lydian</h3>
 <p class="text">This is the lydian scale, which you'll remember is major but with a raised fourth:</p>
 <img class="example" src="../png/7/15.png" title="So bright." alt="Example 7.15" width="800"/>

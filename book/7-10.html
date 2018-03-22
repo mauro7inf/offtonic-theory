@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'other modes';
 
 createPageHeader($label);
@@ -13,6 +13,7 @@ createPageHeader($label);
 <p class="text"><a href="https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3">John Cage, 4'33"</a>.  Also, any music for unpitched percussion.</p>
 <h4 class="question">...Fine.  But still, they're not all musically useful, are they?</h4>
 <p class="text">No, they are not, but you know what, I'll leave that up to you to decide.  There's a nifty tool to explore subsets of the chromatic scale, Ian Ring's <a href="https://ianring.com/musictheory/scales/">A Study of Scales</a>, that explores them in an interesting way, showing names, modes, rotations, and a bunch of features of scales that you may find musically useful or not.  Wikipedia also has a <a href="https://en.wikipedia.org/wiki/List_of_musical_scales_and_modes">list of musical scales and modes</a> for your perusal.</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="synthetic-scales">7.10.1 Synthetic Scales</h3>
 <p class="text">Scales other than the diatonic modes (and the pentatonic modes) are sometimes called <em>synthetic scales</em>, even though there's nothing particularly synthetic about them.  Vincent Persichetti's wonderful book <em>Twentieth Century Harmony</em>, which I wholeheartedly recommend to anyone who wants to dive into music theory at more than a basic level, contains a list of synthetic scales.  Those scales that I haven't already discussed are presented below and in the <a href="../applets/scalekeyboard.html" target="_blank">Offtonic Scale Keyboard</a> (with some additions):</p>
 <img class="example" src="../png/7/98.png" title="Oh wait, there's MORE?" alt="Example 7.98" width="800"/>

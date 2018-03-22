@@ -1,13 +1,16 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
-$label = 'rhythm tuplets';
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
+$label = 'rhythm divisions';
 
 createPageHeader($label);
 
 ?>
 
+<p class="text">We generally use whole notes, half notes, quarter notes, eighth notes, 16th notes, etc.; each successive note is half of the previous one.  But what happens when we want to divide a note into a number of parts other than a power of 2?  Like if we want to split it into thirds or something?  Well, we have a solution to <em>that</em>:</p>
+<? createTableOfContents($label) ?>
+<h3 class="subsection-title" id="tuplets">2.2.1 Tuplets</h3>
 <h4 class="question">Tuplets!  Like, twins?  Three of them are triplets, so two of them are twoplets?</h4>
 <p class="text">I think you may have zoned out for more than just a sec.  But yeah, kinda.  Tuplets are when you split a note into divisions other than 2.  We've talked about triplets before, so let's review that:</p>
 <img class="example" src="../png/2/12.png" title="I take that back.  Mars is fucking awesome." alt="Example 2.12bis" width="800"/>
@@ -49,7 +52,7 @@ createPageHeader($label);
 <p class="text">That said, some composers will write different time signatures in different parts where the measures <em>don't</em> line up.  Like, one person plays in 3/4 and another person plays in 4/4, and the beats line up but the measures don't.</p>
 <h4 class="question">How would they number the measures?</h4>
 <p class="text">Very confusingly, I'm sure!</p>
-<h3 class="subsection-title" id="hemiola-section">2.2.1 Hemiola</h3>
+<h3 class="subsection-title" id="hemiola-section">2.2.2 Hemiola</h3>
 <h4 class="question">Hemiola.  Is that, like, a disease?</h4>
 <p class="text">No, you're thinking of melisma.</p>
 <h4 class="question">Oh.  What's that a disease of?</h4>

@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'modes maqamat';
 
 createPageHeader($label);
@@ -28,6 +28,7 @@ createPageHeader($label);
 <p class="text">Before we continue, I want to mention that maqam theory is not a single, monolithic, accepted-by-everyone theory.  There are often conflicting definitions of particular maqamat.  Two great online sources are <a href="http://www.maqamworld.com/">Maqam World</a> and <a href="http://oudipedia.info/theory.html">Oudipedia</a>, and you'll find different, conflicting information in those two sources.  Maqam World talks about one-octave maqamat, while Oudipedia has the maqamat span two octaves (the upper octave is not necessarily the same as the lower).  Read some books and they'll have even more diverse views.  Furthermore, different communities use different maqamat differently.  It's probably better to think of the maqamat as describing a wide set of musical practices than prescribing precise scales.</p>
 <p class="text">The study of maqamat can (and should) span far more than a short section in a theory book, but this is what we have to work with, so our treatment will necessarily be somewhat abbreviated.  There are certainly books on the subject (I have one by David Muallem called "The Maqam Book") as well as many contradictory treatments of it, in part reflecting the variety of traditions that comprise the greater Arab maqam tradition.  This isn't even getting into the Iraqi maqam system, which is different, or the Turkish makam system (spelled differently for a reason), which is <em>very</em> different.  Many of the names in the Arab system are of Persian origin, and the Persian dagstah system is <em>also</em> very different.  The nubah system in North Africa is also very different.  Whatever they do or used to do in Yemen is...  I don't even know.  The shashmakam system of Central Asia is very different.  The Arab maqam system really refers to a musical tradition from a fairly small region of the world, and yet, it's still incredibly rich and varies from place to place within that region.</p>
 <p class="text">Before we go on, I should mention that I'll provide two tunings for most of these scales in the <a href="../applets/scalekeyboard.html" target="_blank">Offtonic Scale Keyboard</a>, a 24-TET version and a 53-TET version.  Neither is necessarily more authentic, especially as we quickly run into the limitations of the 53-TET system when we want to change the tunings of notes by less than the 22.6 cents of the comma.  You can also explore the complete 24-TET scale in the keyboard and look around for interesting new harmonies (which isn't relevant to this discussion at all but is lots of fun).</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="arabic-scale">7.9.1 The Fundamental Arabic Scale</h3>
 <p class="text">In Western music, all 12 pitch classes are equal.</p>
 <h4 class="question">Are they?  Is there no preference for white notes over black ones?</h4>

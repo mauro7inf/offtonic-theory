@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'pop chords';
 
 createPageHeader($label);
@@ -10,6 +10,7 @@ createPageHeader($label);
 
 <p class="text">Popular music is a fairly wide genre that consists of, basically...  Eh, I can't really define it.  There are musical boundaries, and there are <em>plenty</em> of musicians that bust those musical boundaries, so there's little point in having said musical boundaries in the first place.  But popular music does use a certain common harmonic language.  You can trace the evolution of classical music; in the Common Practice period, harmonies were done in a particular way, which we just finished discussing.  As the 19th century went on, that harmony became more and more varied and complex; as the 20th century and now 21st century go on, a set of modern harmonic tools has emerged that feature complexity and minimalism, leave room for atonality, etc.  On the other hand, popular music built on its jazz roots and went in the direction of simplicity, while jazz itself also turned towards artistic complexity in the 1950's.  Even from just a chord progression, it's often not difficult to tell which of these four realms we're in: Common Practice, modern classical, modern jazz, or popular.</p>
 <p class="text">In popular music, there's less focus on function than in Common Practice music, but at the same time, there's more of a focus on sound.  Popular music progressions have less directionality than Common Practice and <em>much</em> less subtlety.  Popular music also employs much more repetition, with songs often containing verses and choruses; sometimes an entire song will only have four chords that repeat!  Popular music also borrows heavily from jazz, but where modern jazz has a focus on improvisation and complex sounds, popular music — including older-style jazz — simply uses some of the chords.  A jazz chord is basically just a 7th chord, often with extra stuff or alterations.  That's not a definition or anything; I'm just telling you the kinds of chords considered "jazzy".  It's more than that.  So let's talk about chord types in popular music.</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="triad-varieties">6.4.1 Triad Varieties</h3>
 <p class="text">In addition to the basic triads we all know and love, popular music has some other chord symbols for similar structures.  Note that Common Practice music uses these too, just not in the same way.</p>
 <img class="example" src="../png/6/18.png" title="I GOT THE POWER!" alt="Example 6.18" width="800"/>

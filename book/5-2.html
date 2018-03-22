@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'sound intervals';
 
 createPageHeader($label);
@@ -11,6 +11,7 @@ createPageHeader($label);
 <p class="text">Believe it or not, that <em>whole</em> thing was a digression.  What this chapter is <em>really</em> about is ear training.</p>
 <h4 class="question">...What's that?</h4>
 <p class="text">Has it really been that long since this chapter's introduction?  Just go back and read it again, OK?  What we're going to do here is learn to appreciate and identify the sounds, plural, of each interval.  The intervals come in several variations.  Some are consonant; some are dissonant.  Some are pure; some are dirty.  We'll hear the intervals both melodically and harmonically, in context and out of context.  We'll listen for their meaning and their stability and their instability.  And while we do that, we'll learn about their mathematical properties too, which is mostly why we bothered with the previous section in the first place.</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="perfect-unison">5.2.1 Perfect Unison</h3>
 <p class="text">We begin with the humblest and simplest of intervals: the perfect unison.  It measures 0 semitones, 0 cents.  Its frequency ratio is 1.  It looks like this:</p>
 <img class="example" src="../png/5/5.png" title="The most fun interval?" alt="Example 5.5" width="800"/>

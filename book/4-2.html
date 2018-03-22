@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'naming intervals';
 
 createPageHeader($label);
@@ -12,6 +12,7 @@ createPageHeader($label);
 <p class="text">An <em>interval</em> is the distance between two notes.  Intervals are named by counting the notes on the diatonic scale (actually, letter names) from the starting note to the ending note.  So, for example, C to E form a third: C, D, E, three notes.  Third.</p>
 <h4 class="question">This... is kind of stupid, though, isn't it?  There are only two steps from C to E: C to D, and D to E.  Shouldn't it be a second, rather than a third?</h4>
 <p class="text">Yes.  But you're just going to have to deal with it, because this is the naming convention we've been saddled with.  It's horribly illogical, but it's what it is.  Blame history for not coming up with something better that stuck.</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="diatonic-intervals">4.2.1 Diatonic Intervals</h3>
 <p class="text">Let's look at the seconds in the diatonic scale:</p>
 <canvas id="keyboardseconds" class="keyboard" height="280" width="800"></canvas>

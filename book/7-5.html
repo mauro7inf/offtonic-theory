@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'pentatonic scale';
 
 createPageHeader($label);
@@ -22,6 +22,7 @@ createPageHeader($label);
 <p class="text">Another thing that must absolutely be known, in case it wasn't clear is that the black keys on the piano are a pentatonic scale, in particular, the F# major pentatonic (F# G# A# C# D#) or the Eb minor pentatonic (Eb Gb Ab Bb Db).  White keys are the diatonic scale; black keys are the pentatonic scale.  That's not <em>really</em> on purpose; that's just how it ended up.  Also, the pentatonic scale is actually a stack of fifths.  Start on, say, C and go around the circle of fifths: C, G, D, A, E.  That's the pentatonic scale!</p>
 <p class="text">Here's a nifty little feature: just like the diatonic scale, if you play the pentatonic scale upside down, you get another pentatonic scale back.  In particular, the "dorian" pentatonic in the mirror is the same "dorian" pentatonic, just like the full dorian scale.  Otherwise, we have major inverted into "phrygian", and minor inverted into "mixolydian".  I'm not sure this is horribly important, but I think it's worth a mention, especially when we see some scales later on that <em>don't</em> invert into a mode of themselves.</p>
 <p class="text">Finally, I'm not going to bother with tetrachords and whatnot here, because the scale regions don't really make sense in a pentatonic context.  So, let's see some examples!</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="major-pentatonic">7.5.1 Major Pentatonic</h3>
 <p class="text">This scale is, as I mentioned, <em>extremely</em> popular, so it's hard to pick a few representative tunes.  But I'll do it anyway.  Let's start with an English tune most of us probably know, <a href="https://www.youtube.com/watch?v=CDdvReNKKuk">Amazing Grace</a>:</p>
 <img class="example" src="../png/7/37.png" title="Red, the color that is red, black, the black of something black." alt="Example 7.37" width="800"/>

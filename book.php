@@ -261,43 +261,58 @@ function createPageHeader($label) {
 
 function createTableOfContents($label) {
 	$path = getPagePath($label);
-	echo tableOfContentsAtPath($path);
+	if (count($path) === 2) {
+		echo '<h3 class="subsection-title">Chapter Contents</h3>' . "\n";
+	} else if (count($path) === 3) {
+		echo '<h3 class="subsection-title">Section Contents</h3>' . "\n";
+	}
+	echo tableOfContentsAtPath($path, false);
 }
 
-function tableOfContentsAtPath($path) {
+function tableOfContentsAtPath($path, $includeTopLevel) {
 	$page = pageAtPath($path);
 	$table = '';
 	$end = '';
 	if (count($path) === 0) {
 		// no special start or end for top-level table of contents
 	} else if (count($path) === 1) { // chapters in part
-		$table = '<h3 class="subsection-title">' . $page['title'] . '</h3>' . "\n";
+		if ($includeTopLevel) {
+			$table = '<h3 class="subsection-title">' . $page['title'] . '</h3>' . "\n";
+		}
 		if (isset($page['subsections'])) {
 			$table .= '<ul class="table-of-contents">' . "\n";
 			$end = '</ul>' . "\n";
 		}
 	} else if (count($path) === 2) { // sections in chapter
-		$table = '<li><a href="' . urlAtPath($path) . '">' . prePageTitleAtPath($path) . $page['title'] . '</a>';
+		if ($includeTopLevel) {
+			$table = '<a href="' . urlAtPath($path) . '">' . prePageTitleAtPath($path) . $page['title'] . '</a>';
+		}
 		if (isset($page['subsections'])) {
 			$table .= "\n" . '<ul class="table-of-contents-sublist">' . "\n";
 			$end = '</ul>' . "\n";
 		}
-		$end .= '</li>' . "\n";
 	} else if (count($path) === 3) { // subsections in section
-		$table = '<li><a href="' . urlAtPath($path) . '">' . prePageTitleAtPath($path) . $page['title'] . '</a>';
+		if ($includeTopLevel) {
+			$table = '<a href="' . urlAtPath($path) . '">' . prePageTitleAtPath($path) . $page['title'] . '</a>';
+		}
 		if (isset($page['subsections'])) {
 			$table .= "\n" . '<ul class="table-of-contents-subsublist">' . "\n";
 			$end = '</ul>' . "\n";
 		}
-		$end .= '</li>' . "\n";
 	} else if (count($path) === 4) { // subsections; no contents
-		$table = '<li><a href="' . urlAtPath($path) . '">' . prePageTitleAtPath($path) . $page['title'] . '</a></li>' . "\n";
+		if ($includeTopLevel) {
+			$table = '<a href="' . urlAtPath($path) . '">' . prePageTitleAtPath($path) . $page['title'] . '</a>';
+		}
 	}
 	if (isset($page['subsections'])) {
 		for ($i = 0; $i < count($page['subsections']); $i++) {
 			$childPath = $path;
 			array_push($childPath, $i);
-			$table .= tableOfContentsAtPath($childPath);
+			if (count($path) === 0) {
+				$table .= tableOfContentsAtPath($childPath, true);
+			} else {
+				$table .= '<li>' . tableOfContentsAtPath($childPath, true) . '</li>' . "\n";
+			}
 		}
 	}
 	return $table . $end;

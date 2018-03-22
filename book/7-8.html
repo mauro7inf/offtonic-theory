@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'symmetric scales';
 
 createPageHeader($label);
@@ -23,6 +23,7 @@ createPageHeader($label);
 <p class="text">As another quick example, the augmented triad is similarly symmetric with respect to transposition by four semitones; 4 is a factor of 12, and there are 12/4 = 3 notes in the augmented triad.  Any scale with this symmetry should have some multiple of 3 semitones, then: 3 (the augmented triad itself), 6, 9, or 12 (the chromatic scale).</p>
 <p class="text">Note that, as the interval of symmetry needs to be a factor of the number of steps, if the octave is divided into a prime number of steps (like 19, 31, 53, etc.), symmetric scales (other than the equivalent of the chromatic scale with <em>all</em> of the notes in the octave) are impossible.  I mention these numbers in particular because 19-TET, 31-TET, and 53-TET are some of the most prominent alternative tunings (we'll discuss them eventually).  On the other hand, 24-TET has all the symmetries that 12-TET has, plus an additional symmetry where you can divide the octave into 8.</p>
 <p class="text">Not all symmetric scales are used much in music, so let's talk about the ones that are:</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="chromatic-scale">7.8.1 The Chromatic Scale</h3>
 <p class="text">The chromatic scale is the most boring.  It's just... every note.  Our usual way of spelling notes is particular to 7-note scales, so there's naturally going to be some tension regarding spelling.  We've already seen this in practice in Example 4.10, but here are three ways to spell the chromatic scale, going up and going down:</p>
 <img class="example" src="../png/7/59.png" title="Spealin iz herrd!!!1" alt="Example 7.59" width="800"/>

@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'classical chords';
 
 createPageHeader($label);
@@ -10,6 +10,7 @@ createPageHeader($label);
 
 <p class="text">There was a fairly big evolution of musical practice during the 19th century.  Of course, there was a fairly big evolution of musical practice <em>always</em>, but something very big changed in the late 19th century, which was that the rules of harmony no longer held the way they had held before.  Harmony is essentially a language, and the language during the Common Practice Period was the language of tonality, of chord function.  But, from the late 19th century (and even earlier), people started moving away from that rigidity.  There were a lot of radical departures from the standard musical language of tonality, but since then we've sort of settled into a musical culture where there's a lot of tonal music — music with a tonic, which we generally find easy to listen to — that doesn't follow the conventions of the <a href="https://en.wikipedia.org/wiki/Common_practice_period">Common Practice Period</a>.  We can define Common Practice as roughly 1650-1900, but I go a bit more narrowly than that on the near side; if Wagner's famous <a href="https://en.wikipedia.org/wiki/Tristan_chord">Tristan Chord</a>, premiered in 1865, is Common Practice, then the practice couldn't have been all that common!</p>
 <p class="text">While we now work in a language better referred to as <em>extended tonality</em>, the chords used in Common Practice still form the nucleus of Western harmony, and the chords and concepts (well, most of them) are just as relevant to pop music and to EDM and to jazz as they are to old dead white people music.</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="major-minor-triads">6.3.1 Major and Minor Triads</h3>
 <p class="text">The most fundamental harmony in Western music is the triad — specifically, the major or minor triad.  Starting from the root, it's 1 3 5 for major and 1 b3 5 for minor.  Major and minor triads aren't dissonant (that's why they're so fundamental) and can fill any role, depending on the scale degrees involved, the context, etc.  Most of the other chords we'll talk about are essentially variations on the triad.  Let's take a look at a few:</p>
 <img class="example" src="../png/6/7.png" title="He stepped up to her thinking to woo her, because English folk song." alt="Example 6.7" width="800"/>

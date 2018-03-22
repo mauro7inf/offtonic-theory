@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'using modes';
 
 createPageHeader($label);
@@ -9,6 +9,7 @@ createPageHeader($label);
 ?>
 
 <p class="text">We've spent a lot of time (a lot of time) talking about aspects of different scales and modes, much of it in one specific and isolated context: pieces that are <em>in</em> a mode.  What does it mean for a piece of music to be <em>in</em> a mode?  It means that the piece follows the rules and conventions of the mode, whatever it may be.  For example, a piece can be said to be <em>in</em> maqam Oj if it has a Siga jins on its tonic and a descending sayr.  A piece is <em>in</em> major if it uses the relationships of the major scale.  But... what if it's not?  What if it doesn't observe the rules of a mode, or observes only some of them in some contexts, or some combination?</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="modal-tonal">7.11.1 Modal, Tonal, Atonal, etc.</h3>
 <p class="text">A piece of music can have a number of different relationships to a mode or a set of modes at different scales.  Scales as in time scales, not musical scales.</p>
 <h4 class="question">Uh...  Huh?</h4>

@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'jazz chords';
 
 createPageHeader($label);
@@ -14,6 +14,7 @@ createPageHeader($label);
 <p class="text">Anyway, jazz, starting in the so-called "bebop era" in the 1960's, started thinking of chords in a different way.  Before, chords in jazz were just like chords in pop: towers of thirds and extensions, possibly rearranged into nicer voicings.  But in jazz, you don't just play chords; you <em>improvise</em> over them.  So there was a revelation.  A G13 chord, for example, has 7 notes, right?  G B D F A C E.  You don't usually play them in that structure because that sounds terrible... but why not, then, play those chords... as a <em>scale</em>?  G A B C D E F.  It's the G mixolydian scale!</p>
 <h4 class="question">...Mixolydian?  What?</h4>
 <p class="text">We'll learn all about it in the next chapter on modes.  For now, though, the important thing is that modern jazz thinks of chords not as a bunch of notes in a structure with a voicing but an entire 7-note scale (or maybe 5-note or 6-note or 8-note, depending), and a pianist or guitarist will choose to play some subset of those notes that he or she thinks is appropriate.  The chord symbols are deceptively simple, too, because something like CM7 would be C E G B in traditional theory, but in jazz, it's the entire C major scale.  Let's see how these work:</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="major-scale-harmony">6.5.1 Major Scale Harmony</h3>
 <img class="example" src="../png/6/44.png" title="A jazz chord to say..." alt="Example 6.44" width="800"/>
 <p class="caption">Example 6.44</p>

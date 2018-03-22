@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'modes';
 
 createPageHeader($label);
@@ -10,77 +10,7 @@ createPageHeader($label);
 
 <p class="text">In this chapter we'll take a step out from chords and look at modes and scales.</p>
 <h4 class="question">What's a mode?  Actually, what's a scale?</h4>
-<ul class="table-of-contents-sublist">
-	<li><a href="7-1.html">7.1 Definitions</a></li>
-	<li><a href="7-2.html">7.2 The Offtonic Scale Keyboard</a></li>
-	<li><a href="7-3.html">7.3 The Principal Modes</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="7-3.html#major">7.3.1 Major</a></li>
-		<li><a href="7-3.html#minor">7.3.2 Minor</a></li>
-		<li><a href="7-3.html#tetrachords">7.3.3 "Tetrachords"</a></li>
-	</ul>
-	<li><a href="7-4.html">7.4 The Diatonic Modes</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="7-4.html#lydian">7.4.1 Lydian</a></li>
-		<li><a href="7-4.html#ionian">7.4.2 Ionian</a></li>
-		<li><a href="7-4.html#mixolydian">7.4.3 Mixolydian</a></li>
-		<li><a href="7-4.html#dorian">7.4.4 Dorian</a></li>
-		<li><a href="7-4.html#aeolian">7.4.5 Aeolian</a></li>
-		<li><a href="7-4.html#phrygian">7.4.6 Phrygian</a></li>
-		<li><a href="7-4.html#locrian">7.4.7 Locrian</a></li>
-		<li><a href="7-4.html#writing-diatonic">7.4.8 Writing in the Diatonic Modes</a></li>
-	</ul>
-	<li><a href="7-5.html">7.5 The Pentatonic Scale</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="7-5.html#major-pentatonic">7.5.1 Major Pentatonic</a></li>
-		<li><a href="7-5.html#minor-pentatonic">7.5.2 Minor Pentatonic</a></li>
-		<li><a href="7-5.html#blues-scale">7.5.3 The Blues Scale</a></li>
-		<li><a href="7-5.html#other-pentatonic-modes">7.5.4 Other Pentatonic Modes</a></li>
-	</ul>
-	<li><a href="7-6.html">7.6 The Harmonic Minor Modes</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="7-6.html#harmonic-minor">7.6.1 Harmonic Minor</a></li>
-		<li><a href="7-6.html#phrygian-dominant">7.6.2 Phrygian Dominant</a></li>
-		<li><a href="7-6.html#spanish-scale">7.6.3 The Spanish Scale</a></li>
-		<li><a href="7-6.html#ukrainian-dorian">7.6.4 Ukrainian Dorian</a></li>
-	</ul>
-	<li><a href="7-7.html">7.7 The Melodic Minor Modes</a></li>
-	<li><a href="7-8.html">7.8 Symmetric Scales</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="7-8.html#chromatic-scale">7.8.1 The Chromatic Scale</a></li>
-		<li><a href="7-8.html#whole-tone-scale">7.8.2 The Whole Tone Scale</a></li>
-		<li><a href="7-8.html#diminished-scales">7.8.3 The Diminished Scales</a></li>
-		<li><a href="7-8.html#augmented-scales">7.8.4 The Augmented Scales</a></li>
-		<li><a href="7-8.html#other-symmetric-scales">7.8.5 Other Symmetric Scales</a></li>
-	</ul>
-	<li><a href="7-9.html">7.9 Maqamat</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="7-9.html#arabic-scale">7.9.1 The Fundamental Arabic Scale</a></li>
-		<li><a href="7-9.html#rast-family">7.9.2 The Rast Family</a></li>
-		<li><a href="7-9.html#ajam-family">7.9.3 The Ajam Family</a></li>
-		<li><a href="7-9.html#nahwand-family">7.9.4 The Nahwand Family</a></li>
-		<li><a href="7-9.html#kurd-family">7.9.5 The Kurd Family</a></li>
-		<li><a href="7-9.html#hijaz-family">7.9.6 The Hijaz Family</a></li>
-		<li><a href="7-9.html#nawa-athar-family">7.9.7 The Nawa Athar Family</a></li>
-		<li><a href="7-9.html#bayat-family">7.9.8 The Bayat Family</a></li>
-		<li><a href="7-9.html#siga-family">7.9.9 The Siga Family</a></li>
-		<li><a href="7-9.html#saba-family">7.9.10 The Saba Family</a></li>
-		<li><a href="7-9.html#maqam-conclusion">7.9.11 Concluding Thoughts on Maqamat</a></li>
-	</ul>
-	<li><a href="7-10.html">7.10 Other Scales</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="7-10.html#synthetic-scales">7.10.1 Synthetic Scales</a></li>
-		<li><a href="7-10.html#other-pentatonic-scales">7.10.2 Other Pentatonic Scales</a></li>
-		<li><a href="7-10.html#gregorian-modes">7.10.3 Gregorian Modes</a></li>
-	</ul>
-	<li><a href="7-11.html">7.11 Using Scales and Modes</a></li>
-	<ul class="table-of-contents-subsublist">
-		<li><a href="7-11.html#modal-tonal">7.11.1 Modal, Tonal, Atonal, etc.</a></li>
-		<li><a href="7-11.html#harmony">7.11.2 Harmony</a></li>
-		<li><a href="7-11.html#chord-scale-theory">7.11.3 Chord-Scale Theory</a></li>
-	</ul>
-	<li><a href="7-12.html">7.12 Summary</a></li>
-</ul>
+<? createTableOfContents($label) ?>
 
 <?php
 

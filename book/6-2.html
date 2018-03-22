@@ -1,13 +1,14 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'basic chords';
 
 createPageHeader($label);
 
 ?>
 
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="triads">6.2.1 Triads</h3>
 <p class="text">A <em>triad</em> is simply a three note chord in thirds.  So, play a note, go up a third and play that note, go up another third and play that note.  Counting only major and minor thirds, we get these four kinds (called <em>qualities</em>) of triad:</p>
 <img class="example" src="../png/6/2.png" title="C MINOR!" alt="Example 6.2" width="800"/>

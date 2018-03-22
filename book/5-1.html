@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'pitch space';
 
 createPageHeader($label);
@@ -9,6 +9,7 @@ createPageHeader($label);
 ?>
 
 <p class="text">By "a little bit" I mean "a lot".  It was supposed to be a brief digression, but the toys are just too cool, so it's not that brief.  But it's important in order to understand the intervals we'll be listening to.</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="sound-waves">5.1.1 Sound Waves</h3>
 <p class="text">Just to warn you, there will be a little math.</p>
 <h4 class="question">...Warn?  Why do you need to warn me about math?  I may be a music n00b, but I'm not innumerate.</h4>

@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-require('../book.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 $label = 'meter time';
 
 createPageHeader($label);
@@ -9,6 +9,7 @@ createPageHeader($label);
 ?>
 
 <p class="text"><em>Meter</em> is the rhythmic framework for the music.  That may not make sense right away, so let's look at a simple example, <a href="https://en.wikipedia.org/wiki/Fr%C3%A8re_Jacques">Frère Jacques</a> (which you should definitely try singing/playing yourself before listening to my version):</p>
+<? createTableOfContents($label) ?>
 <h3 class="subsection-title" id="time-signature-4-4">2.1.1 4/4</h3>
 <img class="example" src="../png/2/1.png" title="The English version totally subverts the meaning of the French." alt="Example 2.1" width="800"/>
 <div class="vspace"></div>
