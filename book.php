@@ -224,6 +224,29 @@ function createDirectionLinks($label) {
 	return $directionText;
 }
 
+function getApplet($label) {
+	global $applets;
+	for ($i = 0; $i < count($applets); $i++) {
+		$applet = $applets[$i];
+		if (isset($applet['label']) && $applet['label'] === $label) {
+			return $applet;
+		}
+	}
+	return NULL;
+}
+
+function appletLink($label, $text = NULL) {
+	$applet = getApplet($label);
+	$link = '<a href="' . normalizeUrl($applet['url']) . '" target="_blank">';
+	if ($text !== NULL) {
+		$link .= $text;
+	} else {
+		$link .= $applet['title'];
+	}
+	$link .= '</a>';
+	echo $link;
+}
+
 function createPageHeader($label) {
 	$path = getPagePath($label);
 	$page = pageAtPath($path);
