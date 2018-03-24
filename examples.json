@@ -1,0 +1,801 @@
+[
+	{
+		"label": "Portuguese ABC",
+		"section": "sheet music",
+		"images": [
+			{
+				"url": "png/1/1.png",
+				"title": "This looks... weird."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Á Bê Cê.mp3"
+			}
+		]
+	},
+	{
+		"label": "a staff",
+		"section": "sheet music",
+		"images": [
+			{
+				"url": "png/1/2.png",
+				"title": "Gandalf's is better."
+			}
+		]
+	},
+	{
+		"label": "notes on a staff",
+		"section": "sheet music",
+		"images": [
+			{
+				"url": "png/1/3.png",
+				"title": "Yum, notes!"
+			}
+		]
+	},
+	{
+		"label": "my Yamaha keyboard",
+		"section": "notes keyboard",
+		"images": [
+			{
+				"url": "jpg/1/4.jpg",
+				"title": "My shitty piano."
+			}
+		]
+	},
+	{
+		"label": "notes on treble and bass",
+		"section": "pitch notation",
+		"images": [
+			{
+				"url": "png/1/5.png",
+				"title": "NOTES!  NOTES!"
+			}
+		]
+	},
+	{
+		"label": "notes on other clefs",
+		"section": "pitch notation",
+		"images": [
+			{
+				"url": "png/1/6.png",
+				"title": "This is why violists are stupid... they have to read alto clef.  No offense to violists."
+			}
+		]
+	},
+	{
+		"label": "Tristeza",
+		"section": "rhythm notation",
+		"images": [
+			{
+				"url": "png/1/7.png",
+				"title": "Such a happy song!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Tristeza Trumpet.mp3"
+			}
+		]
+	},
+	{
+		"label": "note values",
+		"section": "rhythm notation",
+		"images": [
+			{
+				"url": "png/1/8.png",
+				"title": "Obscure Note Values!"
+			}
+		]
+	},
+	{
+		"label": "whole notes",
+		"section": "rhythm notation",
+		"images": [
+			{
+				"url": "png/1/9.png",
+				"title": "Booooring."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Whole Notes.mp3"
+			}
+		]
+	},
+	{
+		"label": "half notes",
+		"section": "rhythm notation",
+		"images": [
+			{
+				"url": "png/1/10.png",
+				"title": "A bit less boring?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Half Notes.mp3"
+			}
+		]
+	},
+	{
+		"label": "quarter notes",
+		"section": "rhythm notation",
+		"images": [
+			{
+				"url": "png/1/11.png",
+				"title": "Yawn."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Quarter Notes.mp3"
+			}
+		]
+	},
+	{
+		"label": "eighth notes",
+		"section": "rhythm notation",
+		"images": [
+			{
+				"url": "png/1/12.png",
+				"title": "Hm...?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Eighth Notes.mp3"
+			}
+		]
+	},
+	{
+		"label": "16th notes",
+		"section": "rhythm notation",
+		"images": [
+			{
+				"url": "png/1/13.png",
+				"title": "Huh, kinda cool, actually."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/16th Notes.mp3"
+			}
+		]
+	},
+	{
+		"label": "dotted notes",
+		"section": "rhythm notation",
+		"images": [
+			{
+				"url": "png/1/14.png",
+				"title": "That's a rhythm and a half!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Dots.mp3"
+			}
+		]
+	},
+	{
+		"label": "tied notes",
+		"section": "rhythm notation",
+		"images": [
+			{
+				"url": "png/1/15.png",
+				"title": "I don't know how to tie one."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Ties.mp3"
+			}
+		]
+	},
+	{
+		"label": "counting rhythms",
+		"section": "counting rhythms",
+		"images": [
+			{
+				"url": "png/1/16.png",
+				"title": "I only learned my numbers up to 4.  Don't tell my parents."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Counting Rhythms.mp3"
+			}
+		]
+	},
+	{
+		"label": "counting rhythms exercises",
+		"section": "counting rhythms",
+		"images": [
+			{
+				"url": "png/1/17.png",
+				"title": "O NOES!  HW!"
+			}
+		]
+	},
+	{
+		"label": "Twinkle Twinkle",
+		"section": "basics singing",
+		"images": [
+			{
+				"url": "png/1/18.png",
+				"title": "Huh, cute tune."
+			}
+		]
+	},
+	{
+		"label": "Maoz Tzur",
+		"section": "basics singing",
+		"images": [
+			{
+				"url": "png/1/19.png",
+				"title": "Wait, WTF is up with measures 7 and 8?"
+			}
+		]
+	},
+	{
+		"label": "Final Fantasy Prologue",
+		"section": "basics singing",
+		"images": [
+			{
+				"url": "png/1/20.png",
+				"title": "Could I have picked a better song?  No such thing."
+			}
+		]
+	},
+	{
+		"label": "Lamah Haketz",
+		"section": "basics singing",
+		"images": [
+			{
+				"url": "png/1/21.png",
+				"title": "Why can't I see the end?"
+			}
+		]
+	},
+	{
+		"label": "Frère Jacques",
+		"section": "meter time 4/4",
+		"images": [
+			{
+				"url": "png/2/1.png",
+				"title": "The English version totally subverts the meaning of the French."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Frère Jacques.mp3"
+			}
+		]
+	},
+	{
+		"label": "syncopation",
+		"section": "meter time 4/4",
+		"images": [
+			{
+				"url": "png/2/2.png",
+				"title": "What IS hip, anyway?"
+			}
+		]
+	},
+	{
+		"label": "basic 4/4 beat",
+		"section": "meter time 4/4",
+		"images": [
+			{
+				"url": "png/2/3.png",
+				"title": "Groo-vay."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Basic 4-4 Beat.mp3"
+			}
+		]
+	},
+	{
+		"label": "Escravos de Jó",
+		"section": "meter time 2/4",
+		"images": [
+			{
+				"url": "png/2/4.png",
+				"title": "What is this song supposed to be about, anyway?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Escravos de Jó.mp3"
+			}
+		]
+	},
+	{
+		"label": "Stars and Stripes",
+		"section": "meter time 2/2",
+		"images": [
+			{
+				"url": "png/2/5 p1.png",
+				"title": "I thought this song was about ducks."
+			},
+			{
+				"url": "png/2/5 p2.png",
+				"title": "Or platypodes?  I'm not sure ducks are really our friends.  They're mean."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Stars and Stripes.mp3"
+			}
+		]
+	},
+	{
+		"label": "Niggun Habesht",
+		"section": "meter time 3/4",
+		"images": [
+			{
+				"url": "png/2/6.png",
+				"title": "It's out of this world!  Wait, no, it's actually in this world."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Besht.mp3"
+			}
+		]
+	},
+	{
+		"label": "Valsa Choro",
+		"section": "meter time 3/4",
+		"images": [
+			{
+				"url": "png/2/7.png",
+				"title": "Not the most difficult guitar piece ever."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Valsa-Chôro.mp3"
+			}
+		]
+	},
+	{
+		"label": "SMB Underwater",
+		"section": "meter time 3/4",
+		"images": [
+			{
+				"url": "png/2/8.png",
+				"title": "OH GOD THE BLOOPERS"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/SMB Underwater.mp3"
+			}
+		]
+	},
+	{
+		"label": "Tarantella",
+		"section": "meter time 6/8",
+		"images": [
+			{
+				"url": "png/2/9.png",
+				"title": "Is it just me or do I suddenly feel like pizza?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Tarantella.mp3"
+			}
+		]
+	},
+	{
+		"label": "Beren and Lúthien first four lines",
+		"section": "meter time 6/8",
+		"images": [
+			{
+				"url": "png/2/10.png",
+				"title": "Very Elvish."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Beren.mp3"
+			}
+		]
+	},
+	{
+		"label": "Reiach Tapuach",
+		"section": "meter time irregular",
+		"images": [
+			{
+				"url": "png/2/11.png",
+				"title": "So springy!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Reiach Tapuach.mp3"
+			}
+		]
+	},
+	{
+		"label": "Mars rhythm",
+		"section": "meter time irregular",
+		"images": [
+			{
+				"url": "png/2/12.png",
+				"title": "I like Jupiter better.  That's a great piece."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Mars Rhythm.mp3"
+			}
+		]
+	},
+	{
+		"label": "Hoy, Nazar Eem",
+		"section": "meter time irregular",
+		"images": [
+			{
+				"url": "png/2/13.png",
+				"title": "The original's in 6/8.  Boring!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Hoy, Nazar Eem.mp3"
+			}
+		]
+	},
+	{
+		"label": "Symphony No. 1 - IV",
+		"section": "meter time variation",
+		"images": [
+			{
+				"url": "png/2/14.png",
+				"title": "I haven't worked on this since 2010.  Whoops."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Symphony 1 IV.mp3"
+			}
+		]
+	},
+	{
+		"label": "Yishakeni",
+		"section": "meter time variation",
+		"images": [
+			{
+				"url": "png/2/15.png",
+				"title": "How did this smut end up in the Bible anyway?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Yishakeni.mp3"
+			}
+		]
+	},
+	{
+		"label": "Ushmor Tzetenu",
+		"section": "meter time variation",
+		"images": [
+			{
+				"url": "png/2/16.png",
+				"title": "High Holiday nusach is better."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Ushmor Tzetenu.mp3"
+			}
+		]
+	},
+	{
+		"label": "triplets",
+		"section": "divisions tuplets",
+		"images": [
+			{
+				"url": "png/2/17.png",
+				"title": "Tri-puh-let tri-puh-let..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Triplets.mp3"
+			}
+		]
+	},
+	{
+		"label": "tuplets",
+		"section": "divisions tuplets",
+		"images": [
+			{
+				"url": "png/2/18.png",
+				"title": "Quin-tu-p-le-t... Uh..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Tuplets.mp3"
+			}
+		]
+	},
+	{
+		"label": "complex tuplets",
+		"section": "divisions tuplets",
+		"images": [
+			{
+				"url": "png/2/19.png",
+				"title": "Du-plet quad-ru-p-let five-to-three-p-let..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Weirduplets.mp3"
+			}
+		]
+	},
+	{
+		"label": "bad beaming",
+		"section": "notating rhythms",
+		"images": [
+			{
+				"url": "png/2/20.png",
+				"title": "Ah!  Headache!"
+			}
+		]
+	},
+	{
+		"label": "good breaking",
+		"section": "notating rhythms",
+		"images": [
+			{
+				"url": "png/2/21.png",
+				"title": "I can't see the invisible bar line."
+			}
+		]
+	},
+	{
+		"label": "Latin breaking",
+		"section": "notating rhythms",
+		"images": [
+			{
+				"url": "png/2/22.png",
+				"title": "Jazzy!"
+			}
+		]
+	},
+	{
+		"label": "bad beaming in 12/8",
+		"section": "notating rhythms",
+		"images": [
+			{
+				"url": "png/2/23.png",
+				"title": "Is line 2 supposed to be better than line 1?"
+			}
+		]
+	},
+	{
+		"label": "metric modulation constant 8ths",
+		"section": "metric modulation",
+		"images": [
+			{
+				"url": "png/2/24.png",
+				"title": "his is... plain."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Metric Same.mp3"
+			}
+		]
+	},
+	{
+		"label": "metric modulation constant beats",
+		"section": "metric modulation",
+		"images": [
+			{
+				"url": "png/2/25.png",
+				"title": "This is... also plain."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Metric Different.mp3"
+			}
+		]
+	},
+	{
+		"label": "metric modulation half time",
+		"section": "metric modulation",
+		"images": [
+			{
+				"url": "png/2/26.png",
+				"title": "Still plain."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Metric Half.mp3"
+			}
+		]
+	},
+	{
+		"label": "In The Mood swing",
+		"section": "rhythm swing",
+		"images": [
+			{
+				"url": "png/2/27.png",
+				"title": "Without the notes inégales, this passage is meaningless."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/In The Mood Swing.mp3"
+			}
+		]
+	},
+	{
+		"label": "In The Mood straight",
+		"section": "rhythm swing",
+		"images": [
+			{
+				"url": "png/2/28.png",
+				"title": "Meaningless!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/In The Mood Straight.mp3"
+			}
+		]
+	},
+	{
+		"label": "timpani dynamics",
+		"section": "notation dynamics",
+		"images": [
+			{
+				"url": "png/3/1.png",
+				"title": "Dramatic timpani!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Timpani Dynamics.mp3"
+			}
+		]
+	},
+	{
+		"label": "multirest",
+		"section": "control structures",
+		"images": [
+			{
+				"url": "png/3/2.png",
+				"title": "."
+			}
+		]
+	},
+	{
+		"label": "control structures",
+		"section": "control structures",
+		"images": [
+			{
+				"url": "png/3/3.png",
+				"title": "(so much silence)"
+			}
+		]
+	},
+	{
+		"label": "rests and repeats",
+		"section": "control structures",
+		"images": [
+			{
+				"url": "png/3/4.png",
+				"title": "(I have no mouth and I must scream)"
+			}
+		]
+	},
+	{
+		"label": "articulations",
+		"section": "notation articulations",
+		"images": [
+			{
+				"url": "png/3/5.png",
+				"title": "Zip-a-dee-doo, dat dat dah!"
+			}
+		]
+	},
+	{
+		"label": "tremolos",
+		"section": "notation articulations",
+		"images": [
+			{
+				"url": "png/3/6.png",
+				"title": "Rrrrrr!"
+			}
+		]
+	},
+	{
+		"label": "wavy lines",
+		"section": "notation articulations",
+		"images": [
+			{
+				"url": "png/3/7.png",
+				"title": "Boogie woogie woogie?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Slide.mp3"
+			}
+		]
+	},
+	{
+		"label": "jazz articulations",
+		"section": "notation articulations",
+		"images": [
+			{
+				"url": "png/3/8.png",
+				"title": "Just fall!  I mean, just doit!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Jazz Articulations.mp3"
+			}
+		]
+	},
+	{
+		"label": "ornaments",
+		"section": "notation ornaments",
+		"images": [
+			{
+				"url": "png/3/9.png",
+				"title": "Merry Christmas?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Ornaments.mp3"
+			}
+		]
+	},
+	{
+		"label": "cues",
+		"section": "part assignments",
+		"images": [
+			{
+				"url": "png/3/10.png",
+				"title": "Tiny li'l notes!"
+			}
+		]
+	},
+	{
+		"label": "stopping time",
+		"section": "stopping time",
+		"images": [
+			{
+				"url": "png/3/11.png",
+				"title": "STOP!  In the name of...  Music?"
+			}
+		]
+	},
+	{
+		"label": "cadenza",
+		"section": "stopping time",
+		"images": [
+			{
+				"url": "png/3/12.png",
+				"title": "Does she seem a bit narcissistic to you too?"
+			}
+		]
+	}
+]

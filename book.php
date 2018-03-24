@@ -7,6 +7,10 @@ addLabels($pages);
 
 $applets = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/theory/applets.json'), true);
 
+$examples = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/theory/examples.json'), true);
+$exampleMap = array();
+mapExamples();
+
 function addLabels($page) {
 	if (isset($page['label']) && isset($page['url']) && substr($page['url'], 0, 1) !== '#') {
 		global $pageLabels;
@@ -16,6 +20,29 @@ function addLabels($page) {
 		for ($i = 0; $i < count($page['subsections']); $i++) {
 			addLabels($page['subsections'][$i]);
 		}
+	}
+}
+
+function mapExamples() {
+	global $examples;
+	global $exampleMap;
+	$chapterByLabel = array();
+	$chapterCount = array();
+	for ($i = 0; $i < count($examples); $i++) {
+		$example = $examples[$i];
+		$section = $example['section'];
+		if (!isset($chapterByLabel[$section])) {
+			$path = getPagePath($section);
+			$path = array_slice($path, 0, 2);
+			$chapterByLabel[$section] = numberAtPath($path);
+		}
+		$chapter = $chapterByLabel[$section];
+		if (!isset($chapterCount[$chapter])) {
+			$chapterCount[$chapter] = 0;
+		}
+		$chapterCount[$chapter] = $chapterCount[$chapter] + 1;
+		$exampleMap[$example['label']] = $example;
+		$exampleMap[$example['label']]['number'] = '' . $chapter . '.' . $chapterCount[$chapter];
 	}
 }
 
@@ -247,6 +274,35 @@ function appletLink($label, $text = NULL) {
 	echo $link;
 }
 
+function exampleLink($label, $text = NULL) {
+	global $exampleMap;
+	$example = $exampleMap[$label];
+	$sectionLabel = $example['section'];
+	$sectionPath = getPagePath($sectionLabel);
+	$url = pageUrlAtPath($sectionPath) . '#example-' . str_replace('.', '-', $example['number']);
+	$name = $text;
+	if ($text === NULL) {
+		$name = 'Example ' . $example['number'];
+	}
+	echo '<a href="' . $url . '">' . $name . '</a>';
+}
+
+function sectionLinkShort($label, $text = NULL) {
+	$path = getPagePath($label);
+	$name = $text;
+	if ($text === NULL) {
+		$page = pageAtPath($path);
+		if (isset($page['number']) && count($path) === 2) {
+			$name = 'Chapter ' . numberAtPath($path);
+		} else if (isset($page['number']) && count($path) >= 3) {
+			$name = 'Section ' . numberAtPath($path);
+		} else {
+			$name = $page['title'];
+		}
+	}
+	echo '<a href="' . urlAtPath($path) . '">' . $name . '</a>';
+}
+
 function createPageHeader($label) {
 	$path = getPagePath($label);
 	$page = pageAtPath($path);
@@ -360,6 +416,37 @@ function createPageFooter($label) {
 	</body>
 </html>';
 	echo $pageFooter;
+}
+
+function createExample($label, $again = false) {
+	global $exampleMap;
+	$example = $exampleMap[$label];
+	$name = 'Example ' . $example['number'];
+	if ($again) {
+		$name .= ' (again)';
+	}
+	if (isset($example['images'])) {
+		for ($i = 0; $i < count($example['images']); $i++) {
+			$image = $example['images'][$i];
+			$alt = $name;
+			if (count($example['images']) > 1) {
+				$alt .= ' ' . $i;
+			}
+			$img = '<img class="example" src="' . normalizeUrl($image['url']) . '" title="' . $image['title'] . '" alt="' . $alt . '" width="800" ';
+			if ($i === 0) {
+				$img .= 'id="example-' . str_replace('.', '-', $example['number']) . '" ';
+			}
+			echo $img . '/>' . "\n";
+		}
+	}
+	if (isset($example['audio'])) {
+		for ($i = 0; $i < count($example['audio']); $i++) {
+			$audio = $example['audio'][$i];
+			echo '<div class="vspace"></div>' . "\n";
+			echo '<audio class="example" controls="controls" preload="none" src="' . normalizeUrl($audio['url']) . '"></audio>' . "\n";
+		}
+	}
+	echo '<p class="caption">' . $name . '</p>' . "\n";
 }
 
 ?>
