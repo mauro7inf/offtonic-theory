@@ -449,4 +449,22 @@ function createExample($label, $again = false) {
 	echo '<p class="caption">' . $name . '</p>' . "\n";
 }
 
+function createGeneratedExample($label, $html, $again = false) {
+	global $exampleMap;
+	$example = $exampleMap[$label];
+	$name = 'Example ' . $example['number'];
+	if ($again) {
+		$name .= ' (again)';
+	}
+	echo '<div id="example-' . str_replace('.', '-', $example['number']) . '">' . $html . '</div>';
+	if (isset($example['audio'])) {
+		for ($i = 0; $i < count($example['audio']); $i++) {
+			$audio = $example['audio'][$i];
+			echo '<div class="vspace"></div>' . "\n";
+			echo '<audio class="example" controls="controls" preload="none" src="' . normalizeUrl($audio['url']) . '"></audio>' . "\n";
+		}
+	}
+	echo '<p class="caption">' . $name . '</p>' . "\n";
+}
+
 ?>

@@ -797,5 +797,261 @@
 				"title": "Does she seem a bit narcissistic to you too?"
 			}
 		]
+	},
+	{
+		"label": "C major scale",
+		"section": "diatonic scale",
+		"images": [
+			{
+				"url": "png/4/1.png",
+				"title": "C major."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/C Major Scale.mp3"
+			}
+		]
+	},
+	{
+		"label": "keyboard seconds",
+		"section": "naming diatonic intervals"
+	},
+	{
+		"label": "keyboard sevenths",
+		"section": "naming diatonic intervals"
+	},
+	{
+		"label": "keyboard thirds",
+		"section": "naming diatonic intervals"
+	},
+	{
+		"label": "keyboard sixths",
+		"section": "naming diatonic intervals"
+	},
+	{
+		"label": "keyboard fourths",
+		"section": "naming diatonic intervals"
+	},
+	{
+		"label": "keyboard fifths",
+		"section": "naming diatonic intervals"
+	},
+	{
+		"label": "keyboard octaves",
+		"section": "naming diatonic intervals"
+	},
+	{
+		"label": "keyboard all intervals",
+		"section": "naming diatonic intervals"
+	},
+	{
+		"label": "All-State chromatic scale",
+		"section": "naming chromatic intervals",
+		"images": [
+			{
+				"url": "png/4/10.png",
+				"title": "Sounds a step lower, doesn't it?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Chromatic Scale.mp3"
+			}
+		]
+	},
+	{
+		"label": "interval naming quiz",
+		"section": "naming chromatic intervals",
+		"images": [
+			{
+				"url": "png/4/11.png",
+				"title": "Some of these are backwards."
+			}
+		]
+	},
+	{
+		"label": "interval completion quiz",
+		"section": "naming chromatic intervals",
+		"images": [
+			{
+				"url": "png/4/12.png",
+				"title": "None of these are backwards."
+			}
+		]
+	},
+	{
+		"label": "All-State major scales",
+		"section": "major scales keys",
+		"images": [
+			{
+				"url": "png/4/13.png",
+				"title": "This brings back flashbacks of high school auditions..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Three Major.mp3"
+			}
+		]
+	},
+	{
+		"label": "major scale formula",
+		"section": "major scales keys",
+		"images": [
+			{
+				"url": "png/4/14.png",
+				"title": "PATTERNS!"
+			}
+		]
+	},
+	{
+		"label": "D major scale formula",
+		"section": "major scales keys",
+		"images": [
+			{
+				"url": "png/4/15.png",
+				"title": "SAME PATTERNS!"
+			}
+		]
+	},
+	{
+		"label": "all major scales",
+		"section": "major scales keys",
+		"images": [
+			{
+				"url": "png/4/16.png",
+				"title": "Scale her?  I hardly know her.  I need to research the routes first."
+			}
+		]
+	},
+	{
+		"label": "Happy Birthday",
+		"section": "major scales keys",
+		"images": [
+			{
+				"url": "png/4/17.png",
+				"title": "To me, to me!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Happy Birthday.mp3"
+			}
+		]
+	},
+	{
+		"label": "minor scale formula",
+		"section": "minor scales keys",
+		"images": [
+			{
+				"url": "png/4/18.png",
+				"title": "A small thing."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/C Minor Scale.mp3"
+			}
+		]
+	},
+	{
+		"label": "All-State minor scales",
+		"section": "minor scales keys",
+		"images": [
+			{
+				"url": "png/4/19.png",
+				"title": "Three times the scales, three times the price!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/A Minors.mp3"
+			}
+		]
+	},
+	{
+		"label": "all minor scales",
+		"section": "minor scales keys",
+		"images": [
+			{
+				"url": "png/4/20.png",
+				"title": "I don't think I've ever played in A# minor."
+			}
+		]
+	},
+	{
+		"label": "Yigdal Aleppo",
+		"section": "minor scales keys",
+		"images": [
+			{
+				"url": "png/4/21.png",
+				"title": "Kind of repetitive, no?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Yigdal Aleppo.mp3"
+			}
+		]
+	},
+	{
+		"label": "degree names",
+		"section": "scales keys tendencies",
+		"images": [
+			{
+				"url": "png/4/24.png",
+				"title": "Silly names!"
+			}
+		]
+	},
+	{
+		"label": "Russian Sailors Dance",
+		"section": "scales keys tendencies",
+		"images": [
+			{
+				"url": "png/4/25.png",
+				"title": "Where did the Russians sail to anyway?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Russian Sailors.mp3"
+			}
+		]
+	},
+	{
+		"label": "Desafinado",
+		"section": "outside scales keys",
+		"images": [
+			{
+				"url": "png/4/26 p1.png",
+				"title": "This is long!"
+			},
+			{
+				"url": "png/4/26 p2.png",
+				"title": "And REALLY chromatic!"
+			}
+		]
+	},
+	{
+		"label": "key signatures",
+		"section": "scales keys signatures",
+		"images": [
+			{
+				"url": "png/4/22.png",
+				"title": "Fuck tenor clef.  Just... fuck tenor clef."
+			}
+		]
+	},
+	{
+		"label": "A sharp major scale",
+		"section": "scales keys signatures",
+		"images": [
+			{
+				"url": "png/4/23.png",
+				"title": "This key is bullshit."
+			}
+		]
 	}
 ]
