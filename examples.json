@@ -227,6 +227,11 @@
 				"url": "png/1/18.png",
 				"title": "Huh, cute tune."
 			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Twinkle.mp3"
+			}
 		]
 	},
 	{
@@ -1051,6 +1056,2655 @@
 			{
 				"url": "png/4/23.png",
 				"title": "This key is bullshit."
+			}
+		]
+	},
+	{
+		"label": "sine wave",
+		"section": "pitch space waves"
+	},
+	{
+		"label": "sawtooth wave",
+		"section": "pitch space waves"
+	},
+	{
+		"label": "filtered sawtooth wave",
+		"section": "pitch space pitch"
+	},
+	{
+		"label": "two sine waves",
+		"section": "pitch space class"
+	},
+	{
+		"label": "Interval P1",
+		"section": "sound intervals P1",
+		"images": [
+			{
+				"url": "png/5/5.png",
+				"title": "The most fun interval?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval P1.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval P8",
+		"section": "sound intervals P8",
+		"images": [
+			{
+				"url": "png/5/7.png",
+				"title": "SomeWHEEEERE!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval P8.mp3"
+			}
+		]
+	},
+	{
+		"label": "Over the Rainbow",
+		"section": "sound intervals P8",
+		"images": [
+			{
+				"url": "png/5/8.png",
+				"title": "OOOOver the rainbow!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Over the Rainbow.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval P5",
+		"section": "sound intervals P5",
+		"images": [
+			{
+				"url": "png/5/9.png",
+				"title": "Is it a little eerie?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval P5.mp3"
+			}
+		]
+	},
+	{
+		"label": "low piano chords",
+		"section": "sound intervals P5",
+		"images": [
+			{
+				"url": "png/5/11.png",
+				"title": "Right in the mud."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Low Fifth.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval M3",
+		"section": "sound intervals M3",
+		"images": [
+			{
+				"url": "png/5/12.png",
+				"title": "Disorienting."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval M3.mp3"
+			}
+		]
+	},
+	{
+		"label": "d4 M3 comparison",
+		"section": "sound intervals M3",
+		"images": [
+			{
+				"url": "png/5/13.png",
+				"title": "Very dark indeed!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval d4.mp3"
+			}
+		]
+	},
+	{
+		"label": "Blue Danube",
+		"section": "sound intervals M3",
+		"images": [
+			{
+				"url": "png/5/14.png",
+				"title": "The waves are just so serene, like being thrown out the airlock by a rampant AI."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Blue Danube.mp3"
+			}
+		]
+	},
+	{
+		"label": "Chopsticks",
+		"section": "sound intervals M3",
+		"images": [
+			{
+				"url": "png/5/15.png",
+				"title": "Is this mariachi music?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Chopsticks.mp3"
+			}
+		]
+	},
+	{
+		"label": "trombone d4",
+		"section": "sound intervals M3",
+		"images": [
+			{
+				"url": "png/5/16.png",
+				"title": "Scary sci-fi movie shit."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Trombone d4.mp3"
+			}
+		]
+	},
+	{
+		"label": "Fugue 4 exposition",
+		"section": "sound intervals M3",
+		"images": [
+			{
+				"url": "png/5/17.png",
+				"title": "My favorite fugue!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Fugue 4 Exposition.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval min3",
+		"section": "sound intervals m3",
+		"images": [
+			{
+				"url": "png/5/18.png",
+				"title": "I feel like Mozart...  Yuck!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval min3.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval A2",
+		"section": "sound intervals m3",
+		"images": [
+			{
+				"url": "png/5/19.png",
+				"title": "Dark...ish?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval A2.mp3"
+			}
+		]
+	},
+	{
+		"label": "Greensleeves",
+		"section": "sound intervals m3",
+		"images": [
+			{
+				"url": "png/5/20.png",
+				"title": "This is so English!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Greensleeves.mp3"
+			}
+		]
+	},
+	{
+		"label": "Star Spangled Banner",
+		"section": "sound intervals m3",
+		"images": [
+			{
+				"url": "png/5/21.png",
+				"title": "I honestly don't know why they couldn't use a tune by an American composer like William Billings."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Star-Spangled Banner.mp3"
+			}
+		]
+	},
+	{
+		"label": "Eshet Chayil",
+		"section": "sound intervals m3",
+		"images": [
+			{
+				"url": "png/5/22.png",
+				"title": "Yeah, who *can* find?  I mean, besides my wife."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Eshet Chayil.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval M6",
+		"section": "sound intervals M6",
+		"images": [
+			{
+				"url": "png/5/23.png",
+				"title": "I'm running out of things to say.  Have been for a long time."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval M6.mp3"
+			}
+		]
+	},
+	{
+		"label": "NBC",
+		"section": "sound intervals M6",
+		"images": [
+			{
+				"url": "png/5/24.png",
+				"title": "C B S!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/NBC.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval min6",
+		"section": "sound intervals m6",
+		"images": [
+			{
+				"url": "png/5/26.png",
+				"title": "Do I have to come up with a thing?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval min6.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval A5",
+		"section": "sound intervals m6",
+		"images": [
+			{
+				"url": "png/5/27.png",
+				"title": "I like clarinets."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval A5.mp3"
+			}
+		]
+	},
+	{
+		"label": "Manhã de Carnaval",
+		"section": "sound intervals m6",
+		"images": [
+			{
+				"url": "png/5/28.png",
+				"title": "I like bass clarinets."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Manhã de Carnaval.mp3"
+			}
+		]
+	},
+	{
+		"label": "The Entertainer",
+		"section": "sound intervals m6",
+		"images": [
+			{
+				"url": "png/5/29.png",
+				"title": "ARE YOU NOT ENTERTAINED?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/The Entertainer.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval P4",
+		"section": "sound intervals P4",
+		"images": [
+			{
+				"url": "png/5/30.png",
+				"title": "Why did I wait so long for the humble fourth?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval P4.mp3"
+			}
+		]
+	},
+	{
+		"label": "Dick Wagger Bride",
+		"section": "sound intervals P4",
+		"images": [
+			{
+				"url": "png/5/31.png",
+				"title": "Am I the only one who is reminded of Wagner when smelling cat shit?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Dick Wagger Bride.mp3"
+			}
+		]
+	},
+	{
+		"label": "Baruch Haba",
+		"section": "sound intervals P4",
+		"images": [
+			{
+				"url": "png/5/32.png",
+				"title": "I think it sounds better a cappella."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Baruch Haba.mp3"
+			}
+		]
+	},
+	{
+		"label": "P4s",
+		"section": "sound intervals P4",
+		"images": [
+			{
+				"url": "png/5/33.png",
+				"title": "Pensive."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/P4's.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval M2",
+		"section": "sound intervals M2",
+		"images": [
+			{
+				"url": "png/5/34.png",
+				"title": "One of the prettiest intervals."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval M2.mp3"
+			}
+		]
+	},
+	{
+		"label": "Recuerdos de la Alhambra",
+		"section": "sound intervals M2",
+		"images": [
+			{
+				"url": "png/5/36.png",
+				"title": "I remember it..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Recuerdos de la Alhambra.mp3"
+			}
+		]
+	},
+	{
+		"label": "Alhambra analysis",
+		"section": "sound intervals M2",
+		"images": [
+			{
+				"url": "png/5/37.png",
+				"title": "This is easier to play by, like, 400%."
+			}
+		]
+	},
+	{
+		"label": "Interval M9",
+		"section": "sound intervals M9",
+		"images": [
+			{
+				"url": "png/5/38.png",
+				"title": "Dulcissime?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval M9.mp3"
+			}
+		]
+	},
+	{
+		"label": "the 9th",
+		"section": "sound intervals M9",
+		"images": [
+			{
+				"url": "png/5/39.png",
+				"title": "Cutting."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/The Ninth.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval min2",
+		"section": "sound intervals m2",
+		"images": [
+			{
+				"url": "png/5/40.png",
+				"title": "Jaws!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval min2.mp3"
+			}
+		]
+	},
+	{
+		"label": "lydian cluster",
+		"section": "sound intervals m2",
+		"images": [
+			{
+				"url": "png/5/41.png",
+				"title": "This is actually pretty."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Lydian Cluster.mp3"
+			}
+		]
+	},
+	{
+		"label": "Jaws",
+		"section": "sound intervals m2",
+		"images": [
+			{
+				"url": "png/5/42.png",
+				"title": "I don't like the Jaws ride at Universal Orlando.  Too much fire."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Jaws.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval min9",
+		"section": "sound intervals m9",
+		"images": [
+			{
+				"url": "png/5/43.png",
+				"title": "So much atonality."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval min9.mp3"
+			}
+		]
+	},
+	{
+		"label": "weird m9",
+		"section": "sound intervals m9",
+		"images": [
+			{
+				"url": "png/5/44.png",
+				"title": "This one is all tonal.  Just... dissonant."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Weird m9.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval M7",
+		"section": "sound intervals M7",
+		"images": [
+			{
+				"url": "png/5/45.png",
+				"title": "Oddly peaceful."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval M7.mp3"
+			}
+		]
+	},
+	{
+		"label": "Symphony 1 III motif",
+		"section": "sound intervals M7",
+		"images": [
+			{
+				"url": "png/5/46.png",
+				"title": "Can I not write longer motifs?  No, apparently."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Symphony 1 - III motif.mp3"
+			}
+		]
+	},
+	{
+		"label": "Take On Me",
+		"section": "sound intervals M7",
+		"images": [
+			{
+				"url": "png/5/47.png",
+				"title": "Take on holy shit it's high.  How the hell does he do it?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Take On Me.mp3"
+			}
+		]
+	},
+	{
+		"label": "Chorinho",
+		"section": "sound intervals M7",
+		"images": [
+			{
+				"url": "png/5/48.png",
+				"title": "These chords are weird, yo."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Chorinho.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval min7",
+		"section": "sound intervals m7",
+		"images": [
+			{
+				"url": "png/5/49.png",
+				"title": "Theeeeere's a plaaaace..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval min7.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval A6",
+		"section": "sound intervals m7",
+		"images": [
+			{
+				"url": "png/5/50.png",
+				"title": "Not sure there's a place anymore."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval A6.mp3"
+			}
+		]
+	},
+	{
+		"label": "Somewhere",
+		"section": "sound intervals m7",
+		"images": [
+			{
+				"url": "png/5/51.png",
+				"title": "We know how this one turns out!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Somewhere.mp3"
+			}
+		]
+	},
+	{
+		"label": "Interval TT",
+		"section": "sound intervals TT",
+		"images": [
+			{
+				"url": "png/5/52.png",
+				"title": "Ooh, scary demon!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Interval TT.mp3"
+			}
+		]
+	},
+	{
+		"label": "Maria",
+		"section": "sound intervals TT",
+		"images": [
+			{
+				"url": "png/5/53.png",
+				"title": "So Tony decides that the most interesting thing about the girl he just met and kissed is her NAME?  Yeah, this relationship's gonna work."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Maria.mp3"
+			}
+		]
+	},
+	{
+		"label": "TT Resolutions",
+		"section": "sound intervals TT",
+		"images": [
+			{
+				"url": "png/5/54.png",
+				"title": "THE DEVIL'S INTERVAL IS... normal?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/TT Resolutions.mp3"
+			}
+		]
+	},
+	{
+		"label": "YSZ",
+		"section": "chords harmony",
+		"images": [
+			{
+				"url": "png/6/1.png",
+				"title": "Jerusalem of... reharmonization?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/YSZ.mp3"
+			}
+		]
+	},
+	{
+		"label": "triads",
+		"section": "basic chords triads",
+		"images": [
+			{
+				"url": "png/6/2.png",
+				"title": "C MINOR!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Triads.mp3"
+			}
+		]
+	},
+	{
+		"label": "C Major triads",
+		"section": "basic chords triads",
+		"images": [
+			{
+				"url": "png/6/3.png",
+				"title": "C MAJOR!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/C Major Triads.mp3"
+			}
+		]
+	},
+	{
+		"label": "slash chords",
+		"section": "basic chords triads",
+		"images": [
+			{
+				"url": "png/6/4.png",
+				"title": "SLASH!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Slash.mp3"
+			}
+		]
+	},
+	{
+		"label": "diatonic chords",
+		"section": "basic chords diatonic",
+		"images": [
+			{
+				"url": "png/6/5.png",
+				"title": "There's too many!"
+			}
+		]
+	},
+	{
+		"label": "WTC Prelude 1",
+		"section": "basic chords function",
+		"images": [
+			{
+				"url": "png/6/6.png",
+				"title": "Isn't this an Ave Maria?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/WTC Prelude I.mp3"
+			}
+		]
+	},
+	{
+		"label": "Brisk Young Sailor",
+		"section": "classical chords triads",
+		"images": [
+			{
+				"url": "png/6/7.png",
+				"title": "He stepped up to her thinking to woo her, because English folk song."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/The Brisk Young Sailor.mp3"
+			}
+		]
+	},
+	{
+		"label": "figured bass inversions",
+		"section": "classical chords triads",
+		"images": [
+			{
+				"url": "png/6/8.png",
+				"title": "Ah, the English."
+			}
+		]
+	},
+	{
+		"label": "Lisbon",
+		"section": "classical chords triads",
+		"images": [
+			{
+				"url": "png/6/9.png",
+				"title": "The hills and dales were covered with pretty young girls around, because, again, English folk song."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Lisbon.mp3"
+			}
+		]
+	},
+	{
+		"label": "V7",
+		"section": "classical chords dominant",
+		"images": [
+			{
+				"url": "png/6/10.png",
+				"title": "I've heard the last four bars of this before..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/V7.mp3"
+			}
+		]
+	},
+	{
+		"label": "non-dominant 7ths",
+		"section": "classical chords non-dominant",
+		"images": [
+			{
+				"url": "png/6/11.png",
+				"title": "The jazz is loose!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Non-Dominant 7ths.mp3"
+			}
+		]
+	},
+	{
+		"label": "diminished chords",
+		"section": "classical chords diminished",
+		"images": [
+			{
+				"url": "png/6/12.png",
+				"title": "Kinda dark, but kinda not."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Diminished Chords.mp3"
+			}
+		]
+	},
+	{
+		"label": "dim7 resolutions",
+		"section": "classical chords diminished",
+		"images": [
+			{
+				"url": "png/6/13.png",
+				"title": "Why the inversions?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/dim7 Resolutions.mp3"
+			}
+		]
+	},
+	{
+		"label": "augmented chords",
+		"section": "classical chords augmented",
+		"images": [
+			{
+				"url": "png/6/14.png",
+				"title": "Again, why the inversions?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Augmented.mp3"
+			}
+		]
+	},
+	{
+		"label": "SMW Ending",
+		"section": "classical chords augmented",
+		"images": [
+			{
+				"url": "png/6/15.png",
+				"title": "Koji Kondo is a fucking genius."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/SMW Ending.mp3"
+			}
+		]
+	},
+	{
+		"label": "aug resolutions",
+		"section": "classical chords augmented",
+		"images": [
+			{
+				"url": "png/6/16.png",
+				"title": "Up, up, and aug!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Aug Resolutions.mp3"
+			}
+		]
+	},
+	{
+		"label": "aug6 chords",
+		"section": "classical chords aug6",
+		"images": [
+			{
+				"url": "png/6/17.png",
+				"title": "Not a m7."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Aug6 Chords.mp3"
+			}
+		]
+	},
+	{
+		"label": "triad varieties",
+		"section": "pop chords triads",
+		"images": [
+			{
+				"url": "png/6/18.png",
+				"title": "I GOT THE POWER!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Triad Varieties.mp3"
+			}
+		]
+	},
+	{
+		"label": "Smoke on the Water",
+		"section": "pop chords triads",
+		"images": [
+			{
+				"url": "png/6/19.png",
+				"title": "A fire in the sky."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Smoke on the Water.mp3"
+			}
+		]
+	},
+	{
+		"label": "sus resolutions",
+		"section": "pop chords triads",
+		"images": [
+			{
+				"url": "png/6/20.png",
+				"title": "Like the Hanging Gardens."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Sus.mp3"
+			}
+		]
+	},
+	{
+		"label": "pop 7ths",
+		"section": "pop chords sevenths",
+		"images": [
+			{
+				"url": "png/6/21.png",
+				"title": "The Bond chord."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/mM7.mp3"
+			}
+		]
+	},
+	{
+		"label": "At the Bottom of the Night",
+		"section": "pop chords sevenths",
+		"images": [
+			{
+				"url": "png/6/22.png",
+				"title": "Saddest song in Chrono Trigger.  Wait, no, that's Wind Scene.  Shit, they're all sad."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/At the Bottom of the Night.mp3"
+			}
+		]
+	},
+	{
+		"label": "poly 7ths",
+		"section": "pop chords sevenths",
+		"images": [
+			{
+				"url": "png/6/23.png",
+				"title": "So it's both C major and E minor."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Poly Sevenths.mp3"
+			}
+		]
+	},
+	{
+		"label": "blues",
+		"section": "pop chords sevenths",
+		"images": [
+			{
+				"url": "png/6/24.png",
+				"title": "There are a lot of songs that sound like this!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Blues.mp3"
+			}
+		]
+	},
+	{
+		"label": "Erev Una",
+		"section": "pop chords sevenths",
+		"images": [
+			{
+				"url": "png/6/25.png",
+				"title": "Double feature, yo."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Erev Una.mp3"
+			}
+		]
+	},
+	{
+		"label": "6th chords",
+		"section": "pop chords sixths",
+		"images": [
+			{
+				"url": "png/6/26.png",
+				"title": "1 3 5 6"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/6th Chords.mp3"
+			}
+		]
+	},
+	{
+		"label": "Summertime",
+		"section": "pop chords sixths",
+		"images": [
+			{
+				"url": "png/6/27.png",
+				"title": "And the living is difficult."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Summertime.mp3"
+			}
+		]
+	},
+	{
+		"label": "tertian chords",
+		"section": "pop chords extensions",
+		"images": [
+			{
+				"url": "png/6/28.png",
+				"title": "These chords actually sound pretty shitty, don't they?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Tertians.mp3"
+			}
+		]
+	},
+	{
+		"label": "add9",
+		"section": "pop chords 9",
+		"images": [
+			{
+				"url": "png/6/29.png",
+				"title": "Yay pretty chords!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/add9.mp3"
+			}
+		]
+	},
+	{
+		"label": "In The End",
+		"section": "pop chords 9",
+		"images": [
+			{
+				"url": "png/6/30.png",
+				"title": "It doesn't even matter."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/In The End.mp3"
+			}
+		]
+	},
+	{
+		"label": "Bossa 69",
+		"section": "pop chords 9",
+		"images": [
+			{
+				"url": "png/6/31.png",
+				"title": "69!  Heh heh."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Bossa 69.mp3"
+			}
+		]
+	},
+	{
+		"label": "b9 chords",
+		"section": "pop chords b9",
+		"images": [
+			{
+				"url": "png/6/32.png",
+				"title": "The Ugly Chords..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/b9 Chords.mp3"
+			}
+		]
+	},
+	{
+		"label": "susb9",
+		"section": "pop chords b9",
+		"images": [
+			{
+				"url": "png/6/33.png",
+				"title": "Eerie and... Japanese?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/susb9.mp3"
+			}
+		]
+	},
+	{
+		"label": "Bossa 7b9",
+		"section": "pop chords b9",
+		"images": [
+			{
+				"url": "png/6/34.png",
+				"title": "Why do all bossa nova songs sound the same?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Bossa 7b9.mp3"
+			}
+		]
+	},
+	{
+		"label": "E7b9 yes and no 7",
+		"section": "pop chords b9",
+		"images": [
+			{
+				"url": "png/6/35.png",
+				"title": "It's the same chord, yo."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/E7b9 Yes and No 7.mp3"
+			}
+		]
+	},
+	{
+		"label": "7s9",
+		"section": "pop chords b10",
+		"images": [
+			{
+				"url": "png/6/36.png",
+				"title": "Feel that tension!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/7s9.mp3"
+			}
+		]
+	},
+	{
+		"label": "Sharp Nine Blues",
+		"section": "pop chords b10",
+		"images": [
+			{
+				"url": "png/6/37.png",
+				"title": "It's the Sharp Nine Blues!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Sharp Nine Blues.mp3"
+			}
+		]
+	},
+	{
+		"label": "11th chords",
+		"section": "pop chords 11",
+		"images": [
+			{
+				"url": "png/6/38.png",
+				"title": "11sus4?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/11sus4.mp3"
+			}
+		]
+	},
+	{
+		"label": "A Felicidade",
+		"section": "pop chords 11",
+		"images": [
+			{
+				"url": "png/6/39.png",
+				"title": "Happiness is so fleeting, isn't it?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/A Felicidade.mp3"
+			}
+		]
+	},
+	{
+		"label": "more 11",
+		"section": "pop chords 11",
+		"images": [
+			{
+				"url": "png/6/40.png",
+				"title": "It's gone already."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/More 11.mp3"
+			}
+		]
+	},
+	{
+		"label": "sharp 11 chords",
+		"section": "pop chords b5",
+		"images": [
+			{
+				"url": "png/6/41.png",
+				"title": "Mama, look sharp."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Add Sharp 11.mp3"
+			}
+		]
+	},
+	{
+		"label": "b13 chords",
+		"section": "pop chords b13",
+		"images": [
+			{
+				"url": "png/6/42.png",
+				"title": "Mama, look flat."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/b13.mp3"
+			}
+		]
+	},
+	{
+		"label": "13th chords",
+		"section": "pop chords 13",
+		"images": [
+			{
+				"url": "png/6/43.png",
+				"title": "Not exciting?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/13.mp3"
+			}
+		]
+	},
+	{
+		"label": "jazz chords major",
+		"section": "jazz chords major",
+		"images": [
+			{
+				"url": "png/6/44.png",
+				"title": "A jazz chord to say..."
+			}
+		]
+	},
+	{
+		"label": "jazz chords minor",
+		"section": "jazz chords minor",
+		"images": [
+			{
+				"url": "png/6/45.png",
+				"title": "...and I mean it from the bottom of my heart."
+			}
+		]
+	},
+	{
+		"label": "jazz chords symmetric",
+		"section": "jazz chords symmetric",
+		"images": [
+			{
+				"url": "png/6/46.png",
+				"title": "...my achy-breaky heart.  Oh wait, no.  Don't play that song."
+			}
+		]
+	},
+	{
+		"label": "special chords",
+		"section": "other chords",
+		"images": [
+			{
+				"url": "png/6/47.png",
+				"title": "Special chords!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Special Chords.mp3"
+			}
+		]
+	},
+	{
+		"label": "So What chords",
+		"section": "other chords",
+		"images": [
+			{
+				"url": "png/6/48.png",
+				"title": "So what?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/So What.mp3"
+			}
+		]
+	},
+	{
+		"label": "all interval chords",
+		"section": "other chords",
+		"images": [
+			{
+				"url": "png/6/49.png",
+				"title": "Wait, what?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/All Interval.mp3"
+			}
+		]
+	},
+	{
+		"label": "authentic and plagal major",
+		"section": "principal modes major",
+		"images": [
+			{
+				"url": "png/7/1.png",
+				"title": "Major, dude."
+			}
+		]
+	},
+	{
+		"label": "Over the Rainbow scale degrees",
+		"section": "principal modes major",
+		"images": [
+			{
+				"url": "png/7/2.png",
+				"title": "This one's authentic."
+			}
+		]
+	},
+	{
+		"label": "Do Re Mi",
+		"section": "principal modes major",
+		"images": [
+			{
+				"url": "png/7/3.png",
+				"title": "What about when you DON'T know the notes to sing?"
+			}
+		]
+	},
+	{
+		"label": "major scale tendencies",
+		"section": "principal modes major",
+		"images": [
+			{
+				"url": "png/7/4.png",
+				"title": "Ford every mountain, climb every stream!"
+			}
+		]
+	},
+	{
+		"label": "Happy Birthday scale degrees",
+		"section": "principal modes major",
+		"images": [
+			{
+				"url": "png/7/5.png",
+				"title": "If it's your birthday, happy birthday."
+			}
+		]
+	},
+	{
+		"label": "Der Ententanz",
+		"section": "principal modes major",
+		"images": [
+			{
+				"url": "png/7/6.png",
+				"title": "Flap your arms, losers!"
+			}
+		]
+	},
+	{
+		"label": "three minor scales",
+		"section": "principal modes minor",
+		"images": [
+			{
+				"url": "png/7/7.png",
+				"title": "Three for the price of one, eh?"
+			}
+		]
+	},
+	{
+		"label": "Bésame Mucho",
+		"section": "principal modes minor",
+		"images": [
+			{
+				"url": "png/7/8.png",
+				"title": "Don't actually kiss me; I'm married."
+			}
+		]
+	},
+	{
+		"label": "Bourrée",
+		"section": "principal modes minor",
+		"images": [
+			{
+				"url": "png/7/9.png",
+				"title": "I can play this one!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Bourrée.mp3"
+			}
+		]
+	},
+	{
+		"label": "tetrachords",
+		"section": "principal modes tetrachords",
+		"images": [
+			{
+				"url": "png/7/10.png",
+				"title": "Scale thirds!"
+			}
+		]
+	},
+	{
+		"label": "Contrapunctus I subject",
+		"section": "principal modes tetrachords",
+		"images": [
+			{
+				"url": "png/7/11.png",
+				"title": "This is where it all starts."
+			}
+		]
+	},
+	{
+		"label": "Contrapunctus III subject",
+		"section": "principal modes tetrachords",
+		"images": [
+			{
+				"url": "png/7/12.png",
+				"title": "I feel upside down!"
+			}
+		]
+	},
+	{
+		"label": "diatonic modes",
+		"section": "diatonic modes",
+		"images": [
+			{
+				"url": "png/7/13.png",
+				"title": "OK, so these are the modes; what are the means and medians?"
+			}
+		]
+	},
+	{
+		"label": "diatonic modes in color order",
+		"section": "diatonic modes",
+		"images": [
+			{
+				"url": "png/7/14.png",
+				"title": "It's getting dark..."
+			}
+		]
+	},
+	{
+		"label": "lydian tetrachord analysis",
+		"section": "diatonic modes lydian",
+		"images": [
+			{
+				"url": "png/7/15.png",
+				"title": "So bright."
+			}
+		]
+	},
+	{
+		"label": "The Simpsons Theme",
+		"section": "diatonic modes lydian",
+		"images": [
+			{
+				"url": "png/7/16.png",
+				"title": "Meet George Simpson!  Wait..."
+			}
+		]
+	},
+	{
+		"label": "Loop de Loop Galaxy",
+		"section": "diatonic modes lydian",
+		"images": [
+			{
+				"url": "png/7/17.png",
+				"title": "It's giving me Super Mario Galaxy flashbacks..."
+			}
+		]
+	},
+	{
+		"label": "mixolydian tetrachord analysis",
+		"section": "diatonic modes mixolydian",
+		"images": [
+			{
+				"url": "png/7/18.png",
+				"title": "Sounds normal."
+			}
+		]
+	},
+	{
+		"label": "Dublin Bay",
+		"section": "diatonic modes mixolydian",
+		"images": [
+			{
+				"url": "png/7/19.png",
+				"title": "The hills and dales are covered with pretty young girls around...  Pervy much?"
+			}
+		]
+	},
+	{
+		"label": "Star Fox 64 Ending",
+		"section": "diatonic modes mixolydian",
+		"images": [
+			{
+				"url": "png/7/20.png",
+				"title": "This is ROB64.  Keep up the good work."
+			}
+		]
+	},
+	{
+		"label": "Biggest Ball of Twine in Minnesota",
+		"section": "diatonic modes mixolydian",
+		"images": [
+			{
+				"url": "png/7/21.png",
+				"title": "What on Earth could make a man decide to do that kind of thing?"
+			}
+		]
+	},
+	{
+		"label": "Rumania",
+		"section": "diatonic modes mixolydian",
+		"images": [
+			{
+				"url": "png/7/22.png",
+				"title": "Geven a mol a land a gite a sheyne!"
+			}
+		]
+	},
+	{
+		"label": "dorian tetrachord analysis",
+		"section": "diatonic modes dorian",
+		"images": [
+			{
+				"url": "png/7/23.png",
+				"title": "Woodsy."
+			}
+		]
+	},
+	{
+		"label": "Lost Lady Found",
+		"section": "diatonic modes dorian",
+		"images": [
+			{
+				"url": "png/7/24.png",
+				"title": "Something something gypsies."
+			}
+		]
+	},
+	{
+		"label": "Scarborough Fair",
+		"section": "diatonic modes dorian",
+		"images": [
+			{
+				"url": "png/7/25.png",
+				"title": "Parsley, sage, rosemary, and thyme."
+			}
+		]
+	},
+	{
+		"label": "Y'did Nefesh Moroccan",
+		"section": "diatonic modes dorian",
+		"images": [
+			{
+				"url": "png/7/26.png",
+				"title": "Dear soul!"
+			}
+		]
+	},
+	{
+		"label": "aeolian tetrachord analysis",
+		"section": "diatonic modes aeolian",
+		"images": [
+			{
+				"url": "png/7/27.png",
+				"title": "The b6 is on fire!"
+			}
+		]
+	},
+	{
+		"label": "Erev Shel Shoshanim",
+		"section": "diatonic modes aeolian",
+		"images": [
+			{
+				"url": "png/7/28.png",
+				"title": "Your head is full of water!"
+			}
+		]
+	},
+	{
+		"label": "Smooth Criminal",
+		"section": "diatonic modes aeolian",
+		"images": [
+			{
+				"url": "png/7/29.png",
+				"title": "Annie, are you at absolute zero?  Don't worry, I'm 0K!"
+			}
+		]
+	},
+	{
+		"label": "phrygian tetrachord analysis",
+		"section": "diatonic modes phrygian",
+		"images": [
+			{
+				"url": "png/7/30.png",
+				"title": "Darkness falls."
+			}
+		]
+	},
+	{
+		"label": "B'chol Dor Vador",
+		"section": "diatonic modes phrygian",
+		"images": [
+			{
+				"url": "png/7/31.png",
+				"title": "In every generation we have to sing the last measure in phrygian."
+			}
+		]
+	},
+	{
+		"label": "Aranjuez cadenza",
+		"section": "diatonic modes phrygian",
+		"images": [
+			{
+				"url": "png/7/32.png",
+				"title": "It's an awesome cadenza, seriously."
+			}
+		]
+	},
+	{
+		"label": "locrian tetrachord analysis",
+		"section": "diatonic modes locrian",
+		"images": [
+			{
+				"url": "png/7/33.png",
+				"title": "THE FINAL DARKNESS."
+			}
+		]
+	},
+	{
+		"label": "Dust to Dust",
+		"section": "diatonic modes locrian",
+		"images": [
+			{
+				"url": "png/7/34.png",
+				"title": "And so my song goes on..."
+			}
+		]
+	},
+	{
+		"label": "Shir Hashirim Moroccan",
+		"section": "diatonic modes locrian",
+		"images": [
+			{
+				"url": "png/7/35.png",
+				"title": "Something about breasts and gazelles?"
+			}
+		]
+	},
+	{
+		"label": "pentatonic scale modes",
+		"section": "pentatonic scale",
+		"images": [
+			{
+				"url": "png/7/36.png",
+				"title": "Those names are stupid!"
+			}
+		]
+	},
+	{
+		"label": "Amazing Grace",
+		"section": "pentatonic scale major",
+		"images": [
+			{
+				"url": "png/7/37.png",
+				"title": "Red, the color that is red, black, the black of something black."
+			}
+		]
+	},
+	{
+		"label": "Arirang",
+		"section": "pentatonic scale major",
+		"images": [
+			{
+				"url": "png/7/38.png",
+				"title": "I don't know Korean."
+			}
+		]
+	},
+	{
+		"label": "Tennessee Waltz",
+		"section": "pentatonic scale major",
+		"images": [
+			{
+				"url": "png/7/39.png",
+				"title": "Sounds like a traumatic experience, doesn't it?"
+			}
+		]
+	},
+	{
+		"label": "overtones",
+		"section": "pentatonic scale major",
+		"images": [
+			{
+				"url": "png/7/40.png",
+				"title": "Ah, purity!"
+			}
+		]
+	},
+	{
+		"label": "Butterfly",
+		"section": "pentatonic scale minor",
+		"images": [
+			{
+				"url": "png/7/41.png",
+				"title": "Yes, pair of Swedish women, search for samurais in Japan!  I think your travel guidebooks might be a few centuries out of date, though."
+			}
+		]
+	},
+	{
+		"label": "Virtual Insanity",
+		"section": "pentatonic scale minor",
+		"images": [
+			{
+				"url": "png/7/42.png",
+				"title": "WTF is he even talking about?"
+			}
+		]
+	},
+	{
+		"label": "blues scale",
+		"section": "pentatonic scale blues",
+		"images": [
+			{
+				"url": "png/7/43.png",
+				"title": "YEAHHHH!"
+			}
+		]
+	},
+	{
+		"label": "other pentatonic melody",
+		"section": "pentatonic scale other",
+		"images": [
+			{
+				"url": "png/7/44.png",
+				"title": "It's an OK melody, I guess."
+			}
+		]
+	},
+	{
+		"label": "harmonic minor modes",
+		"section": "harmonic minor modes",
+		"images": [
+			{
+				"url": "png/7/45.png",
+				"title": "It's so exotic, isn't it.  ISN'T IT."
+			}
+		]
+	},
+	{
+		"label": "Romance",
+		"section": "harmonic minor scale",
+		"images": [
+			{
+				"url": "png/7/46.png",
+				"title": "It was collectively written by hackers from 4chan."
+			}
+		]
+	},
+	{
+		"label": "Adir Hu Carlebach",
+		"section": "harmonic minor phrygian dominant",
+		"images": [
+			{
+				"url": "png/7/47.png",
+				"title": "Imagine having to sing this 22 times, one for each attribute.  You could do 11 if you wanted to since the first line repeats.  Still."
+			}
+		]
+	},
+	{
+		"label": "Azamer Bishvachin",
+		"section": "harmonic minor phrygian dominant",
+		"images": [
+			{
+				"url": "png/7/48.png",
+				"title": "Mom, why are we eating cold chicken again?  It's because we decided to sing all 10 verses of Bar Yochai and all 20 verses of Azamer Bishvachin and the slow tune for Mizmor L'david and there's only so much heat in the universe, dear!"
+			}
+		]
+	},
+	{
+		"label": "Ahavah Rabbah scale",
+		"section": "harmonic minor phrygian dominant",
+		"images": [
+			{
+				"url": "png/7/49.png",
+				"title": "Nobody uses this anymore..."
+			}
+		]
+	},
+	{
+		"label": "A La Una Yo Naci",
+		"section": "harmonic minor phrygian dominant",
+		"images": [
+			{
+				"url": "png/7/50.png",
+				"title": "I grew fast."
+			}
+		]
+	},
+	{
+		"label": "Spanish scale",
+		"section": "harmonic minor spanish",
+		"images": [
+			{
+				"url": "png/7/51.png",
+				"title": "Sounds Spanish.  I guess that's the point."
+			}
+		]
+	},
+	{
+		"label": "Andalusian cadence",
+		"section": "harmonic minor spanish",
+		"images": [
+			{
+				"url": "png/7/52.png",
+				"title": "Where are the castanets?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Andalusian.mp3"
+			}
+		]
+	},
+	{
+		"label": "La Virgen de la Macarena",
+		"section": "harmonic minor spanish",
+		"images": [
+			{
+				"url": "png/7/53.png",
+				"title": "EYYYY MACARENA!"
+			}
+		]
+	},
+	{
+		"label": "España Cañí",
+		"section": "harmonic minor spanish",
+		"images": [
+			{
+				"url": "png/7/54.png",
+				"title": "It's so Spanish it's in the title."
+			}
+		]
+	},
+	{
+		"label": "Hudl Mitn Shtrudl",
+		"section": "harmonic minor ukrainian dorian",
+		"images": [
+			{
+				"url": "png/7/55.png",
+				"title": "Fucking starving is the answer to THAT question."
+			}
+		]
+	},
+	{
+		"label": "melodic minor modes",
+		"section": "melodic minor modes",
+		"images": [
+			{
+				"url": "png/7/56.png",
+				"title": "They're kind of weird."
+			}
+		]
+	},
+	{
+		"label": "Generic Space Chords",
+		"section": "melodic minor modes",
+		"images": [
+			{
+				"url": "png/7/57.png",
+				"title": "I'm in cliché heaven!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Generic Space Chords.mp3"
+			}
+		]
+	},
+	{
+		"label": "dim7 chords",
+		"section": "symmetric scales",
+		"images": [
+			{
+				"url": "png/7/58.png",
+				"title": "Seen these before."
+			}
+		]
+	},
+	{
+		"label": "chromatic scale degrees",
+		"section": "symmetric scales chromatic",
+		"images": [
+			{
+				"url": "png/7/59.png",
+				"title": "Spealin iz herrd!!!1"
+			}
+		]
+	},
+	{
+		"label": "Flight of the Bumblebee",
+		"section": "symmetric scales chromatic",
+		"images": [
+			{
+				"url": "png/7/60.png",
+				"title": "I've definitely heard this in cartoons."
+			}
+		]
+	},
+	{
+		"label": "whole tone scale",
+		"section": "symmetric scales whole tone",
+		"images": [
+			{
+				"url": "png/7/61.png",
+				"title": "Dreamy.  Ish."
+			}
+		]
+	},
+	{
+		"label": "Whole Tone Harp",
+		"section": "symmetric scales whole tone",
+		"images": [
+			{
+				"url": "png/7/62.png",
+				"title": "I wish..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Whole Tone Harp.mp3"
+			}
+		]
+	},
+	{
+		"label": "Bytes for Two Trumpets",
+		"section": "symmetric scales whole tone",
+		"images": [
+			{
+				"url": "png/7/63.png",
+				"title": "Never got performed.  Maybe someday."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Bytes for Two Trumpets.mp3"
+			}
+		]
+	},
+	{
+		"label": "diminished scales",
+		"section": "symmetric scales diminished",
+		"images": [
+			{
+				"url": "png/7/64.png",
+				"title": "Try singing this one!"
+			}
+		]
+	},
+	{
+		"label": "Scriabin Prelude Op. 74 No. 3",
+		"section": "symmetric scales diminished",
+		"images": [
+			{
+				"url": "png/7/65.png",
+				"title": "Don't try singing this one!"
+			}
+		]
+	},
+	{
+		"label": "augmented scales",
+		"section": "symmetric scales augmented",
+		"images": [
+			{
+				"url": "png/7/66.png",
+				"title": "Easier than diminished, kinda."
+			}
+		]
+	},
+	{
+		"label": "enneatonic scales",
+		"section": "symmetric scales augmented",
+		"images": [
+			{
+				"url": "png/7/67.png",
+				"title": "Nine for Mortal Men doomed to die..."
+			}
+		]
+	},
+	{
+		"label": "fundamental Arabic scale",
+		"section": "maqamat fundamental",
+		"images": [
+			{
+				"url": "png/7/68.png",
+				"title": "Weird names!"
+			}
+		]
+	},
+	{
+		"label": "secondary Arabic scale",
+		"section": "maqamat fundamental",
+		"images": [
+			{
+				"url": "png/7/69.png",
+				"title": "Weirder names!"
+			}
+		]
+	},
+	{
+		"label": "tertiary Arabic scale",
+		"section": "maqamat fundamental",
+		"images": [
+			{
+				"url": "png/7/70.png",
+				"title": "These names at least make sense?"
+			}
+		]
+	},
+	{
+		"label": "Yaareh Aleinu Ruach",
+		"section": "maqamat fundamental",
+		"images": [
+			{
+				"url": "png/7/71.png",
+				"title": "(Ruach!)"
+			}
+		]
+	},
+	{
+		"label": "maqam Rast",
+		"section": "maqamat rast",
+		"images": [
+			{
+				"url": "png/7/72.png",
+				"title": "This is the Arabic scale."
+			}
+		]
+	},
+	{
+		"label": "Rast family",
+		"section": "maqamat rast",
+		"images": [
+			{
+				"url": "png/7/73.png",
+				"title": "I think we're taking things a bit too far here."
+			}
+		]
+	},
+	{
+		"label": "Habusha 92 11-12",
+		"section": "maqamat rast",
+		"images": [
+			{
+				"url": "png/7/74.png",
+				"title": "Come on, sing those high A's!"
+			}
+		]
+	},
+	{
+		"label": "Ajam family",
+		"section": "maqamat ajam",
+		"images": [
+			{
+				"url": "png/7/75.png",
+				"title": "This one looks more familiar, doesn't it?"
+			}
+		]
+	},
+	{
+		"label": "Habusha 92 5-6",
+		"section": "maqamat ajam",
+		"images": [
+			{
+				"url": "png/7/76.png",
+				"title": "Maqam Sasgar is SO unique, isn't it."
+			}
+		]
+	},
+	{
+		"label": "Nahwand family",
+		"section": "maqamat nahwand",
+		"images": [
+			{
+				"url": "png/7/77.png",
+				"title": "Man, these are all the same!"
+			}
+		]
+	},
+	{
+		"label": "Habusha 92 8",
+		"section": "maqamat nahwand",
+		"images": [
+			{
+				"url": "png/7/78.png",
+				"title": "Yeah, those evildoers will be destroyed.  Or something."
+			}
+		]
+	},
+	{
+		"label": "Kurd family",
+		"section": "maqamat kurd",
+		"images": [
+			{
+				"url": "png/7/79.png",
+				"title": "Beautifully dark."
+			}
+		]
+	},
+	{
+		"label": "Riahi 92 16",
+		"section": "maqamat kurd",
+		"images": [
+			{
+				"url": "png/7/80.png",
+				"title": "Also beautifully dark."
+			}
+		]
+	},
+	{
+		"label": "L'mi Yizrach Or",
+		"section": "maqamat kurd",
+		"images": [
+			{
+				"url": "png/7/81.png",
+				"title": "This maqam is sexy!"
+			}
+		]
+	},
+	{
+		"label": "Hijaz family",
+		"section": "maqamat hijaz",
+		"images": [
+			{
+				"url": "png/7/82.png",
+				"title": "Subtle differences?  Or are they actually just all the same?"
+			}
+		]
+	},
+	{
+		"label": "Habusha 92 9-10",
+		"section": "maqamat hijaz",
+		"images": [
+			{
+				"url": "png/7/83.png",
+				"title": "So much about enemies.  Is Ps. 92 a videogame?"
+			}
+		]
+	},
+	{
+		"label": "Nawa Athar family",
+		"section": "maqamat nawa athar",
+		"images": [
+			{
+				"url": "png/7/84.png",
+				"title": "Aha, the REAL Arabic stuff right here!"
+			}
+		]
+	},
+	{
+		"label": "Bayat family",
+		"section": "maqamat bayat",
+		"images": [
+			{
+				"url": "png/7/85.png",
+				"title": "Enormous family, whoa!"
+			}
+		]
+	},
+	{
+		"label": "Ani Ashava Baboker",
+		"section": "maqamat bayat",
+		"images": [
+			{
+				"url": "png/7/86.png",
+				"title": "11/8.  Nice."
+			}
+		]
+	},
+	{
+		"label": "Habusha 92 13-16",
+		"section": "maqamat bayat",
+		"images": [
+			{
+				"url": "png/7/87 p1.png",
+				"title": "This guy is good."
+			},
+			{
+				"url": "png/7/87 p2.png",
+				"title": "Seriously."
+			}
+		]
+	},
+	{
+		"label": "Yom Zeh Shiru Lael",
+		"section": "maqamat bayat",
+		"images": [
+			{
+				"url": "png/7/88.png",
+				"title": "This song is energetic!"
+			}
+		]
+	},
+	{
+		"label": "Habusha 92 1-2",
+		"section": "maqamat bayat",
+		"images": [
+			{
+				"url": "png/7/89.png",
+				"title": "Where's Maqam Rahaw?"
+			}
+		]
+	},
+	{
+		"label": "Siga family",
+		"section": "maqamat siga",
+		"images": [
+			{
+				"url": "png/7/90.png",
+				"title": "Quarter tones aplenty!"
+			}
+		]
+	},
+	{
+		"label": "Ana Hosha",
+		"section": "maqamat siga",
+		"images": [
+			{
+				"url": "png/7/91.png",
+				"title": "The tonic is definitely D."
+			}
+		]
+	},
+	{
+		"label": "Habusha 92 3-4",
+		"section": "maqamat siga",
+		"images": [
+			{
+				"url": "png/7/92.png",
+				"title": "Um, is that right?"
+			}
+		]
+	},
+	{
+		"label": "Habusha 92 3-4 spectrogram",
+		"section": "maqamat siga",
+		"images": [
+			{
+				"url": "png/7/93.png",
+				"title": "Your window is too narrow."
+			}
+		]
+	},
+	{
+		"label": "Saba family",
+		"section": "maqamat saba",
+		"images": [
+			{
+				"url": "png/7/94.png",
+				"title": "What's so different about this family?"
+			}
+		]
+	},
+	{
+		"label": "Bar Yochai",
+		"section": "maqamat saba",
+		"images": [
+			{
+				"url": "png/7/95.png",
+				"title": "Ah yes, Shim'on bar Yochai, who 'wrote the Zohar'."
+			}
+		]
+	},
+	{
+		"label": "Bar Yochai cadenza",
+		"section": "maqamat saba",
+		"images": [
+			{
+				"url": "png/7/96.png",
+				"title": "His father must be pretty happy to see his name everywhere like that."
+			}
+		]
+	},
+	{
+		"label": "Habusha 92 7",
+		"section": "maqamat saba",
+		"images": [
+			{
+				"url": "png/7/97.png",
+				"title": "MUCH clearer than the Siga example!"
+			}
+		]
+	},
+	{
+		"label": "synthetic scales",
+		"section": "other modes synthetic",
+		"images": [
+			{
+				"url": "png/7/98.png",
+				"title": "Oh wait, there's MORE?"
+			}
+		]
+	},
+	{
+		"label": "Asian pentatonic scales",
+		"section": "other modes pentatonic",
+		"images": [
+			{
+				"url": "png/7/99.png",
+				"title": "They sound Japanese!"
+			}
+		]
+	},
+	{
+		"label": "Chant for DOSOZIN",
+		"section": "other modes pentatonic",
+		"images": [
+			{
+				"url": "png/7/100.png",
+				"title": "They still sound Japanese!"
+			}
+		]
+	},
+	{
+		"label": "Sakura Sakura",
+		"section": "other modes pentatonic",
+		"images": [
+			{
+				"url": "png/7/101.png",
+				"title": "They ARE Japanese!"
+			}
+		]
+	},
+	{
+		"label": "Bowser's Castle 2",
+		"section": "other modes pentatonic",
+		"images": [
+			{
+				"url": "png/7/102.png",
+				"title": "You kind of don't realize how Japanese Bowser has ALWAYS been.  He's got the face of a dragon."
+			}
+		]
+	},
+	{
+		"label": "Gregorian modes",
+		"section": "other modes gregorian",
+		"images": [
+			{
+				"url": "png/7/103.png",
+				"title": "Quasi modo..."
+			}
+		]
+	},
+	{
+		"label": "Ave Maria chant",
+		"section": "other modes gregorian",
+		"images": [
+			{
+				"url": "png/7/104.png",
+				"title": "This isn't the one by Gounod, is it?"
+			}
+		]
+	},
+	{
+		"label": "Maria Mater gratiae",
+		"section": "other modes gregorian",
+		"images": [
+			{
+				"url": "png/7/105.png",
+				"title": "Aeolian?  Hypoaeolian?"
+			}
+		]
+	},
+	{
+		"label": "Pange lingua",
+		"section": "other modes gregorian",
+		"images": [
+			{
+				"url": "png/7/106.png",
+				"title": "This is more fun than I thought it would be."
+			}
+		]
+	},
+	{
+		"label": "Subvenite Sancti Dei",
+		"section": "other modes gregorian",
+		"images": [
+			{
+				"url": "png/7/107.png",
+				"title": "Hypophrygian is death, got it."
+			}
+		]
+	},
+	{
+		"label": "Tantum ergo",
+		"section": "other modes gregorian",
+		"images": [
+			{
+				"url": "png/7/108.png",
+				"title": "I guess?"
+			}
+		]
+	},
+	{
+		"label": "Laetabundus",
+		"section": "other modes gregorian",
+		"images": [
+			{
+				"url": "png/7/109.png",
+				"title": "The words are funny-sounding.  Latin is funny."
+			}
+		]
+	},
+	{
+		"label": "Ecce panis Angelorum",
+		"section": "other modes gregorian",
+		"images": [
+			{
+				"url": "png/7/110.png",
+				"title": "Not sure how 'Isaac' has three syllables in Latin."
+			}
+		]
+	},
+	{
+		"label": "Veni Creator Spiritus",
+		"section": "other modes gregorian",
+		"images": [
+			{
+				"url": "png/7/111.png",
+				"title": "This doesn't sound plagal enough."
+			}
+		]
+	},
+	{
+		"label": "Sanctus Lux et origo",
+		"section": "other modes gregorian",
+		"images": [
+			{
+				"url": "png/7/112.png",
+				"title": "What's the Kedusha doing in a Catholic mass?"
+			}
+		]
+	},
+	{
+		"label": "Musica Ricercata XI subject",
+		"section": "using modes modal",
+		"images": [
+			{
+				"url": "png/7/113.png",
+				"title": "I can't find the tonic!"
+			}
+		]
+	},
+	{
+		"label": "This Is Halloween",
+		"section": "using modes modal",
+		"images": [
+			{
+				"url": "png/7/114.png",
+				"title": "I can't find the tonic either!"
+			}
+		]
+	},
+	{
+		"label": "Hammersmith",
+		"section": "using modes modal",
+		"images": [
+			{
+				"url": "png/7/115.png",
+				"title": "Dude, now there are TWO tonics!"
+			}
+		]
+	},
+	{
+		"label": "C double harmonic chords",
+		"section": "using modes harmony",
+		"images": [
+			{
+				"url": "png/7/116.png",
+				"title": "Lots of Db chords, huh?"
+			}
+		]
+	},
+	{
+		"label": "Flagpole Fanfare",
+		"section": "using modes harmony",
+		"images": [
+			{
+				"url": "png/7/117.png",
+				"title": "Why does the Princess keep moving castles anyway?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Flagpole.mp3"
+			}
+		]
+	},
+	{
+		"label": "Braunstein Overture",
+		"section": "using modes chord scale",
+		"images": [
+			{
+				"url": "png/7/118.png",
+				"title": "Are you sure this isn't, like, Verdi?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Overture.mp3"
+			}
+		]
+	},
+	{
+		"label": "Fêtes",
+		"section": "using modes chord scale",
+		"images": [
+			{
+				"url": "png/7/119 p1.png",
+				"title": "How would you even play this?"
+			},
+			{
+				"url": "png/7/119 p2.png",
+				"title": "Seriously, I appreciate what Ravel did, but this is HARD."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Fetes.mp3"
 			}
 		]
 	}

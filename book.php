@@ -41,6 +41,10 @@ function mapExamples() {
 			$chapterCount[$chapter] = 0;
 		}
 		$chapterCount[$chapter] = $chapterCount[$chapter] + 1;
+		if (isset($exampleMap[$example['label']])) {
+			$exampleMap = NULL;
+			return; // if there are any duplicates, this shouldn't work at all
+		}
 		$exampleMap[$example['label']] = $example;
 		$exampleMap[$example['label']]['number'] = '' . $chapter . '.' . $chapterCount[$chapter];
 	}
@@ -418,7 +422,7 @@ function createPageFooter($label) {
 	echo $pageFooter;
 }
 
-function createExample($label, $again = false) {
+function createExample($label, $again = false, $includeAudio = true) {
 	global $exampleMap;
 	$example = $exampleMap[$label];
 	$name = 'Example ' . $example['number'];
@@ -428,9 +432,10 @@ function createExample($label, $again = false) {
 	if (isset($example['images'])) {
 		for ($i = 0; $i < count($example['images']); $i++) {
 			$image = $example['images'][$i];
-			$alt = $name;
+			//$alt = $name;
+			$alt = $name . ' — ' . $label;
 			if (count($example['images']) > 1) {
-				$alt .= ' ' . $i;
+				$alt .= ' (' . $i . ')';
 			}
 			$img = '<img class="example" src="' . normalizeUrl($image['url']) . '" title="' . $image['title'] . '" alt="' . $alt . '" width="800" ';
 			if ($i === 0) {
@@ -439,7 +444,7 @@ function createExample($label, $again = false) {
 			echo $img . '/>' . "\n";
 		}
 	}
-	if (isset($example['audio'])) {
+	if ($includeAudio && isset($example['audio'])) {
 		for ($i = 0; $i < count($example['audio']); $i++) {
 			$audio = $example['audio'][$i];
 			echo '<div class="vspace"></div>' . "\n";
