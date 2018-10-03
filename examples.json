@@ -3707,5 +3707,206 @@
 				"url": "mp3/Fetes.mp3"
 			}
 		]
+	},
+	{
+		"label": "Hard Days Night chord",
+		"section": "composition product recordings",
+		"images": [
+			{
+				"url": "png/8/Hard Days Night chord.png",
+				"title": "Sir George Henry Martin is not your bitch."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Hard Days Night chord.mp3"
+			}
+		]
+	},
+	{
+		"label": "Apelo melody",
+		"section": "composition genre study",
+		"images": [
+			{
+				"url": "png/8/Apelo melody p1.png",
+				"title": "Please don't go away!"
+			},
+			{
+				"url": "png/8/Apelo melody p2.png",
+				"title": "Or do.  I don't care."
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I",
+		"section": "composition how case study",
+		"audio": [
+			{
+				"url": "mp3/Hai-Kai - I.mp3"
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I intro",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed start.png",
+				"title": "It's too early in the morning for this sky shit."
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I A",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed A.png",
+				"title": "It's going..."
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I B",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed B.png",
+				"title": "...to explode!"
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I C",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed C.png",
+				"title": "How original.  A fugue.  Meh."
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I D",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed D.png",
+				"title": "Gotta put my shades on!"
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I E",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed E.png",
+				"title": "Bah, this again?"
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I F",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed F.png",
+				"title": "Where are we going now?"
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I G",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed G.png",
+				"title": "Here's the fun part.  Finally!"
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I H",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed H.png",
+				"title": "This sounds familiar for some reason."
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I I",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed I.png",
+				"title": "OK, this is exactly the same as before."
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I J",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed J.png",
+				"title": "Why didn't you change something?"
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I K",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed K.png",
+				"title": "The sun is higher.  Is it noon now?"
+			}
+		]
+	},
+	{
+		"label": "Hai-Kai I L",
+		"section": "composition how case study",
+		"images": [
+			{
+				"url": "png/8/Hai-Kai I condensed L.png",
+				"title": "The end is near!"
+			}
+		]
+	},
+	{
+		"label": "Hamelech",
+		"section": "composition taste",
+		"images": [
+			{
+				"url": "png/8/Hamelech.png",
+				"title": "Why can't he just use a regular chair anyway?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Hamelech Boring.mp3"
+			},
+			{
+				"url": "mp3/Hamelech Fancy.mp3"
+			}
+		]
+	},
+	{
+		"label": "Mah Ashiv",
+		"section": "composition taste",
+		"images": [
+			{
+				"url": "png/8/Mah Ashiv.png",
+				"title": "Just look at those suspensions.  LOOK AT THEM!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Mah Ashiv.mp3"
+			}
+		]
 	}
 ]

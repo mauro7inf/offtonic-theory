@@ -1039,7 +1039,155 @@
 					"label": "composition",
 					"number": "8",
 					"url": "book/8.html",
-					"title": "Composition (under construction)"
+					"title": "Composition",
+					"subsections": [
+						{
+							"label": "composition product",
+							"number": "1",
+							"url": "book/8-1.html",
+							"title": "The Product",
+							"subsections": [
+								{
+									"label": "composition product sheet music",
+									"number": "1",
+									"url": "#product-sheet-music",
+									"title": "Sheet Music"
+								},
+								{
+									"label": "composition product recordings",
+									"number": "2",
+									"url": "#product-recordings",
+									"title": "Recordings"
+								},
+								{
+									"label": "composition product performance",
+									"number": "3",
+									"url": "#product-performance",
+									"title": "Performance"
+								},
+								{
+									"label": "composition product others",
+									"number": "4",
+									"url": "#product-others",
+									"title": "Other Products"
+								},
+								{
+									"label": "composition product comparing",
+									"number": "5",
+									"url": "#product-comparing",
+									"title": "Comparing Products"
+								},
+								{
+									"label": "composition product types",
+									"number": "6",
+									"url": "#types",
+									"title": "Composition Types"
+								}
+							]
+						},
+						{
+							"label": "composition medium genre",
+							"number": "2",
+							"url": "book/8-2.html",
+							"title": "Medium and Genre",
+							"subsections": [
+								{
+									"label": "composition medium",
+									"number": "1",
+									"url": "#medium",
+									"title": "The Medium"
+								},
+								{
+									"label": "composition genre",
+									"number": "2",
+									"url": "#genre",
+									"title": "The Genre"
+								},
+								{
+									"label": "composition genre study",
+									"number": "3",
+									"url": "#genre-study",
+									"title": "Genre Study"
+								}
+							]
+						},
+						{
+							"label": "composition how",
+							"number": "3",
+							"url": "book/8-3.html",
+							"title": "How to Compose",
+							"subsections": [
+								{
+									"label": "composition how pre",
+									"number": "1",
+									"url": "#pre-composition",
+									"title": "Pre-Composition"
+								},
+								{
+									"label": "composition how development",
+									"number": "2",
+									"url": "#development",
+									"title": "Development"
+								},
+								{
+									"label": "composition how finishing",
+									"number": "3",
+									"url": "#finishing",
+									"title": "Finishing a Piece"
+								},
+								{
+									"label": "composition how case study",
+									"number": "4",
+									"url": "#case-study",
+									"title": "Case Study"
+								}
+							]
+						},
+						{
+							"label": "composition layers",
+							"number": "4",
+							"url": "book/8-4.html",
+							"title": "Musical Layers",
+							"subsections": [
+								{
+									"label": "composition layers top",
+									"number": "1",
+									"url": "#top-layers",
+									"title": "The Top Layers"
+								},
+								{
+									"label": "composition layers middle",
+									"number": "2",
+									"url": "#middle-layers",
+									"title": "The Middle Layers"
+								},
+								{
+									"label": "composition layers bottom",
+									"number": "3",
+									"url": "#bottom-layers",
+									"title": "The Bottom Layers"
+								},
+								{
+									"label": "composition layers beyond",
+									"number": "4",
+									"url": "#beyond-layers",
+									"title": "Beyond the Layer Model"
+								}
+							]
+						},
+						{
+							"label": "composition taste",
+							"number": "5",
+							"url": "book/8-5.html",
+							"title": "Taste"
+						},
+						{
+							"label": "composition summary",
+							"number": "6",
+							"url": "book/8-6.html",
+							"title": "Summary"
+						}
+					]
 				}
 			]
 		}
