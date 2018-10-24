@@ -1190,6 +1190,17 @@
 					]
 				}
 			]
+		},
+		{
+			"title": "Part III: Functional Harmony",
+			"subsections": [
+				{
+					"label": "analysis",
+					"number": "9",
+					"url": "book/9.html",
+					"title": "Harmonic Analysis (under construction)"
+				}
+			]
 		}
 	]
 }
