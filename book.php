@@ -472,4 +472,8 @@ function createGeneratedExample($label, $html, $again = false) {
 	echo '<p class="caption">' . $name . '</p>' . "\n";
 }
 
+function backToBook() {
+	echo '<p class="caption"><a href="' . normalizeUrl('index.html') . '">Back to Offtonic Theory</a></p>';
+}
+
 ?>

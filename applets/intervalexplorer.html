@@ -1,3 +1,9 @@
+<?php
+error_reporting(E_ALL);
+
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -31,5 +37,6 @@
 		<canvas id="P8explorer" class="keyboard" height="120" width="800"></canvas>
 		<canvas id="m9explorer" class="keyboard" height="120" width="800"></canvas>
 		<canvas id="M9explorer" class="keyboard" height="120" width="800"></canvas>
+		<? backToBook(); ?>
 	</body>
 </html>

@@ -1,3 +1,9 @@
+<?php
+error_reporting(E_ALL);
+
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -16,5 +22,6 @@
 	</head>
 	<body class="applet" onload="load();">
 		<div class="metronome" id="tonegenerator"></div>
+		<? backToBook(); ?>
 	</body>
 </html>
