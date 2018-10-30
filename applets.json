@@ -94,5 +94,11 @@
 		"url": "applets/combgenerator.html",
 		"title": "Offtonic Comb Generator",
 		"description": "plays a number of sine waves geometrically spaced between two given frequencies (Ch. 7)"
+	},
+	{
+		"label": "spectrum",
+		"url": "applets/spectrum.html",
+		"title": "Offtonic Spectrum",
+		"description": "shows a linear or log spectrum of whatever sounds you make through the microphone (requires microphone)"
 	}
 ]

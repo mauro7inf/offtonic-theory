@@ -1,0 +1,26 @@
+<?php
+error_reporting(E_ALL);
+
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
+?>
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Offtonic Theory by Mauro Braunstein" />
+		<meta name="keywords" content="music theory, sightsinging, spectrum, analyzer, fft" />
+		<title>Offtonic Spectrum</title>
+		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
+		<link href="../theory.css" rel="stylesheet" type="text/css" />
+		<script src="../lib/globals.js"></script>
+		<script src="../lib/canvasButton.js"></script>
+		<script src="../lib/spectrum.js"></script>
+		<script src="../lib/applets/spectrum.js"></script>
+	</head>
+	<body class="applet" onload="load();">
+		<canvas id="spectrum" class="keyboard" height="800" width="800"></canvas>
+		<? backToBook(); ?>
+	</body>
+</html>
