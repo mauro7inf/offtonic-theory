@@ -21,7 +21,17 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/tonegenerator.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<div class="metronome" id="tonegenerator"></div>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Tone Generator</h1>
+			<div class="metronome" id="tonegenerator"></div>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Tone Generator.  Type in a frequency in hertz (cycles per second) and hit Start, and it will generate a pure sine wave at that frequency.  The tone will keep playing until you hit Stop even if you switch tabs.</p>
+			<h4 class="question">Huh, I can't hear it.</h4>
+			<p class="text">Is your sound on?</p>
+			<h4 class="question">Yes, duh.  I can hear some frequencies, like 440 Hz, but other frequencies I can't hear at all, including some that are not particularly high or low.</h4>
+			<p class="text">There are two possible reasons.  One, your ears can't hear the pitch.  This is actually unlikely, because what is far more likely to happen is that your speakers can't reproduce the pitch.  If you have really good speakers, including a subwoofer, you may be able to hear the low tones and the high ones, but I don't have a subwoofer to test it.  My headphones bottom out at around 80 Hz, and my computer speakers top out at about 14500 Hz or so.  Also, you can't <em>make</em> frequencies higher than 22050 Hz because you only get 44100 samples per second in the browser.  If the frequency is higher, the signal will lose information between the samples, and it will actually sound like a lower frequency.  In fact, you can try it: play a tone at 43660 Hz, and it should sound the same as one at 440 Hz.</p>
+			<h4 class="question">But I hear lower pitches through my speakers all the time.  What's going on here?</h4>
+			<p class="text">It's actually an illusion.  What you're really hearing is the upper overtones of a lower pitch, and your ear fills in the low pitch even though you aren't directly hearing it.  With pure sine waves, there are no overtones, so the low pitch simply doesn't sound.</p>
+		</div></div>
 	</body>
 </html>

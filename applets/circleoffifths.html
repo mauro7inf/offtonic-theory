@@ -23,7 +23,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/circleoffifths.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<canvas id="circle" class="keyboard" height="800" width="800"></canvas>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Circle of Fifths Keyboard</h1>
+			<canvas id="circle" class="keyboard" height="800" width="800"></canvas>
+			<? backToBook(); ?>
+			<p class="text">This is the Circle of Fifths Keyboard.  It's an interactive diagram of the Circle of Fifths, which means that, not only can you look at it, yes, you can play it!  The notes in the lighter gray are simply the Circle of Fifths, starting on C on top and going up by fifths clockwise and down by fifths (or up by fourths) counterclockwise, until they meet at the bottom.  In the outer ring, in white, are the key signatures for the major keys on those notes.  In the darker gray inside, there are the relative minor keys to the major keys in lighter gray.  For example, if you go up two fifths from C, you get to D; D major has a key signature of two sharps, and its relative minor is B minor.  At the bottom of the circle, we find that some keys have enharmonic equivalents.  The key of Db has 5 flats, while the enharmonic key of C# has 7 sharps.  Bbm is the relative minor of Db, and A#m is the relative minor of C#.</p>
+			<p class="text">The lighter gray notes also have computer keyboard keys assigned to them, all in the QWERTY row.  To play the Circle of Fifths keyboard, click on it first to turn it on; you will see the light gray background become dark.  Then, click on the keys or use your computer keyboard.  As with the Offtonic Keyboard, clicking on a note starts a note, and releasing the mouse button over the note stops it, so if you click on a note, drag the mouse away, and release the button off of the note, the note will just keep playing until you click on it.</p>
+			<h4 class="question">The sound is so weird.  I can't tell what octave the notes are in.  Actually, if I go all the way up the scale, I feel like I've gone up an octave but it's the same note?</h4>
+			<p class="text">Ah, yeah, these are Shepard tones.  The way it works is kind of like a barber pole; the note is played in many octaves simultaneously, but the upper and lower octaves are soft while the middle ones are louder.  As the note gets higher, the uppermost octave slowly fades while the lowermost octave slowly comes in, imperceptibly that you never notice when the uppermost octave is actually gone and a new lowermost octave has come in.</p>
+			<p class="text">The Circle of Fifths keyboard is more of a visualization tool than an actual keyboard.  I'd recommend using something else to actually play music!</p>
+		</div></div>
 	</body>
 </html>

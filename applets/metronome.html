@@ -22,7 +22,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/metronome.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<div class="metronome" id="metronome"></div>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Metronome</h1>
+			<div class="metronome" id="metronome"></div>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Metronome.  Enter a tempo in beats per minute and hit Start, and it will play clicks at that tempo until you hit Stop.  Unlike other applets in Offtonic Theory, the Offtonic Metronome will keep clicking even if you switch tabs, so you can use it for whatever needs you might have, like practicing your sightsinging without dragging.</p>
+		</div></div>
 	</body>
 </html>

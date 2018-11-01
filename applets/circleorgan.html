@@ -22,7 +22,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/circleorgan.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<canvas id="circleorgan" class="keyboard" height="800" width="800"></canvas>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Circle Organ</h1>
+			<canvas id="circleorgan" class="keyboard" height="800" width="800"></canvas>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Circle Organ.  Click and drag on it to play notes, which go up as you go clockwise and down as you go counterclockwise.  Forever.</p>
+			<h4 class="question">Forever?  How?</h4>
+			<p class="text">The sound played is a kind of Shepard tone, which exists in multiple octaves at once, and as you go around the circle, the upper octaves fade out and the lower octaves fade in, so that you get the illusion of a constantly rising pitch, like how the helix on a barber pole appears to be moving up or down but it's really just rotating.  In this case, the set of octaves chosen gets lower as you move to the center and higher as you move out, so it's a kind of two-dimensional Shepard tone.</p>
+			<h4 class="question">Why does it click every time I cross C?</h4>
+			<p class="text">C is the seam between octaves, when a new octave comes in softly and an old one leaves just as softly.  Unfortunately, that seam causes a click.  Try to ignore it?</p>
+		</div></div>
 	</body>
 </html>

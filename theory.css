@@ -3,10 +3,10 @@ body {
 	margin: 32px;
 }
 
-body.applet {
+/*body.applet {
 	background-color: #EEEEEE;
 	margin: 10px;
-}
+}*/
 
 div.outer-container {
 	background-color: #4040FF;
@@ -141,4 +141,12 @@ input.hemiola-input-denominator {
 
 ul {
 	margin-top: 0px;
+}
+
+h1.applet-title {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-size: 300%;
+	font-weight: normal;
 }

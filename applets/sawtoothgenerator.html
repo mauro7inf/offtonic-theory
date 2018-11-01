@@ -21,7 +21,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/sawtoothgenerator.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<div class="metronome" id="tonegenerator"></div>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Sawtooth Generator</h1>
+			<div class="metronome" id="tonegenerator"></div>
+			<? backToBook(); ?>
+			<p class="text">This is the Sawtooth Generator.  Enter a frequency and hit Start, and it will generate a sawtooth wave at that frequency, which will keep playing until you hit Stop, even if you switch tabs.  Unlike with the Offtonic Tone Generator, you'll keep hearing sound even as the frequency goes low or high, since the sawtooth is full of overtones; you'll even hear it at very low frequencies, but it will sound like a sputtering motor since the sawtooth wave is essentially made up of clicks at the given frequency.</p>
+			<h4 class="question">Why does the pitch get all funky as I go up?</h4>
+			<p class="text">The browser's sound API has a sample rate of 44100 samples per second, which means that the highest frequency it can support is 22050 Hz.  Anything higher will fall in the gaps between the samples, and that's particularly interesting because any frequency f higher than 22050 Hz will actually sound at frequency 44100 Hz – f.  This is why if you play a sound at 43660 Hz, it will be the same as if you'd played a sound at 440 Hz.  Well, the sawtooth wave is full of overtones, so if you play a high pitch, say, 15000 Hz, you'll get overtones at 30000 Hz, 45000 Hz, etc.  30000 Hz is actually 44100 Hz – 30000 Hz = 14100 Hz, and 45000 Hz is actually 900 Hz by an extension of the same logic (45000 Hz – 44100 Hz).  If you play a tone at 900 Hz and then one at 15000 Hz, you will hear some of the same frequencies.</p>
+		</div></div>
 	</body>
 </html>

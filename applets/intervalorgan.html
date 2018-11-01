@@ -21,7 +21,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/intervalorgan.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<canvas id="intervalorgan" class="keyboard" height="800" width="800"></canvas>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Interval Organ</h1>
+			<canvas id="intervalorgan" class="keyboard" height="800" width="800"></canvas>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Interval organ.  Click and drag on it to play two notes at once, where one of the notes is determined by the horizontal position and the other by the vertical.</p>
+			<h4 class="question">Why is it... plaid?</h4>
+			<p class="text">That <em>is</em> a bit unfortunate, isn't it?  Well, the general color scheme that I'm using uses the pitch class as the hue and the pitch itself as the lightness, and applying those colors in both horizontal and vertical directions and blending the two directions together yields this... plaid monstrosity.  I like it.  It has character.  Anyway, see if you can play some tunes on it.  Since you play two notes at once, you even get harmony!</p>
+		</div></div>
 	</body>
 </html>

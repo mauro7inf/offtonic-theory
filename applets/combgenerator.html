@@ -21,7 +21,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/combgenerator.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<div class="metronome" id="combgenerator"></div>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Comb Generator</h1>
+			<div class="metronome" id="combgenerator"></div>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Comb Generator.  Enter two frequencies, a number of teeth, and a volume, and it will generate that number of evenly spaced pitches as pure sine waves.  For example, if you enter a low frequency of 220 Hz, a high frequency of 880 Hz, and 3 teeth, there will be a tone generated at 220 Hz, one at 440 Hz, and another at 880 Hz.  The sound will continue until you hit Stop, even if you switch to another tab.</p>
+			<h4 class="question">Why would I ever want to do this?</h4>
+			<p class="text">Meh, not my problem.  But I'll tell you what I used it for: I generated a bunch of frequencies at a very low volume to use as a kind of ruler in a spectrograph.  I recorded the comb together with a track I wanted to analyze, and in Audacity's spectrograph, I was able to figure out the pitch in the track by comparing it with the lines made by the comb.  I thought it was clever.  You can use the comb for whatever you want, though.</p>
+		</div></div>
 	</body>
 </html>

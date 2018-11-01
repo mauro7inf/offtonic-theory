@@ -23,7 +23,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/keyboard.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<canvas id="keyboard" class="keyboard" height="400" width="800"></canvas>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Keyboard</h1>
+			<canvas id="keyboard" class="keyboard" height="400" width="800"></canvas>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Keyboard.  It's a four-octave piano keyboard that you can play using your computer keyboard (at least if it's set to the QWERTY layout).  The lower two octaves are on the bottom row.  The names of the notes are at the top of the keys, and at the bottom are the computer keyboard keys you can press to play them.  Middle C is marked with a red dot.</p>
+			<h4 class="question">Why is Middle C on there twice?</h4>
+			<p class="text">It's just for symmetry, so that both rows start on C and end on C two octaves higher.  Real piano keyboards only have one Middle C.</p>
+			<p class="text">To play it, you must first turn it on by clicking anywhere on it, which will make the background darker.  Then, you can click on the keys or use your computer keyboard to play notes.  Clicking down on a key will sound the note, and releasing the mouse button on a key will make that note stop.  This means that if you press the mouse button on a key and hold it then move off the key, the key will just keep playing until you click on it again.  This is useful if you want to try out complicated chords.</p>
+			<p class="text">Depending on your computer keyboard, you may have a major limitation, which is that your keyboard can't recognize too many key presses at the same time, and which key presses it can't recognize together depends on how it's wired.  This means that you may have trouble playing some chords.  My advice for you would be to get a real piano keyboard.</p>
+			<p class="text">However, even though I have a real piano keyboard literally next to my desk, I still use this one when I want to hear what a note or a phrase sounds like, especially while I'm reading music theory books.  It's convenient!  You should have it on hand to explore the examples in this text.</p>
+		</div></div>
 	</body>
 </html>

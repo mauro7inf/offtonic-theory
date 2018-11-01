@@ -23,7 +23,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/scalekeyboard.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<div id="keyboard" class="keyboard"></div>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Scale Keyboard</h1>
+			<div id="keyboard" class="keyboard"></div>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Scale Keyboard.  It features a wide variety of scales to explore; you can pick the mode with the upper menu and the tonic with the lower.  The note names are written at the top of the notes.  Click on a note to play it; it will sound until you release the mouse button over the note.  This means that if you release it anywhere else, the note will keep playing forever, which is useful if you want to explore various chords.  You can also use your computer keyboard to play the notes, using the keys written at the bottom of the notes; remember that you have to click on the keyboard itself to turn it on first such that the background is dark gray.  The colored circles are spaced according to the spacing of the notes in the scale, so you can get a graphical sense of how various scales may differ.</p>
+			<h4 class="question">Why are some notes in parentheses?  What are the d's and t's?  What's the "53-TET" thingy?</h4>
+			<p class="text">Some scales have variable scale degrees.  Minor, for example, has a b6 and a b7, but under certain conditions you would use a 6 and 7 instead.  Those notes are in parentheses.  The d's represent half-flats and the t's half-sharps.  db is a flat and a half, and t# is a sharp and a half.  These quarter tones show up in scales in 24-tone equal temperament (24-TET).  For many of these scales, performance practice is often closer to a different system, 53-tone equal temperament (53-TET), so you'll see some scales in that form.  For example, maqam Ajam is the equivalent of the Western major scale, and here you have the option of playing it in 53-TET.  See if you can tell the difference.  Some things are more in tune than in 12-TET/24-TET, like the thirds between 1 and 3 and between 5 and 7, but others are less in tune, like the third between 4 and 6.</p>
+			<h4 class="question">Why are there so many scales?</h4>
+			<p class="text">These are all "real" scales used in music!  People just have a varied set of scales in the world, and this is only a small subset; many other cultures' scales aren't represented here, and there are many of them!  Of course, you can pick any set of notes and call it a scale, so, if you include microtonal intervals and non-octave scales, the possibilities are literally limitless.</p>
+		</div></div>
 	</body>
 </html>

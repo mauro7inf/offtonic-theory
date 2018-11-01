@@ -21,7 +21,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/intervaleartrainer.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<canvas id="intervaleartrainer" class="keyboard" height="200" width="220"></canvas>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Interval Ear Trainer</h1>
+			<canvas id="intervaleartrainer" class="keyboard" height="200" width="220"></canvas>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Interval Ear Trainer.  Click it to start, and click again to stop.  It will play a low tone; that's the tonic of the scale.  Then, it will play two notes, either one at a time or at the same time, and your task is to name the interval between them.</p>
+			<h4 class="question">It's hard.</h4>
+			<p class="text">Tough.  Practice.</p>
+			<h4 class="question">Do I have to?</h4>
+			<p class="text">Yep.  Unlike the Interval Namer and the Scale Degree Trainer, the Interval Ear Trainer is doable and helpful.  You'll notice that most ear trainers out there just play two notes and tell you to figure out the interval.  The Offtonic Interval Ear Trainer plays <em>three</em> notes.  Why?  Because that extra context is actually really helpful.  Ear training without context is next to useless, because in real music, intervals (almost) always come in context.  The context can make a big difference as well in the feel of the interval.  For example, E to G is a minor third, which feels, well, minor.  If they're played in the context of C, they're now scale degrees 3 and 5, which together with the tonic make a major triad, which feels quite <em>major</em>, not minor.  With the context, you learn how to properly identify the sound of intervals as opposed to going by a misleading characteristic like feel.</p>
+		</div></div>
 	</body>
 </html>

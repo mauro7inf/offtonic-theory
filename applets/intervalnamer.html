@@ -23,7 +23,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/intervalnamer.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<canvas id="intervalnamer" class="keyboard" height="200" width="220"></canvas>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Interval Namer</h1>
+			<canvas id="intervalnamer" class="keyboard" height="200" width="220"></canvas>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Interval Namer.  It's a little game that displays two notes and you have to name the interval before the timer runs out.  Click on it to start, and click again to make it stop.  The names of the intervals are simple: P5 is a perfect fifth, M3 a major third, m6 a minor sixth, A4 an augmented fourth, d2 a diminished second, dd7 a doubly diminished seventh, etc.  All intervals are supposed to be ascending, so something like E to Eb would actually be a diminished unison (d1).  It comes up.</p>
+			<h4 class="question">Wow, this is hard.</h4>
+			<p class="text">Yes, it is hard.  Life is hard.  It is what it is.</p>
+			<h4 class="question">But it's <em>really</em> hard.  It feels like it's unnecessary.</h4>
+			<p class="text">Oh, that, yeah.  It's completely unnecessary.  The idea is that it should provide a challenge even if you already know what you're doing.  Believe it or not, though, identifying intervals is a legitimately useful skill; they'll just be easier most of the time.  If you see a low A and a high B come up, you should know quickly that this is an M9.  But this game may also have A# to Bx, something you're less likely to see in real life, and it may take a few extra seconds for you to realize that it's an A9.  The fact that the clef changes on you also makes for some tricky context-switching.  But hey, look on the bright side: if you get good at this, then you're really kicking ass and taking interval names!</p>
+		</div></div>
 	</body>
 </html>

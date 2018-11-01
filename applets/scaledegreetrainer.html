@@ -21,7 +21,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/scaledegreetrainer.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<canvas id="scaledegreetrainer" class="keyboard" height="200" width="220"></canvas>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Scale Degree Trainer</h1>
+			<canvas id="scaledegreetrainer" class="keyboard" height="200" width="220"></canvas>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Scale Degree Trainer.  Click on it to start, and click again to stop.  It will play a low tone, which should be interpreted as the tonic of a scale, and then another, higher note; your task is to quickly identify the scale degree, which could be any of 1, #1/b2, 2, #2/b3, 3, 4, #4/b5, 5, #5/b6, 6, #6/b7, and 7.</p>
+			<h4 class="question">That's hard.</h4>
+			<p class="text">It shouldn't really be.  The problem is that you get a fairly small amount of time to get context.  Learn to use that time wisely, and you'll have a lot less trouble.  With me, I can usually understand the scale degree before I can verbalize it; I may hear a 7 and know that it acts like a 7, but it will take me a few seconds to actually get the number.  It just takes a bit of practice.</p>
+			<h4 class="question">Is practicing this game worth it?</h4>
+			<p class="text">No?  Maybe.  If you have trouble identifying scale degrees in general, yes, it is.  If you can already do it well, spending the effort to do it faster may just be a waste of your time.  But some people spend time memorizing digits of π.  It's your time to waste!</p>
+		</div></div>
 	</body>
 </html>

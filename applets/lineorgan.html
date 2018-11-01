@@ -21,8 +21,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/lineorgan.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<canvas id="lineorganlinear" class="keyboard" height="400" width="800"></canvas>
-		<canvas id="lineorganlogarithmic" class="keyboard" height="400" width="800"></canvas>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Line Organ</h1>
+			<canvas id="lineorganlinear" class="keyboard" height="400" width="800"></canvas>
+			<canvas id="lineorganlogarithmic" class="keyboard" height="400" width="800"></canvas>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Line Organ.  Click and drag over the colored sections to play notes varying in frequency and pitch, getting higher from left to right and louder from bottom to top.  The Offtonic Line Organ is actually two line organs; the top one is organized by frequency and the bottom one by pitch.  In the top one, there are evenly spaced marks every 1000 Hz, but the first several octaves are all smushed together on the left.  In the bottom one, each octave has equal space, but the 1000 Hz marks are all bunched up on the right.  Pitch is the log of frequency, so the top line organ has a linear frequency axis while the bottom one has a logarithmic frequency axis.  The sound is a modified sawtooth.</p>
+		</div></div>
 	</body>
 </html>

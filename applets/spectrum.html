@@ -20,7 +20,15 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/spectrum.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<canvas id="spectrum" class="keyboard" height="800" width="800"></canvas>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Spectrum</h1>
+			<canvas id="spectrum" class="keyboard" height="800" width="800"></canvas>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Spectrum.  It requires use of your microphone.  It performs a spectral analysis of whatever sound it picks up through the microphone and displays it as a graph; click on it to begin analyzing, and click elsewhere to stop.  The buttons on top control a few aspects of the spectrum.  The rightmost button, Linear | Log, toggles between a linear graph, showing the frequencies evenly spaced in the horizontal axis, and a log graph, with 10 octaves evenly spaced in the horizontal axis, with C0 to C5 in the top graph and C5 to C10 in the bottom.  The middle button changes the resolution of the spectrum; click on it to advance to the next resolution.  The rightmost button advances the smoothing time constant, which determines how jumpy the graph is.</p>
+			<h4 class="question">Why wouldn't I just want the highest resolution and the lowest smoothing?</h4>
+			<p class="text">Both choices involve trade-offs.  The higher the resolution, the more samples are needed to compute the spectrum.  The sound has a sample rate of 44100 samples per second, so if the resolution is 32768, the highest possible in WebAudio's AnalyserNode, that's about 3/4 of a second, meaning that the sound you're analyzing contains stuff from 3/4 of a second ago.  On the other hand, the lower the resolution, the less you can make out different frequencies in the lower octaves.  The frequencies are evenly spaced between 0 and 22050 Hz, and there are half as many frequency points on the spectrum as the FFT size, so at an FFT size of 32, there are only 16 points.  It's very responsive, but you can see that none of those points even lie in the first five octaves!  You can't actually read frequencies from that very well.  The smoothing, on the other hand, is purely cosmetic; a high smoothing time constant will have a similar delay effect to a large FFT size, but it makes the graph easier to read.</p>
+			<h4 class="question">What about the colors?</h4>
+			<p class="text">The colors are the same as I've used in other Offtonic applets: the hue is determined by the pitch class, and the lightness is determined by the pitch.  This means that C is red, C# is orange, D is yellow, Eb is yellow-green, E is green, F is aqua, F# is cyan, G is medium blue, Ab is blue, A is purple, Bb is magenta, and B is cherry.  Practically, it makes it easy to determine the pitch of a peak just by looking, even in the linear view.  If you whistle a bit, you'll be able to see clearly what pitch you're whistling at by the color.</p>
+		</div></div>
 	</body>
 </html>

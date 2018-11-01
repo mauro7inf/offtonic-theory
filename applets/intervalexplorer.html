@@ -22,21 +22,25 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/intervalexplorer.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<canvas id="P1explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="m2explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="M2explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="m3explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="M3explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="P4explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="TTexplorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="P5explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="m6explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="M6explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="m7explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="M7explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="P8explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="m9explorer" class="keyboard" height="120" width="800"></canvas>
-		<canvas id="M9explorer" class="keyboard" height="120" width="800"></canvas>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Offtonic Interval Explorer</h1>
+			<canvas id="P1explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="m2explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="M2explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="m3explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="M3explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="P4explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="TTexplorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="P5explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="m6explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="M6explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="m7explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="M7explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="P8explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="m9explorer" class="keyboard" height="120" width="800"></canvas>
+			<canvas id="M9explorer" class="keyboard" height="120" width="800"></canvas>
+			<? backToBook(); ?>
+			<p class="text">This is the Offtonic Interval Explorer.  Click and drag on any of the colored stripes to play a Middle C and the specified interval above it.  The center of each stripe is the equal-tempered interval, and the stripe extends to a range of 50 cents in either direction.  Other interesting or important intervals are also marked; for example, the Pure Major Third (5/4) interval (about 14 cents below the center of the fifth stripe) is an important interval to be familiar with.  Also marked are hash marks above the stripes every 10 cents, the steps of 53-tone equal temperament below the stripes, various pure intervals, various Pythagorean intervals, and the steps of 17-tone and 19-tone equal temperaments.  You can use the Offtonic Interval Explorer to learn to feel the difference between similar intervals and learn the character of each interval.</p>
+		</div></div>
 	</body>
 </html>

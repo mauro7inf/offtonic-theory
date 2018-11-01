@@ -22,7 +22,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
 		<script src="../lib/applets/hemiola.js"></script>
 	</head>
 	<body class="applet" onload="load();">
-		<div class="hemiola" id="hemiola"></div>
-		<? backToBook(); ?>
+		<div class="outer-container"><div class="inner-container">
+			<h1 class="applet-title">Hemiola Metronome</h1>
+			<div class="hemiola" id="hemiola"></div>
+			<? backToBook(); ?>
+			<p class="text">This is the Hemiola Metronome.  It will play two pitches of clicks in the specified ratio, with the second number of the ratio corresponding to the high clicks at the specified tempo.</p>
+			<h4 class="question">...What?</h4>
+			<p class="text">OK, best to use an example.  If you set the tempo to 120 and enter a 3/2 ratio, you will hear a set of high clicks at 120 beats per minute, and for every 2 of those high clicks, you'll hear 3 low clicks.</p>
+			<p class="text">The Hemiola Metronome can help you line up tuplets, like if you somehow need to play 5 against 3.  It will keep clicking even if you switch to a different tab, like the Offtonic Metronome (but unlike most of the other applets).</p>
+		</div></div>
 	</body>
 </html>
