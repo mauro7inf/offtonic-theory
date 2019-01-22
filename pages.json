@@ -1198,7 +1198,186 @@
 					"label": "analysis",
 					"number": "9",
 					"url": "book/9.html",
-					"title": "Harmonic Analysis (under construction)"
+					"title": "Harmonic Analysis",
+					"subsections": [
+						{
+							"label": "analysis introduction",
+							"number": "1",
+							"url": "book/9-1.html",
+							"title": "Introduction"
+						},
+						{
+							"label": "analysis nonharmonic",
+							"number": "2",
+							"url": "book/9-2.html",
+							"title": "Non-Harmonic Tones",
+							"subsections": [
+								{
+									"label": "analysis nonharmonic list",
+									"number": "1",
+									"url": "#embellishing-tones",
+									"title": "List of Embellishing Tones"
+								},
+								{
+									"label": "analysis nonharmonic wild",
+									"number": "2",
+									"url": "#non-harmonic-wild",
+									"title": "Non-Harmonic Tones In the Wild"
+								},
+								{
+									"label": "analysis nonharmonic suspensions",
+									"number": "3",
+									"url": "#suspensions",
+									"title": "Suspensions"
+								},
+								{
+									"label": "analysis nonharmonic pedals",
+									"number": "4",
+									"url": "#pedal-points",
+									"title": "Pedal Points"
+								},
+								{
+									"label": "analysis nonharmonic macroharmony",
+									"number": "5",
+									"url": "#macroharmony",
+									"title": "Non-Harmonic Tones and Macroharmony"
+								}
+							]
+						},
+						{
+							"label": "analysis figured bass",
+							"number": "3",
+							"url": "book/9-3.html",
+							"title": "Figured Bass"
+						},
+						{
+							"label": "analysis roman",
+							"number": "4",
+							"url": "book/9-4.html",
+							"title": "Roman Numerals: Diatonic",
+							"subsections": [
+								{
+									"label": "analysis roman intro",
+									"number": "1",
+									"url": "#introduction",
+									"title": "Introduction"
+								},
+								{
+									"label": "analysis roman root",
+									"number": "2",
+									"url": "#root-position-triads",
+									"title": "Root Position Triads"
+								},
+								{
+									"label": "analysis roman sixth",
+									"number": "3",
+									"url": "#sixth-chords",
+									"title": "Sixth Chords"
+								},
+								{
+									"label": "analysis roman six four",
+									"number": "4",
+									"url": "#six-four-chords",
+									"title": "Six-Four Chords"
+								},
+								{
+									"label": "analysis roman seventh",
+									"number": "5",
+									"url": "#seventh-chords",
+									"title": "Seventh Chords"
+								}
+							]
+						},
+						{
+							"label": "analysis roman ii",
+							"number": "5",
+							"url": "book/9-5.html",
+							"title": "Roman Numerals: Chromatic",
+							"js": ["audioplayer.js", "globals.js", "notes.js", "tone.js", "keyboardKey.js", "circleKeyboard.js", "chapters/9-5.js"],
+							"subsections": [
+								{
+									"label": "analysis roman modulation",
+									"number": "1",
+									"url": "#modulation",
+									"title": "Modulation"
+								},
+								{
+									"label": "analysis roman secondary",
+									"number": "2",
+									"url": "#secondary-chords",
+									"title": "Secondary Chords"
+								},
+								{
+									"label": "analysis roman special",
+									"number": "3",
+									"url": "#special-chords",
+									"title": "Special Chromatic Chords"
+								},
+								{
+									"label": "analysis roman modal",
+									"number": "4",
+									"url": "#modal-interchange",
+									"title": "Modal Interchange"
+								},
+								{
+									"label": "analysis roman altered",
+									"number": "5",
+									"url": "#altered-chords",
+									"title": "Altered Chords"
+								},
+								{
+									"label": "analysis roman preludes",
+									"number": "5",
+									"url": "#preludes",
+									"title": "Three Preludes"
+								}
+							]
+						},
+						{
+							"label": "analysis roman iii",
+							"number": "6",
+							"url": "book/9-6.html",
+							"title": "Roman Numerals: Extended",
+							"subsections": [
+								{
+									"label": "analysis roman outside",
+									"number": "1",
+									"url": "#outside",
+									"title": "Outside the Four-Voice Model"
+								},
+								{
+									"label": "analysis roman extending",
+									"number": "2",
+									"url": "#tonality",
+									"title": "Extending the Tonality"
+								},
+								{
+									"label": "analysis roman extensions",
+									"number": "3",
+									"url": "#extended-chords",
+									"title": "Extending the Chords"
+								},
+								{
+									"label": "analysis roman plagal",
+									"number": "4",
+									"url": "#plagal-motion",
+									"title": "Plagal and Other Motion"
+								},
+								{
+									"label": "analysis roman negative",
+									"number": "5",
+									"url": "#negative-harmony",
+									"title": "Negative Harmony"
+								}
+							]
+						},
+						{
+							"label": "analysis reading",
+							"number": "7",
+							"url": "book/9-7.html",
+							"title": "Reading Harmonies (under construction)"
+						}
+					]
 				}
 			]
 		}

@@ -9,9 +9,11 @@ createPageHeader($label);
 ?>
 
 <p class="text">The <em>circle of fifths</em>, also known as the <em>cycle of fifths</em> or <em>circle/cycle of fourths</em>, is nothing more than the notes of the chromatic scale arranged by perfect fifths (or fourths if you go in the other direction).  Looks like this playable diagram:</p>
+
 <canvas id="circle1" class="keyboard" height="800" width="800"></canvas>
 <p class="caption"><? appletLink('circle of fifths', '(open in new tab)'); ?></p>
 <div class="vspace"></div>
+
 <p class="text">The actual circle of fifths is in the light gray ring.  In the outer ring I list the key signature for the major key on that tonic, and in the inner dark gray ring I list the relative minor (the small 'm' means "minor").  Should be self-explanatory, really.  You can click on the light gray or dark gray keys to play notes, or use the top row of your qwertyuiop[] keyboard.</p>
 <h4 class="question">OK.  ...OK.  ...Whoa.  Whoa.  These notes.  I can't tell what octave they're in.  This is freaky!</h4>
 <p class="text">Yeah, what octave <em>should</em> they be in?  I don't think it matters.  So I made them <a href="https://en.wikipedia.org/wiki/Shepard_tone">Shepard tones</a>.  This is a really cool idea that I saw at the Museum of Science in Ft. Lauderdale as a kid.  The way it works is that each note is played in a whole bunch of octaves at the same time, but the lower and upper octaves are very soft while the middle octaves are normal.  As the notes go up the scale, the lower octaves fade in and the upper octaves fade out, so you're never quite sure what the lowest or highest pitch is.  This means that if you just play these notes up the scale, you can keep going up and up and up and up indefinitely while never actually getting any higher, kind of like how the stripe on a barber pole keeps moving to the side but it never actually leaves the pole.  And if you play notes a tritone apart (on diametrically opposite sides of the circle of fifths) you may run into the <a href="https://en.wikipedia.org/wiki/Tritone_paradox">tritone paradox</a>, which is insane.</p>

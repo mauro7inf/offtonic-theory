@@ -1,0 +1,30 @@
+<?php
+error_reporting(E_ALL);
+
+require($_SERVER['DOCUMENT_ROOT'] . '/theory/book.php');
+$label = 'analysis';
+
+createPageHeader($label);
+
+?>
+
+<p class="text">Back in <? sectionLinkShort('chords'); ?> we learned about chords, so we can look at a clump of notes and hopefully identify what chord it is.  But Western music has developed a system of using these chords, a language called (tonal) <em>functional harmony</em>, where the chords don't exist in a vacuum but instead have tensions and tendencies and resolutions, known as <em>functions</em>, just like the notes in the scale.  The function of a chord is how it fits into the grammar of functional harmony.  We've seen some of this in <? sectionLinkShort('chords'); ?> when we tried to make sense of the chords we were using, and in this chapter we're going to look at chord function in depth.</p>
+<h4 class="question">But wait, isn't harmonic analysis just writing Roman numerals under chords?</h4>
+<p class="text">Absolutely not!  That's just naming stuff.  Analysis involves <em>learning from stuff</em>.  Labeling is one of the first steps in an analysis, but the actual analysis is about making sense of those labels.  Some of this is actually part of the labels themselves, as we'll see soon enough.  If you're in C major and you have a D7 - G - C progression, you might naively label that II7 - V - I, but that D7 is actually a secondary dominant: it's V7/V - V - I.  But wait, are you sure you're really in C major?  Maybe you're in G major now, and this is just a V7 - I that goes on to a IV chord.  Even just figuring out the right labels involves <em>understanding</em> the music.  It's just like with language, where some words have multiple meanings, and we need to use context to determine what the speaker meant.  For example, there's the classic joke thingy: "Time flies like an arrow.  Fruit flies like a banana."  In the first sentence, the subject is "time"; what does it do?  It "flies".  How?  "Like an arrow."  "Flies" is the verb and "like" is a preposition.  In the second sentence, the subject is "fruit flies"; what do they do?  They "like".  What do they like?  "A banana."  "Flies" here is a noun (modified by "fruit"), and "like" is the verb.  The two sentences appear to be highly parallel, yet analyzing the words shows that they're really not.</p>
+<h4 class="question">Dude.  Fruit.  It flies similar to a banana.  Because banana is a fruit?</h4>
+<p class="text">Eh.  The shape of the banana causes it to have a kind of weird trajectory.  And some fruits are pretty light but not aerodynamic so they don't fly too well.  Wait, why are we talking about this?</p>
+<p class="text">You do bring up a good point: different people can disagree on an analysis.  It's similar to <? sectionLinkShort('zero', 'Rule 0'); ?>, but in this case you <em>can</em> be just plain wrong.  But there are multiple ways to be right.  Your analysis is right so long as you can defend it; how you hear music is up to you.  Here's an example:</p>
+
+<? createExample('rootless analysis'); ?>
+
+<p class="text">We have two chords here, one spelled F B E and another spelled E G D.  One analysis would be to call the first chord an FM7#11 with a missing third (and fifth, but that's common) and to call the second chord an Em7 (again missing the fifth).  Another, kind of weirder, analysis would be to call the first chord a G13 — despite there being no G in sight, so it's missing the root and fifth — and to call the second chord a C(add9) — again, despite there being no C in sight, so it's missing the root.  Arguing that a chord is missing the root is a bit silly.  But listen to measure 3 and then measure 4.  Measure 3 adds the roots to those chords, so in the context of measure 3, measure 4 really does sound like G13 - C(add9).  Both measure 1 and measure 2 are defensible ways of labeling these chords, but once you hear measure 3, measure 2 becomes most defensible.  At least until you hear measure 5 and it turns out that measure 1 was the better analysis.  Turns out... it's BOTH!</p>
+<h4 class="question">Ah, so this is analysis?</h4>
+<p class="text">Ooh, no, wow, not even close!  I suppose we better get to it, right?</p>
+
+<? createTableOfContents($label) ?>
+
+<?php
+
+createPageFooter($label);
+
+?>

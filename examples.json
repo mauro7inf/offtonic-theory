@@ -3908,5 +3908,1085 @@
 				"url": "mp3/Mah Ashiv.mp3"
 			}
 		]
+	},
+	{
+		"label": "rootless analysis",
+		"section": "analysis",
+		"images": [
+			{
+				"url": "png/9/Rootless Analysis.png",
+				"title": "Chords be missin notes, yo."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Rootless Analysis.mp3"
+			}
+		]
+	},
+	{
+		"label": "Bach Chorale Gesange",
+		"section": "analysis introduction",
+		"images": [
+			{
+				"url": "jpg/9/389 Chorales.jpg",
+				"title": "Is it the book that's open on the stand or the book sitting on the piano?  Trick question: I own two copies of the book!"
+			}
+		]
+	},
+	{
+		"label": "chorale 1",
+		"section": "analysis introduction",
+		"images": [
+			{
+				"url": "png/9/Chorale 1.png",
+				"title": "I had to memorize this on the piano.  It still gives me flashbacks."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Chorale 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "non harmonic",
+		"section": "analysis nonharmonic list",
+		"images": [
+			{
+				"url": "png/9/Non-Harmonic.png",
+				"title": "I remember how much of a pain in the ass writing chorales is.  Man."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Non-Harmonic.mp3"
+			}
+		]
+	},
+	{
+		"label": "non harmonic summary",
+		"section": "analysis nonharmonic list",
+		"images": [
+			{
+				"url": "png/9/Non-Harmonic Summary.png",
+				"title": "Just memorizze this diagram FOREVER."
+			}
+		]
+	},
+	{
+		"label": "Albeniz Tango",
+		"section": "analysis nonharmonic wild",
+		"images": [
+			{
+				"url": "png/9/Albeniz Tango.png",
+				"title": "It's slower than tangos usually are, isn't it?"
+			}
+		]
+	},
+	{
+		"label": "suspensions",
+		"section": "analysis nonharmonic suspensions",
+		"images": [
+			{
+				"url": "png/9/Suspensions.png",
+				"title": "I'm left hanging!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Suspensions.mp3"
+			}
+		]
+	},
+	{
+		"label": "To Far Away Times",
+		"section": "analysis nonharmonic suspensions",
+		"images": [
+			{
+				"url": "png/9/To Far Away Times p1.png",
+				"title": "Where's the resolution?  It's not in THIS page!"
+			},
+			{
+				"url": "png/9/To Far Away Times p2.png",
+				"title": "Ahhh, there we go.  There's a reason this song is so damn good."
+			},
+			{
+				"url": "png/9/To Far Away Times p3.png",
+				"title": "Also, there's an OC Remix of this song with vocals.  Meh.  I appreciate the workmanship, but the original is the best."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/To Far Away Times.mp3"
+			}
+		]
+	},
+	{
+		"label": "Prelude 12 Book I",
+		"section": "analysis nonharmonic pedals",
+		"images": [
+			{
+				"url": "png/9/Prelude 12 Book I p1.png",
+				"title": "How is there room for harmony with all this non-harmonic stuff?"
+			},
+			{
+				"url": "png/9/Prelude 12 Book I p2.png",
+				"title": "At least it's short..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Prelude 12 Book I.mp3"
+			}
+		]
+	},
+	{
+		"label": "Fugue 4 Book I ending",
+		"section": "analysis nonharmonic pedals",
+		"images": [
+			{
+				"url": "png/9/Fugue 4 Book I Ending.png",
+				"title": "Five voices!  Boom!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Fuga IV from Well-Tempered Clavier Book 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "Invention 10",
+		"section": "analysis nonharmonic pedals",
+		"images": [
+			{
+				"url": "png/9/Invention 10 p1.png",
+				"title": "This is confusing as hell to play."
+			},
+			{
+				"url": "png/9/Invention 10 p2.png",
+				"title": "But the ending is kinda nice."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Invention 10.mp3"
+			}
+		]
+	},
+	{
+		"label": "One Note Samba",
+		"section": "analysis nonharmonic pedals",
+		"images": [
+			{
+				"url": "png/9/Samba de Uma Nota Só p1.png",
+				"title": "More notes would have been nice."
+			},
+			{
+				"url": "png/9/Samba de Uma Nota Só p2.png",
+				"title": "But then it wouldn't have been an example in this section."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Samba de Uma Nota Só.mp3"
+			}
+		]
+	},
+	{
+		"label": "Beren Luthien melody",
+		"section": "analysis nonharmonic macroharmony",
+		"images": [
+			{
+				"url": "png/9/Beren Luthien Melody.png",
+				"title": "How do you play those eighth notes?"
+			}
+		]
+	},
+	{
+		"label": "Bach Sonata Violin Em Adagio",
+		"section": "analysis figured bass",
+		"images": [
+			{
+				"url": "png/9/Bach Sonata Violin Em Adagio.png",
+				"title": "People used to be good at this shit."
+			}
+		]
+	},
+	{
+		"label": "Bach Sonata Violin Em Adagio Realized",
+		"section": "analysis figured bass",
+		"images": [
+			{
+				"url": "png/9/Bach Sonata Violin Em Adagio Realized.png",
+				"title": "Improvising this would be... tough, to say the least."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Bach Sonata Violin Em Adagio Realized.mp3"
+			}
+		]
+	},
+	{
+		"label": "chorale 110",
+		"section": "analysis roman intro",
+		"images": [
+			{
+				"url": "png/9/Chorale 110.png",
+				"title": "This analysis is WEIRD as FUCK."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Chorale 110.mp3"
+			}
+		]
+	},
+	{
+		"label": "walter gelobet",
+		"section": "analysis roman intro",
+		"images": [
+			{
+				"url": "jpg/9/WalterGelobet.jpg",
+				"title": "Fuck this notation, yo."
+			}
+		]
+	},
+	{
+		"label": "basic inversions",
+		"section": "analysis roman root",
+		"images": [
+			{
+				"url": "png/9/basic inversions.png",
+				"title": "We've seen this before."
+			}
+		]
+	},
+	{
+		"label": "major minor functions",
+		"section": "analysis roman root",
+		"images": [
+			{
+				"url": "png/9/major minor functions.png",
+				"title": "We've seen this before, too.  Hey, wait a sec..."
+			}
+		]
+	},
+	{
+		"label": "functions 1",
+		"section": "analysis roman root",
+		"images": [
+			{
+				"url": "png/9/functions 1.png",
+				"title": "FAKE MUSIC!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "functions 2",
+		"section": "analysis roman root",
+		"images": [
+			{
+				"url": "png/9/functions 2.png",
+				"title": "Still fake music, but the joke is getting old."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/functions 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "functions 3",
+		"section": "analysis roman root",
+		"images": [
+			{
+				"url": "png/9/functions 3.png",
+				"title": "Well, it's not REAL music, is it?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/functions 3.mp3"
+			}
+		]
+	},
+	{
+		"label": "functions 4",
+		"section": "analysis roman root",
+		"images": [
+			{
+				"url": "png/9/functions 4.png",
+				"title": "Yo, this is, like, real haha.  Oh yes, it's REAL haha.  It couldn't get more haha if it tried haha."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/functions 4.mp3"
+			}
+		]
+	},
+	{
+		"label": "functions 5",
+		"section": "analysis roman root",
+		"images": [
+			{
+				"url": "png/9/functions 5.png",
+				"title": "Does phrygian dominant music actually sound like this?  No, right?  FAKE MUSIC!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/functions 5.mp3"
+			}
+		]
+	},
+	{
+		"label": "sixth chords",
+		"section": "analysis roman sixth",
+		"images": [
+			{
+				"url": "png/9/sixth chords.png",
+				"title": "This example is identical to the one in the last section, except everything is in first inversion?  What a waste."
+			}
+		]
+	},
+	{
+		"label": "sixth functions 1",
+		"section": "analysis roman sixth",
+		"images": [
+			{
+				"url": "png/9/sixth functions 1.png",
+				"title": "The sixths are coming or something!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/sixth functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "sixth functions 2",
+		"section": "analysis roman sixth",
+		"images": [
+			{
+				"url": "png/9/sixth functions 2.png",
+				"title": "Getting the voice leading right was a bitch."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/sixth functions 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "sixth functions 3",
+		"section": "analysis roman sixth",
+		"images": [
+			{
+				"url": "png/9/sixth functions 3.png",
+				"title": "This fake music is starting to look less fake.  Come on, man, we want fake!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/sixth functions 3.mp3"
+			}
+		]
+	},
+	{
+		"label": "six four chords",
+		"section": "analysis roman six four",
+		"images": [
+			{
+				"url": "png/9/six four chords.png",
+				"title": "This example is also identical to the ones in the last two sections, except everything is in second inversion?  WE GET IT.  STOP."
+			}
+		]
+	},
+	{
+		"label": "six four functions 1",
+		"section": "analysis roman six four",
+		"images": [
+			{
+				"url": "png/9/six four functions 1.png",
+				"title": "Dissonance ain't gettin' more dissonant."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/six four functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "six four functions 2",
+		"section": "analysis roman six four",
+		"images": [
+			{
+				"url": "png/9/six four functions 2.png",
+				"title": "But consonance is."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/six four functions 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "seventh inversions",
+		"section": "analysis roman seventh",
+		"images": [
+			{
+				"url": "png/9/seventh inversions.png",
+				"title": "The beautiful chords!"
+			}
+		]
+	},
+	{
+		"label": "diatonic sevenths",
+		"section": "analysis roman seventh",
+		"images": [
+			{
+				"url": "png/9/diatonic sevenths.png",
+				"title": "There are way too many of these.  Luckily they don't come up."
+			}
+		]
+	},
+	{
+		"label": "seventh functions 1",
+		"section": "analysis roman seventh",
+		"images": [
+			{
+				"url": "png/9/seventh functions 1.png",
+				"title": "Ah, nice!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/seventh functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "ninth inversions",
+		"section": "analysis roman seventh",
+		"images": [
+			{
+				"url": "png/9/ninth inversions.png",
+				"title": "Four numbers?  Seriously?  No."
+			}
+		]
+	},
+	{
+		"label": "seventh functions 2",
+		"section": "analysis roman seventh",
+		"images": [
+			{
+				"url": "png/9/seventh functions 2.png",
+				"title": "The ninth has a nice sound but it gets old..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/seventh functions 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "seventh functions 3",
+		"section": "analysis roman seventh",
+		"images": [
+			{
+				"url": "png/9/seventh functions 3.png",
+				"title": "It's versatile and monochromatic, but it also gets old pretty quickly."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/seventh functions 3.mp3"
+			}
+		]
+	},
+	{
+		"label": "seventh functions 4",
+		"section": "analysis roman seventh",
+		"images": [
+			{
+				"url": "png/9/seventh functions 4.png",
+				"title": "This is the best 7th chord!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/seventh functions 4.mp3"
+			}
+		]
+	},
+	{
+		"label": "seventh functions 5",
+		"section": "analysis roman seventh",
+		"images": [
+			{
+				"url": "png/9/seventh functions 5.png",
+				"title": "Did we just get into jazz or are we still on Bach?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/seventh functions 5.mp3"
+			}
+		]
+	},
+	{
+		"label": "seventh functions 6",
+		"section": "analysis roman seventh",
+		"images": [
+			{
+				"url": "png/9/seventh functions 6.png",
+				"title": "Jazz is WEIRD in phrygian dominant!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/seventh functions 6.mp3"
+			}
+		]
+	},
+	{
+		"label": "K 545",
+		"section": "analysis roman modulation",
+		"images": [
+			{
+				"url": "png/9/K 545 p1.png",
+				"title": "This piece is SO stupid."
+			},
+			{
+				"url": "png/9/K 545 p2.png",
+				"title": "The melodies are so... boring!  And the Alberti bass...  Mozart was fuckin' uninspired, man."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/K 545.mp3"
+			}
+		]
+	},
+	{
+		"label": "K 545 2",
+		"section": "analysis roman modulation",
+		"images": [
+			{
+				"url": "png/9/K 545 2 p1.png",
+				"title": "Oh no, it goes ON?"
+			},
+			{
+				"url": "png/9/K 545 2 p2.png",
+				"title": "The ending's not so bad.  I wish it would have come sooner."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/K 545 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "modulations major",
+		"section": "analysis roman modulation",
+		"images": [
+			{
+				"url": "png/9/modulations major.png",
+				"title": "Do I need a locksmith to change keys?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/modulations major.mp3"
+			}
+		]
+	},
+	{
+		"label": "modulations minor",
+		"section": "analysis roman modulation",
+		"images": [
+			{
+				"url": "png/9/modulations minor.png",
+				"title": "Put them all in the keyring!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/modulations minor.mp3"
+			}
+		]
+	},
+	{
+		"label": "secondary functions 1",
+		"section": "analysis roman secondary",
+		"images": [
+			{
+				"url": "png/9/secondary functions 1.png",
+				"title": "FREEDOM!  FREE AT LAST!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/secondary functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "secondary functions 2",
+		"section": "analysis roman secondary",
+		"images": [
+			{
+				"url": "png/9/secondary functions 2.png",
+				"title": "Is freedom too limiting?  Discuss."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/secondary functions 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "secondary functions 3",
+		"section": "analysis roman secondary",
+		"images": [
+			{
+				"url": "png/9/secondary functions 3.png",
+				"title": "Eh, these are a bit contrived, no?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/secondary functions 3.mp3"
+			}
+		]
+	},
+	{
+		"label": "secondary functions 4",
+		"section": "analysis roman secondary",
+		"images": [
+			{
+				"url": "png/9/secondary functions 4.png",
+				"title": "Measure 35 is a Crunchwrap Supreme!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/secondary functions 4.mp3"
+			}
+		]
+	},
+	{
+		"label": "secondary functions 5",
+		"section": "analysis roman secondary",
+		"images": [
+			{
+				"url": "png/9/secondary functions 5.png",
+				"title": "Hey, you can secondary dominant ANYTHING."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/secondary functions 5.mp3"
+			}
+		]
+	},
+	{
+		"label": "special chromatic chords",
+		"section": "analysis roman special",
+		"images": [
+			{
+				"url": "png/9/special chords.png",
+				"title": "Puttin' the squeeze."
+			}
+		]
+	},
+	{
+		"label": "special functions 1",
+		"section": "analysis roman special",
+		"images": [
+			{
+				"url": "png/9/special functions 1.png",
+				"title": "Diminished thirds are weird, aren't they?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/special functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "special functions 2",
+		"section": "analysis roman special",
+		"images": [
+			{
+				"url": "png/9/special functions 2.png",
+				"title": "They sure are!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/special functions 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "special functions 3",
+		"section": "analysis roman special",
+		"images": [
+			{
+				"url": "png/9/special functions 3.png",
+				"title": "Freaky."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/special functions 3.mp3"
+			}
+		]
+	},
+	{
+		"label": "borrowed functions 1",
+		"section": "analysis roman modal",
+		"images": [
+			{
+				"url": "png/9/borrowed functions 1.png",
+				"title": "Old, new, borrowed...  All that's missing is the blues."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/borrowed functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "borrowed functions 2",
+		"section": "analysis roman modal",
+		"images": [
+			{
+				"url": "png/9/borrowed functions 2.png",
+				"title": "Way not as cool."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/borrowed functions 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "borrowed functions 3",
+		"section": "analysis roman modal",
+		"images": [
+			{
+				"url": "png/9/borrowed functions 3.png",
+				"title": "Now it's getting... weirdly odd?  Oddly weird?  One of those."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/borrowed functions 3.mp3"
+			}
+		]
+	},
+	{
+		"label": "altered functions 1",
+		"section": "analysis roman altered",
+		"images": [
+			{
+				"url": "png/9/altered functions 1.png",
+				"title": "More contrived examples, yay."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/altered functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "Prelude 1 Book I",
+		"section": "analysis roman preludes",
+		"images": [
+			{
+				"url": "png/9/Prelude 1 Book I p1.png",
+				"title": "Simple and pretty."
+			},
+			{
+				"url": "png/9/Prelude 1 Book I p2.png",
+				"title": "Reminds me of Final Fantasy.  Do you think Bach copied from Nobuo Uematsu?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Prelude 1 Book I.mp3"
+			}
+		]
+	},
+	{
+		"label": "Moonlight I",
+		"section": "analysis roman preludes",
+		"images": [
+			{
+				"url": "png/9/Moonlight I p1.png",
+				"title": "It's not really about moonlight."
+			},
+			{
+				"url": "png/9/Moonlight I p2.png",
+				"title": "It's actually almost a fantasy."
+			},
+			{
+				"url": "png/9/Moonlight I p3.png",
+				"title": "But it's really a sonata.  SURPRISE!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Moonlight I.mp3"
+			}
+		]
+	},
+	{
+		"label": "Chopin Prelude 4",
+		"section": "analysis roman preludes",
+		"images": [
+			{
+				"url": "png/9/Chopin Prelude 4 p1.png",
+				"title": "It's so moving."
+			},
+			{
+				"url": "png/9/Chopin Prelude 4 p2.png",
+				"title": "Yet it takes so long to get there!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Chopin Prelude 4.mp3"
+			}
+		]
+	},
+	{
+		"label": "outside functions 1",
+		"section": "analysis roman outside",
+		"images": [
+			{
+				"url": "png/9/outside functions 1.png",
+				"title": "Peace ousside!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/outside functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "outside functions 2",
+		"section": "analysis roman outside",
+		"images": [
+			{
+				"url": "png/9/outside functions 2.png",
+				"title": "Cash me ousside!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/outside functions 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "FF Prelude",
+		"section": "analysis roman outside",
+		"images": [
+			{
+				"url": "png/9/FF Prelude p1.png",
+				"title": "FFVI is the best Final Fantasy."
+			},
+			{
+				"url": "png/9/FF Prelude p2.png",
+				"title": "No, not VII.  Fuck you."
+			},
+			{
+				"url": "png/9/FF Prelude p3.png",
+				"title": "OK, V was also pretty great."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/FF Prelude.mp3"
+			}
+		]
+	},
+	{
+		"label": "extended functions 1",
+		"section": "analysis roman extending",
+		"images": [
+			{
+				"url": "png/9/extended functions 1.png",
+				"title": "Modern music is so modal."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/extended functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "extension functions 1",
+		"section": "analysis roman extensions",
+		"images": [
+			{
+				"url": "png/9/extension functions 1.png",
+				"title": "Who needs resolutions anyway?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/extension functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "Águas de Março chords",
+		"section": "analysis roman extensions",
+		"images": [
+			{
+				"url": "png/9/Águas de Março chords p1.png",
+				"title": "Summer ends in... March?"
+			},
+			{
+				"url": "png/9/Águas de Março chords p2.png",
+				"title": "Oh right, Southern Hemisphere.  Forgot about that."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Águas de Março chords.mp3"
+			}
+		]
+	},
+	{
+		"label": "Aquatic Ambiance chords",
+		"section": "analysis roman extensions",
+		"images": [
+			{
+				"url": "png/9/Aquatic Ambiance chords p1.png",
+				"title": "The music is so serene..."
+			},
+			{
+				"url": "png/9/Aquatic Ambiance chords p2.png",
+				"title": "No, this recording is terrible.  I mean the original."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Aquatic Ambiance chords.mp3"
+			}
+		]
+	},
+	{
+		"label": "plagal functions 1",
+		"section": "analysis roman plagal",
+		"images": [
+			{
+				"url": "png/9/plagal functions 1.png",
+				"title": "These chords are familiar."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/plagal functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "negative harmony definition",
+		"section": "analysis roman negative",
+		"images": [
+			{
+				"url": "png/9/negative harmony definition.png",
+				"title": "That's all it is?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/negative harmony definition.mp3"
+			}
+		]
+	},
+	{
+		"label": "negative chords",
+		"section": "analysis roman negative",
+		"images": [
+			{
+				"url": "png/9/negative chords.png",
+				"title": "Huh, phrygian dominant becomes interesting."
+			}
+		]
+	},
+	{
+		"label": "negative functions 1",
+		"section": "analysis roman negative",
+		"images": [
+			{
+				"url": "png/9/negative functions 1.png",
+				"title": "None of this makes ANY sense."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/negative functions 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "negative functions 2",
+		"section": "analysis roman negative",
+		"images": [
+			{
+				"url": "png/9/negative functions 2.png",
+				"title": "Yeah, still nothing."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/negative functions 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "negative functions 3",
+		"section": "analysis roman negative",
+		"images": [
+			{
+				"url": "png/9/negative functions 3.png",
+				"title": "This one's, like, a LITTLE more interesting?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/negative functions 3.mp3"
+			}
+		]
 	}
 ]
