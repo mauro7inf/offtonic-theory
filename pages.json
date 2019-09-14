@@ -1375,7 +1375,33 @@
 							"label": "analysis reading",
 							"number": "7",
 							"url": "book/9-7.html",
-							"title": "Reading Harmonies (under construction)"
+							"title": "Reading Harmonies",
+							"subsections": [
+								{
+									"label": "analysis reading 2D",
+									"number": "1",
+									"url": "#2D",
+									"title": "Two-Dimensional Sonorities"
+								},
+								{
+									"label": "analysis reading harmonizing",
+									"number": "2",
+									"url": "#harmonizing",
+									"title": "Harmonizing a Melody"
+								},
+								{
+									"label": "analysis reading reharmonizing",
+									"number": "3",
+									"url": "#reharmonizing",
+									"title": "Reharmonizing a Melody"
+								}
+							]
+						},
+						{
+							"label": "analysis cadences",
+							"number": "8",
+							"url": "book/9-8.html",
+							"title": "Cadences (under construction)"
 						}
 					]
 				}

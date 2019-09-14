@@ -4988,5 +4988,470 @@
 				"url": "mp3/negative functions 3.mp3"
 			}
 		]
+	},
+	{
+		"label": "Contrapunctus VIII Exposition",
+		"section": "analysis reading",
+		"images": [
+			{
+				"url": "png/9/Contrapunctus VIII Exposition.png",
+				"title": "Yay, modern atonal music.  This IS modern atonal music, right?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Contrapunctus VIII Exposition.mp3"
+			}
+		]
+	},
+	{
+		"label": "chord possibilities",
+		"section": "analysis reading 2D",
+		"images": [
+			{
+				"url": "png/9/chord possibilities.png",
+				"title": "You left out the Neapolitan.  I love the Neapolitan."
+			}
+		]
+	},
+	{
+		"label": "Contrapunctus I Exposition",
+		"section": "analysis reading 2D",
+		"images": [
+			{
+				"url": "png/9/Contrapunctus I Exposition p1.png",
+				"title": "Hm, nice little theme.  I wonder if I'll ever hear it again throughout the Art of Fugue."
+			},
+			{
+				"url": "png/9/Contrapunctus I Exposition p2.png",
+				"title": "Not on this page!  Man, I do hope it comes back!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Contrapunctus I Exposition.mp3"
+			}
+		]
+	},
+	{
+		"label": "Contrapunctus I Exposition analysis 1",
+		"section": "analysis reading 2D",
+		"images": [
+			{
+				"url": "png/9/Contrapunctus I Exposition analysis p1.png",
+				"title": "So far, so good."
+			}
+		]
+	},
+	{
+		"label": "Contrapunctus I Exposition analysis 2",
+		"section": "analysis reading 2D",
+		"images": [
+			{
+				"url": "png/9/Contrapunctus I Exposition analysis p2.png",
+				"title": "So farther, so better."
+			}
+		]
+	},
+	{
+		"label": "Contrapunctus I Exposition analysis 3",
+		"section": "analysis reading 2D",
+		"images": [
+			{
+				"url": "png/9/Contrapunctus I Exposition analysis p3.png",
+				"title": "Bach really was a genius."
+			}
+		]
+	},
+	{
+		"label": "Contrapunctus I Exposition analysis 4",
+		"section": "analysis reading 2D",
+		"images": [
+			{
+				"url": "png/9/Contrapunctus I Exposition analysis p4.png",
+				"title": "Finally, four voices!  I hope the alto stays...  Oh no.  Spoke too soon."
+			}
+		]
+	},
+	{
+		"label": "Contrapunctus I Exposition analysis 5",
+		"section": "analysis reading 2D",
+		"images": [
+			{
+				"url": "png/9/Contrapunctus I Exposition analysis p5.png",
+				"title": "I like sequences and series.  This one diverges; let's watch."
+			}
+		]
+	},
+	{
+		"label": "Contrapunctus VIII Exposition analysis",
+		"section": "analysis reading 2D",
+		"images": [
+			{
+				"url": "png/9/Contrapunctus VIII Exposition analysis.png",
+				"title": "Nah dude, it's totally modern atonal music."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Contrapunctus VIII Exposition.mp3"
+			}
+		]
+	},
+	{
+		"label": "Al Kol Eleh melody",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/Al Kol Eleh melody.png",
+				"title": "It's a great kids' song."
+			}
+		]
+	},
+	{
+		"label": "Al Kol Eleh melody reduction",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/Al Kol Eleh melody reduction.png",
+				"title": "And now it's a jumble."
+			}
+		]
+	},
+	{
+		"label": "Al Kol Eleh simple harmony",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/Al Kol Eleh simple harmony.png",
+				"title": "Kind of boring?  That's on purpose, right?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Al Kol Eleh simple harmony.mp3"
+			}
+		]
+	},
+	{
+		"label": "Al Kol Eleh simple harmony 2",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/Al Kol Eleh simple harmony 2.png",
+				"title": "This sounds a little better."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Al Kol Eleh simple harmony 2.mp3"
+			}
+		]
+	},
+	{
+		"label": "Al Kol Eleh Techiya harmony",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/Al Kol Eleh Techiya harmony.png",
+				"title": "Are those parallel fifths?  Man, you suck."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Al Kol Eleh Techiya harmony.mp3"
+			}
+		]
+	},
+	{
+		"label": "The Impossible Dream melody",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/The Impossible Dream melody.png",
+				"title": "To write the unplayable song..."
+			}
+		]
+	},
+	{
+		"label": "The Impossible Dream A melody analysis",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/The Impossible Dream A melody analysis.png",
+				"title": "To sing the unlistenable noise..."
+			}
+		]
+	},
+	{
+		"label": "The Impossible Dream B melody analysis",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/The Impossible Dream B melody analysis.png",
+				"title": "To practice when your neighbors are too weary..."
+			}
+		]
+	},
+	{
+		"label": "The Impossible Dream B harmony bad",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/The Impossible Dream B harmony bad.png",
+				"title": "To drum at an inappropriate time..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/The Impossible Dream B harmony bad.mp3"
+			}
+		]
+	},
+	{
+		"label": "The Impossible Dream B harmony good",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/The Impossible Dream B harmony good.png",
+				"title": "To laugh when people better than you mess up..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/The Impossible Dream B harmony good.mp3"
+			}
+		]
+	},
+	{
+		"label": "Tristeza melody analysis",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/Tristeza melody analysis.png",
+				"title": "Please go away."
+			}
+		]
+	},
+	{
+		"label": "Tristeza harmony",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/Tristeza harmony p1.png",
+				"title": "Vou cantar-te nos meus versos..."
+			},
+			{
+				"url": "png/9/Tristeza harmony p2.png",
+				"title": "...wait, wrong song."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Tristeza harmony.mp3"
+			}
+		]
+	},
+	{
+		"label": "clave",
+		"section": "analysis reading harmonizing",
+		"images": [
+			{
+				"url": "png/9/clave.png",
+				"title": "¡Ay, que rico!  Yeah, that's not Brazilian at all."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/clave.mp3"
+			}
+		]
+	},
+	{
+		"label": "Werde munter",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/Werde munter.png",
+				"title": "Bach sure picks some boring tunes, doesn't he?"
+			}
+		]
+	},
+	{
+		"label": "Werde munter template",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/Werde munter template.png",
+				"title": "It's not any better yet!"
+			}
+		]
+	},
+	{
+		"label": "Werde munter reharmonization",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/Werde munter reharmonization.png",
+				"title": "It's not a little better now.  I mean, no."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Werde munter reharmonization.mp3"
+			}
+		]
+	},
+	{
+		"label": "Werde munter reharmonization 31-TET",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/Werde munter reharmonization.png",
+				"title": "I don't hear anything different.  Do you?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Werde munter reharmonization 31-TET.mp3"
+			}
+		]
+	},
+	{
+		"label": "Chorale 363",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/Chorale 363.png",
+				"title": "Bach's version is smoother than yours."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Chorale 363.mp3"
+			}
+		]
+	},
+	{
+		"label": "Chorale 360",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/Chorale 360.png",
+				"title": "Is it just in a different key?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Chorale 360.mp3"
+			}
+		]
+	},
+	{
+		"label": "Werde munter rereharmonization",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/Werde munter rereharmonization.png",
+				"title": "This is what I call modern music!  It's ugly as fuck, yo."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Werde munter rereharmonization.mp3"
+			},
+			{
+				"url": "mp3/Werde munter rereharmonization 31-TET.mp3"
+			}
+		]
+	},
+	{
+		"label": "YSZ melody",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/YSZ melody.png",
+				"title": "I AM KNORR, THE ALPHABET SOUP!"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/YSZ melody.mp3"
+			}
+		]
+	},
+	{
+		"label": "YSZ harmonies",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/YSZ harmonies.png",
+				"title": "I remember the harmony being much simpler for some reason."
+			}
+		]
+	},
+	{
+		"label": "YSZ chorus 1",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/YSZ chorus 1.png",
+				"title": "I really played up that G major, didn't I?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/YSZ chorus 1.mp3"
+			}
+		]
+	},
+	{
+		"label": "YSZ chorus 3",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/YSZ chorus 3.png",
+				"title": "Oh crap, where's my key?  I knew I had it around here somewhere..."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/YSZ chorus 3.mp3"
+			}
+		]
+	},
+	{
+		"label": "Hatikvah melody",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/Hatikvah melody.png",
+				"title": "It's just the minor scale, isn't it?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Hatikvah melody.mp3"
+			}
+		]
+	},
+	{
+		"label": "Hatikvah reharmonization 1",
+		"section": "analysis reading reharmonizing",
+		"images": [
+			{
+				"url": "png/9/Hatikvah reharmonization 1 p1.png",
+				"title": "This harmony is pretty dark."
+			},
+			{
+				"url": "png/9/Hatikvah reharmonization 1 p2.png",
+				"title": "You might get eaten by a grue."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/Hatikvah reharmonization 1.mp3"
+			}
+		]
 	}
 ]
