@@ -150,3 +150,35 @@ h1.applet-title {
 	font-size: 300%;
 	font-weight: normal;
 }
+
+div.cgrapher {
+	margin: auto;
+	padding-bottom: 3px;
+	background-color: #DDDDDD;
+	font-family: serif;
+	font-size: 150%;
+	font-weight: normal;
+	width: 800px;
+}
+
+div.cgrapher-formula-div {
+	margin: 10px 10px 0px 10px;
+	width: 800px;
+}
+
+input.cgrapher-formula-box {
+	font-family: serif;
+	font-size: 100%;
+}
+
+button.cgrapher-formula-submit {
+	float: right;
+	margin-right: 20px;
+	margin-top: 0px;
+	font-size: 100%;
+	font-family: serif;
+}
+
+div.cgrapher-canvas-div {
+	text-align: center;
+}

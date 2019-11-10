@@ -100,5 +100,11 @@
 		"url": "applets/spectrum.html",
 		"title": "Offtonic Spectrum",
 		"description": "shows a linear or log spectrum of whatever sounds you make through the microphone (requires microphone)"
+	},
+	{
+		"label": "cgrapher",
+		"url": "applets/cgrapher.html",
+		"title": "Offtonic ℂ-Grapher",
+		"description": "plots a rational function over the complex plane"
 	}
 ]

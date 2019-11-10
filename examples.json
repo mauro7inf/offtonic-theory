@@ -5453,5 +5453,15 @@
 				"url": "mp3/Hatikvah reharmonization 1.mp3"
 			}
 		]
+	},
+	{
+		"label": "Oh Susanna melody",
+		"section": "analysis cadences",
+		"images": [
+			{
+				"url": "png/9/Oh Susanna melody.png",
+				"title": "Argentina, oh don't you cry for me..."
+			}
+		]
 	}
 ]
