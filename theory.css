@@ -80,6 +80,10 @@ p.equation {
 	text-align: center;
 }
 
+p.poetry {
+	text-align: center;
+}
+
 canvas.keyboard {
 	display: block;
 	margin: 0 auto;

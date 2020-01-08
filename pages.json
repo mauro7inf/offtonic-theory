@@ -1401,7 +1401,21 @@
 							"label": "analysis cadences",
 							"number": "8",
 							"url": "book/9-8.html",
-							"title": "Cadences"
+							"title": "Cadences",
+							"subsections": [
+								{
+									"label": "analysis cadences melodic",
+									"number": "1",
+									"url": "#melodic",
+									"title": "Melodic Cadences"
+								},
+								{
+									"label": "analysis cadences history",
+									"number": "2",
+									"url": "#history",
+									"title": "Cadences in History"
+								}
+							]
 						}
 					]
 				}

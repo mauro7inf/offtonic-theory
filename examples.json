@@ -5463,5 +5463,65 @@
 				"title": "Argentina, oh don't you cry for me..."
 			}
 		]
+	},
+	{
+		"label": "R'tzeh Weekday",
+		"section": "analysis cadences melodic",
+		"images": [
+			{
+				"url": "png/9/R'tzeh Weekday.png",
+				"title": "This one looks boring but is actually fun."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/R'tzeh Weekday.mp3"
+			}
+		]
+	},
+	{
+		"label": "R'tzeh Shabbat",
+		"section": "analysis cadences melodic",
+		"images": [
+			{
+				"url": "png/9/R'tzeh Shabbat.png",
+				"title": "Phrygian dominant!  It's funny how it feels so normal now."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/R'tzeh Shabbat.mp3"
+			}
+		]
+	},
+	{
+		"label": "R'tzeh Festival",
+		"section": "analysis cadences melodic",
+		"images": [
+			{
+				"url": "png/9/R'tzeh Festival.png",
+				"title": "Pop quiz, hot shot: what key are we in?"
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/R'tzeh Festival.mp3"
+			}
+		]
+	},
+	{
+		"label": "R'tzeh High Holiday",
+		"section": "analysis cadences melodic",
+		"images": [
+			{
+				"url": "png/9/R'tzeh High Holiday.png",
+				"title": "I feel exhausted already."
+			}
+		],
+		"audio": [
+			{
+				"url": "mp3/R'tzeh High Holiday.mp3"
+			}
+		]
 	}
 ]
