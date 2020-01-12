@@ -106,5 +106,11 @@
 		"url": "applets/cgrapher.html",
 		"title": "Offtonic ℂ-Grapher",
 		"description": "plots a rational function over the complex plane"
+	},
+	{
+		"label": "mos spectrum",
+		"url": "applets/mosspectrum.html",
+		"title": "Offtonic MOS (Moment Of Symmetry) Spectrum Visualizer",
+		"description": "shows which MOS scales exist depending on the size of the generator"
 	}
 ]
